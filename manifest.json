@@ -1,0 +1,32 @@
+{
+  "id": "rpg-mon-girona-v1",
+  "name": "RPG Món de Girona",
+  "short_name": "Girona RPG",
+  "description": "Aprèn català vivint Girona - Força Vella, Temps de Flors, Call Jueu i Sant Narcís. 2000 anys d'història en un RPG.",
+  "start_url": "./?source=pwa",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#FF6B35",
+  "orientation": "portrait",
+  "lang": "ca",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
