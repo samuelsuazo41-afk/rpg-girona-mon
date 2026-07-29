@@ -1,0 +1,444 @@
+[
+  {
+    "escena": "Força Vella - Porta Romana 08:00 - INICI",
+    "npc_nom": "Núria",
+    "npc_emoji": "👩‍🦳",
+    "dialog": "Bon dia! S'ha perdut la clau original de Gerunda! Si no la trobem, tanquen la Força!",
+    "dialog_es": "¡Se ha perdido la llave original de Gerunda!",
+    "pregunta": "Com t'ofereixes?",
+    "opcions": [
+      { "text": "Bon dia! Jo l'ajudo a trobar la clau de Gerunda!", "correcte": true, "guany": { "monedes": 10, "seny": 3 }, "feedback": "Núria: 'Gràcies! L'última vegada al Forn de la Força, 08:15! Corre!'" },
+      { "text": "Yo no hablo catalán, lo siento", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Núria marxa trista: 'Doncs no podràs ser guardià...'" },
+      { "text": "Quina clau? No entenc", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Núria: 'La clau romana! Si no saps ni això...'" }
+    ]
+  },
+  {
+    "escena": "Forn de la Força 08:15 - Pista 1",
+    "npc_nom": "Pau Forner",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "Sí, he vist clau daurada! Nen amb xuixo l'ha agafat!",
+    "dialog_es": "¡Vi una llave dorada!",
+    "pregunta": "Com demanes info?",
+    "opcions": [
+      { "text": "Un pa amb tomàquet, i em dius cap on ha anat el nen?", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "Pau: 'Cap a la muralla! Volia ser soldat romà! Et dono bossa per pistes.'" },
+      { "text": "Dame pan y dime dónde está el niño", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Pau et mira malament: 'Aquí en català, si vols la clau...'" },
+      { "text": "Pa!", "correcte": true, "guany": { "monedes": 2, "arrel": 1 }, "feedback": "Curt però et diu: 'Muralla! Ha anat cap a la muralla!'" }
+    ]
+  },
+  {
+    "escena": "Forn - Bossa 08:20",
+    "npc_nom": "Pau Forner",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "Vols bossa? Són 2,50€ per la clau",
+    "dialog_es": "¿Bolsa para la llave?",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Sí, una bossa si us plau, per la clau", "correcte": true, "guany": { "monedes": 3, "seny": 1 }, "feedback": "Pau: 'El nen ha deixat paper mullat amb mel a la caixa de xuixos...'" },
+      { "text": "No cal, gràcies, porto butxaca", "correcte": true, "guany": { "monedes": 3, "arrel": 1 }, "feedback": "Pau: 'Valent! Però mira la caixa de xuixos, hi ha pista!'" },
+      { "text": "Dame bolsa rápido", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Pau: 'Ràpid no, en català si us plau...'" }
+    ]
+  },
+  {
+    "escena": "Forn - Xuixo 08:25 - Pista 2",
+    "npc_nom": "Pau Forner",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "Mira caixa xuixos! Brilla alguna cosa!",
+    "dialog_es": "¡Mira la caja de xuixos!",
+    "pregunta": "Com demanes?",
+    "opcions": [
+      { "text": "Em poses un xuixo i puc mirar la caixa?", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "No és clau, és paper alumini! Però nota: 'Si vols veure-ho tot, puja a la muralla' - Jordi?" },
+      { "text": "Ponme xuixo", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Te'l dona però no et deixa mirar caixa..." },
+      { "text": "Un xuixo, si us plau!", "correcte": true, "guany": { "monedes": 3, "seny": 1 }, "feedback": "Et dona xuixo i veus nota amagada: 'Muralla'!" }
+    ]
+  },
+  {
+    "escena": "Muralles - Entrada 09:00",
+    "npc_nom": "Jordi Guia",
+    "npc_emoji": "🧑‍🏫",
+    "dialog": "Clau Gerunda? Jo veig tot des d'aquí dalt!",
+    "dialog_es": "¿Llave Gerunda? ¡Yo veo todo!",
+    "pregunta": "Com demanes pujar?",
+    "opcions": [
+      { "text": "Com puc pujar a la muralla per buscar la clau?", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Jordi: 'Puja! He vist llum estranya a la Catedral aquest matí!'" },
+      { "text": "Se puede subir?", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Jordi: 'En castellà no et deixo pujar...'" },
+      { "text": "Puc pujar, si us plau?", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "Jordi: 'Sí! Des de la torre veuràs la Catedral!'" }
+    ]
+  },
+  {
+    "escena": "Muralles - Vistes 09:15",
+    "npc_nom": "Jordi Guia",
+    "npc_emoji": "🧑‍🏫",
+    "dialog": "Mira! Llum a la Catedral! Laia hi és!",
+    "dialog_es": "¡Luz en la Catedral!",
+    "pregunta": "Què dius?",
+    "opcions": [
+      { "text": "Quines vistes més boniques! Vaig a la Catedral!", "correcte": true, "guany": { "monedes": 5, "obert": 2 }, "feedback": "Jordi: 'Corre! Laia ha trobat nota sobre la Lleona!'" },
+      { "text": "Qué bonito", "correcte": false, "guany": { "monedes": 1, "obert": 1 }, "feedback": "Jordi: 'Bonic sí, però en català és més bonic!'" },
+      { "text": "Ostres, Girona sencera!", "correcte": true, "guany": { "monedes": 4, "arrel": 2 }, "feedback": "Jordi: 'Ostres! Molt gironí! Vés a Catedral!'" }
+    ]
+  },
+  {
+    "escena": "Catedral - Escalinata 09:30",
+    "npc_nom": "Laia",
+    "npc_emoji": "👩‍🦰",
+    "dialog": "Nota: 'Si vols la clau, besa la Lleona'",
+    "dialog_es": "Nota: 'Si quieres la llave, besa la Leona'",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Em pots fer una foto de la nota?", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "Darrere nota diu: 'Gerunda guarda secrets sota pedra'. Anem a Lleona!" },
+      { "text": "Foto por favor", "correcte": false, "guany": { "monedes": 1, "rauxa": 1 }, "feedback": "Laia et fa foto però no et tradueix nota..." },
+      { "text": "Quina nota més estranya! Anem a la Lleona!", "correcte": true, "guany": { "monedes": 4, "obert": 2 }, "feedback": "Laia: 'Sí! L'Avi Toni de la Lleona sap el secret!'" }
+    ]
+  },
+  {
+    "escena": "Catedral - Interior 09:45",
+    "npc_nom": "Laia",
+    "npc_emoji": "👩‍🦰",
+    "dialog": "Mira! Moneda romana sota el banc!",
+    "dialog_es": "¡Moneda romana bajo el banco!",
+    "pregunta": "Com reacciones?",
+    "opcions": [
+      { "text": "Ostres, quina passada! És de Gerunda!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Moneda GERUNDA 77aC! Laia: 'Això ens portarà a la Lleona segur!'" },
+      { "text": "Una moneda vieja", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Laia s'enfada: 'Vella? És tresor!'" },
+      { "text": "Quina moneda més bonica!", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "Laia: 'Sí! I diu Gerunda! Anem a la Lleona!'" }
+    ]
+  },
+  {
+    "escena": "Cul de la Lleona 10:00",
+    "npc_nom": "Avi Toni",
+    "npc_emoji": "👴",
+    "dialog": "Lleona guarda claus des de 600 anys!",
+    "dialog_es": "¡La Leona guarda llaves desde hace 600 años!",
+    "pregunta": "Què fas?",
+    "opcions": [
+      { "text": "De debò? Llavors beso la Lleona per Gerunda!", "correcte": true, "guany": { "monedes": 10, "arrel": 3 }, "feedback": "Besses Lleona! Aplaudiment! Cau mapa Banys Àrabs! Diu: SOTA L'AIGUA" },
+      { "text": "Qué asco, no beso culo", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Avi Toni: 'Doncs no trobaràs clau mai!'" },
+      { "text": "Quina llegenda més bonica! La beso!", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Besses i cau mapa! Avi: 'Ho sabia! Ets escollit!'" }
+    ]
+  },
+{
+    "escena": "Banys Àrabs 10:15 - Mapa secret",
+    "npc_nom": "Marta",
+    "npc_emoji": "👩‍🏫",
+    "dialog": "SOTA L'AIGUA? Fa 800 anys sense aigua!",
+    "dialog_es": "¿BAJO EL AGUA?",
+    "pregunta": "Com demanes entrar?",
+    "opcions": [
+      { "text": "Quant val l'entrada? He de buscar sota l'aigua!", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "Marta: 'Gratis si ets de la clau! Mira el pou, no piscina!'" },
+      { "text": "Cuánto cuesta?", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Marta: 'En català si vols pista...'" },
+      { "text": "Puc entrar, si us plau? Busco pista de Gerunda", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "Marta: 'Sí! Al pou hi ha inscripció secreta!'" }
+    ]
+  },
+  {
+    "escena": "Banys - Sortida 10:30 - El pou",
+    "npc_nom": "Marta",
+    "npc_emoji": "👩‍🏫",
+    "dialog": "Pou diu: 'El cor de Girona és al Vi'",
+    "dialog_es": "Pozo dice: 'El corazón de Girona está en el Vi'",
+    "pregunta": "Com agraeixes?",
+    "opcions": [
+      { "text": "Moltes gràcies! Vaig a Plaça del Vi!", "correcte": true, "guany": { "monedes": 4, "seny": 2 }, "feedback": "Marta: 'Vés! En Roger del Vi sap de claus antigues!'" },
+      { "text": "Gracias", "correcte": false, "guany": { "monedes": 1, "obert": 1 }, "feedback": "Marta: 'Gràcies? En català?'" },
+      { "text": "Gràcies! He entès! Al Vi!", "correcte": true, "guany": { "monedes": 3, "arrel": 1 }, "feedback": "Marta: 'Exacte! Plaça del Vi, cor de Girona!'" }
+    ]
+  },
+  {
+    "escena": "Plaça del Vi - Terrassa 11:00 - El vell",
+    "npc_nom": "Roger",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "Vell del racó porta clau daurada tot el matí...",
+    "dialog_es": "Viejo del rincón lleva llave dorada toda mañana",
+    "pregunta": "Com et seus a prop?",
+    "opcions": [
+      { "text": "A la terrassa, al costat del senyor de la clau, si pot ser", "correcte": true, "guany": { "monedes": 6, "obert": 2 }, "feedback": "Et seus. El vell amaga clau ràpid! Diu GERUNDA!" },
+      { "text": "Mesa al lado del viejo", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Roger: 'Al costat del senyor? En català?'" },
+      { "text": "Una taula, si us plau, a la terrassa", "correcte": true, "guany": { "monedes": 3, "seny": 1 }, "feedback": "Et dona taula lluny però veus el vell igual" }
+    ]
+  },
+  {
+    "escena": "Plaça del Vi - Vermut 11:10",
+    "npc_nom": "Roger",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "Què vols? El vell no parla amb ningú...",
+    "dialog_es": "¿Qué quieres? El viejo no habla",
+    "pregunta": "Com guanyes temps?",
+    "opcions": [
+      { "text": "Un vermut de la casa, si us plau, ben lent", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "Roger entén i porta vermut lent. El vell et mira. Clau penjada!" },
+      { "text": "Un vermut por favor", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Te'l porta ràpid i el vell marxa..." },
+      { "text": "Un vermut, gràcies", "correcte": true, "guany": { "monedes": 3, "arrel": 1 }, "feedback": "Roger: 'Tranquil, el vell no s'anirà encara...'" }
+    ]
+  },
+  {
+    "escena": "Plaça - Braver 11:20",
+    "npc_nom": "Aina",
+    "npc_emoji": "👩‍🍳",
+    "dialog": "Vols braves? Et veig nerviós per clau...",
+    "dialog_es": "¿Bravas? Te veo nervioso",
+    "pregunta": "Com acceptes?",
+    "opcions": [
+      { "text": "Sí, posen-nos-en unes per compartir amb el senyor!", "correcte": true, "guany": { "monedes": 5, "obert": 2 }, "feedback": "Aina porta braves al vell. Vell somriu: 'Tu ets de Girona, oi?'" },
+      { "text": "No, gracias", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Aina marxa i el vell també..." },
+      { "text": "Sí, unes braves, si us plau!", "correcte": true, "guany": { "monedes": 3, "seny": 1 }, "feedback": "Et porta braves i el vell et mira amb curiositat" }
+    ]
+  },
+  {
+    "escena": "Plaça - Compte 11:30 - El vell fuig",
+    "npc_nom": "Roger",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "Són 8€. El vell ha marxat! Paper!",
+    "dialog_es": "¡Se ha ido! ¡Papel!",
+    "pregunta": "Com demanes paper?",
+    "opcions": [
+      { "text": "El compte, i em dones el paper del senyor?", "correcte": true, "guany": { "monedes": 5, "seny": 3 }, "feedback": "Paper: 'No sóc lladre. Sóc guardià. Pont Eiffel 12:15. Marc.'" },
+      { "text": "La cuenta y el papel", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Roger: 'Compte en català i et dono paper...'" },
+      { "text": "El compte si us plau! I què ha deixat?", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "Roger: 'Una nota! Diu Pont Eiffel!'" }
+    ]
+  },
+  {
+    "escena": "Onyar - Cases 12:00",
+    "npc_nom": "Clara",
+    "npc_emoji": "👩",
+    "dialog": "Marc? Net de l'arqueòleg 1930! Cases tenen túnels!",
+    "dialog_es": "¡Marc es el nieto del arqueólogo!",
+    "pregunta": "Com reacciones?",
+    "opcions": [
+      { "text": "Quins colors més bonics! I quins túnels secrets!", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Clara: 'Corre al Pont Eiffel! En Marc no és lladre, és guardià!'" },
+      { "text": "Qué bonitas casas", "correcte": false, "guany": { "monedes": 1, "obert": 1 }, "feedback": "Clara: 'Boniques sí, però túnels secrets en català!'" },
+      { "text": "Túnels? On van?", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "Clara: 'Van a la Força! Però vés al Pont primer!'" }
+    ]
+  },
+  {
+    "escena": "Pont Eiffel 12:15 - Marc guardià",
+    "npc_nom": "Marc",
+    "npc_emoji": "🧑",
+    "dialog": "No l'he robada. Avi la va amagar 1930 pels feixistes!",
+    "dialog_es": "¡Mi abuelo la escondió en 1930!",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "No ho sabia! Quina història més valenta!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Marc plora: 'Avi va morir guardant-la. Et toca a tu. Et dono meitat mapa. Altra a Argenteria.'" },
+      { "text": "Devuélveme la llave ladrón", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Marc s'enfada: 'No sóc lladre!'" },
+      { "text": "Ostres, quin heroi el teu avi!", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "Marc: 'Sí! Heroi de Girona! Pren meitat mapa!'" }
+    ]
+  },
+  {
+    "escena": "Jardins Alemanys 12:30",
+    "npc_nom": "Marc",
+    "npc_emoji": "🧑",
+    "dialog": "Avi deia: 'Clau està on tot va començar, Argenteria 2'",
+    "dialog_es": "Abuelo decía: 'Llave está donde todo empezó'",
+    "pregunta": "Com agraeixes?",
+    "opcions": [
+      { "text": "Moltes gràcies Marc, ets heroi de Girona!", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "Marc et dona mapa vell: Lleona amb fletxa: 'Sota pedra que més pesa'" },
+      { "text": "Gracias, adiós", "correcte": false, "guany": { "monedes": 1, "obert": 1 }, "feedback": "Marc: 'Gràcies en català? Som a Girona!'" },
+      { "text": "Gràcies! Guardaré el secret!", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "Marc: 'Confio en tu! Argenteria 2!'" }
+    ]
+  },
+  {
+    "escena": "Botiga records 12:45 - Imant",
+    "npc_nom": "Elisabet",
+    "npc_emoji": "👩‍💼",
+    "dialog": "Imant Lleona vell amb nota darrere...",
+    "dialog_es": "Imán Leona viejo con nota detrás",
+    "pregunta": "Com demanes?",
+    "opcions": [
+      { "text": "Em podries ensenyar l'imant vell de la Lleona?", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Imant diu: 'Busca sota pedra que més pesa, Argenteria 2. - Guardià 1930'" },
+      { "text": "Enséñame imán viejo", "correcte": false, "guany": { "monedes": 0, "arrel": 1 }, "feedback": "Elisabet: 'En català, si ets de la clau...'" },
+      { "text": "Tens imants de la Lleona antics?", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "Elisabet: 'Sí! Un amb missatge secret del guardià!'" }
+    ]
+  },
+  {
+    "escena": "Botiga - Preu 13:00",
+    "npc_nom": "Elisabet",
+    "npc_emoji": "👩‍💼",
+    "dialog": "5€, però si ets de la clau te'l regalo!",
+    "dialog_es": "5€, ¡pero si eres de la llave te lo regalo!",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Quant costen dos? Un per mi i un per en Marc!", "correcte": true, "guany": { "monedes": 4, "arrel": 2 }, "feedback": "Elisabet: 'En Marc! El net! Pren dos i bosseta vellut per clau!'" },
+      { "text": "Cuánto?", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Elisabet: 'Quant? En català?'" },
+      { "text": "Me'l regales? Gràcies!", "correcte": true, "guany": { "monedes": 3, "seny": 1 }, "feedback": "Elisabet: 'Sí! Per heroi de Gerunda!'" }
+    ]
+  },
+  {
+    "escena": "Botiga - Bossa vellut 13:05",
+    "npc_nom": "Elisabet",
+    "npc_emoji": "👩‍💼",
+    "dialog": "Bosseta vellut com claus romanes!",
+    "dialog_es": "¡Bolsita terciopelo como llaves romanas!",
+    "pregunta": "Com agraeixes?",
+    "opcions": [
+      { "text": "Moltes gràcies! Ara soc guardià de Gerunda!", "correcte": true, "guany": { "monedes": 5, "arrel": 3 }, "feedback": "Ja tens bosseta per guardar clau original!" },
+      { "text": "Gracias", "correcte": false, "guany": { "monedes": 1, "obert": 1 }, "feedback": "Elisabet: 'Gràcies en català!'" },
+      { "text": "Gràcies! La guardaré aquí!", "correcte": true, "guany": { "monedes": 3, "seny": 1 }, "feedback": "Elisabet: 'Perfecte! Bosseta de guardià!'" }
+    ]
+  },
+  {
+    "escena": "Argenteria 13:30 - On tot va començar",
+    "npc_nom": "Avi Toni",
+    "npc_emoji": "👴",
+    "dialog": "Fa 2000 anys també feia sol quan van fundar Gerunda aquí!",
+    "dialog_es": "¡Hace 2000 años también hacía sol!",
+    "pregunta": "Com li expliques missió?",
+    "opcions": [
+      { "text": "Avi Toni! Fa dia preciós per trobar clau a Argenteria 2!", "correcte": true, "guany": { "monedes": 6, "obert": 2 }, "feedback": "Avi: 'Argenteria 2? Allà hi havia Lleona original abans de 1960! Sota base!'" },
+      { "text": "Hola abuelo, busco llave", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Avi: 'Abuelo? Sóc Avi Toni! En català!'" },
+      { "text": "Bon dia! Saps on és Argenteria 2?", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "Avi: 'Sí! On era Lleona original! Allà amagaren clau!'" }
+    ]
+  },
+  {
+    "escena": "Argenteria - Xerrada 13:35",
+    "npc_nom": "Avi Toni",
+    "npc_emoji": "👴",
+    "dialog": "Jo jugava allà! Sota Lleona hi ha llosa que pesa molt!",
+    "dialog_es": "¡Yo jugaba allí! ¡Bajo Leona hay losa que pesa mucho!",
+    "pregunta": "Com segueixes?",
+    "opcions": [
+      { "text": "M'encanta Barri Vell, m'expliques més de la llosa?", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "Avi: 'Llosa té lleó gravat! El meu pare deia que amaga tresor romà!'" },
+      { "text": "Qué losa?", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Avi: 'Llosa en català! Pedra grossa!'" },
+      { "text": "Quina llosa? On és?", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "Avi: 'A Argenteria 2! Sota on era Lleona!'" }
+    ]
+  },
+  {
+    "escena": "Argenteria - Gelat Rocambolesc 13:40",
+    "npc_nom": "Avi Toni",
+    "npc_emoji": "👴",
+    "dialog": "Et convido a gelat Roca per ser heroi!",
+    "dialog_es": "¡Te invito a helado Roca para ser héroe!",
+    "pregunta": "Com acceptes?",
+    "opcions": [
+      { "text": "No, és bo? Me'l provaré per ser fort com romà!", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Avi: 'Sota llosa del lleó, Argenteria 2. Allà va amagar clau guardià 1930!'" },
+      { "text": "No quiero helado", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Avi: 'Com? Gelat Roca és tresor de Girona!'" },
+      { "text": "Sí, un gelat, si us plau!", "correcte": true, "guany": { "monedes": 3, "seny": 1 }, "feedback": "Mengeu gelat i et dona última pista final" }
+    ]
+  },
+  {
+    "escena": "Biblioteca Rahola 14:00",
+    "npc_nom": "Marta",
+    "npc_emoji": "👩‍🏫",
+    "dialog": "Argenteria 2? Arxius 1930! Arqueòleg va amagar alguna cosa!",
+    "dialog_es": "¿Argenteria 2? ¡Archivos 1930!",
+    "pregunta": "Com demanes buscar?",
+    "opcions": [
+      { "text": "Teniu llibres de Girona 1930 sobre la Lleona?", "correcte": true, "guany": { "monedes": 8, "seny": 3 }, "feedback": "Marta: 'Sí! Guardià amaga clau sota pedra lleó per protegir-la guerra!'" },
+      { "text": "Tienen libros 1930?", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Marta: 'En català si vols arxiu secret...'" },
+      { "text": "Busco info de 1930 de la Lleona", "correcte": true, "guany": { "monedes": 5, "arrel": 1 }, "feedback": "Marta busca i troba diari del guardià!" }
+    ]
+  },
+  {
+    "escena": "Biblioteca - Carnet 14:10",
+    "npc_nom": "Marta",
+    "npc_emoji": "👩‍🏫",
+    "dialog": "Per arxiu secret necessites carnet guardià!",
+    "dialog_es": "¡Para archivo secreto necesitas carnet guardián!",
+    "pregunta": "Com el demanes?",
+    "opcions": [
+      { "text": "Sí, què necessito per ser guardià de Gerunda?", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Marta et fa carnet a mà: 'Guardià Oficial Clau Gerunda 2026'" },
+      { "text": "Qué necesito?", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Marta: 'Què? En català!'" },
+      { "text": "Vull fer-me carnet, si us plau", "correcte": true, "guany": { "monedes": 3, "seny": 1 }, "feedback": "Marta: 'Carnet de guardià! Ja ets oficial!'" }
+    ]
+  },
+  {
+    "escena": "Biblioteca - Horari 14:15",
+    "npc_nom": "Marta",
+    "npc_emoji": "👩‍🏫",
+    "dialog": "Llibre 1960: 'Lleona moguda d'Argenteria 2. Sota caixa romana!'",
+    "dialog_es": "¡Libro 1960: 'Leona movida! ¡Debajo caja romana!'",
+    "pregunta": "Com agraeixes?",
+    "opcions": [
+      { "text": "Moltes gràcies per la info! Ara la trobaré!", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "Marta: 'Corre! Abans que tanquin Força! Ets última esperança!'" },
+      { "text": "Gracias por info", "correcte": false, "guany": { "monedes": 1, "obert": 1 }, "feedback": "Marta: 'Gràcies? Moltes gràcies en català!'" },
+      { "text": "Gràcies! He entès on és!", "correcte": true, "guany": { "monedes": 3, "arrel": 1 }, "feedback": "Marta: 'Exacte! Argenteria 2, sota llosa!'" }
+    ]
+  },
+  {
+    "escena": "Plaça Independència 15:00",
+    "npc_nom": "Laia",
+    "npc_emoji": "👩‍🦰",
+    "dialog": "Et veig nerviós! Ets el de la clau, oi?",
+    "dialog_es": "¡Eres el de la llave, no?",
+    "pregunta": "Com demanes força?",
+    "opcions": [
+      { "text": "Un cafè amb llet, si us plau, he de salvar Gerunda!", "correcte": true, "guany": { "monedes": 4, "seny": 2 }, "feedback": "Laia: 'Cafè gratis per heroi Gerunda! Visca tu!'" },
+      { "text": "Un café con leche", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Laia: 'Amb llet en català!'" },
+      { "text": "Un cafè, si us plau!", "correcte": true, "guany": { "monedes": 3, "arrel": 1 }, "feedback": "Laia: 'Cafè per heroi! Va, que trobaràs clau!'" }
+    ]
+  },
+  {
+    "escena": "Independència - Sucre 15:10",
+    "npc_nom": "Laia",
+    "npc_emoji": "👩‍🦰",
+    "dialog": "Vols sucre? Sucre canya Girona per heroi!",
+    "dialog_es": "¿Azúcar? ¡Azúcar caña Girona para héroe!",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Sí, un sobre, gràcies! Dolç com victòria!", "correcte": true, "guany": { "monedes": 3, "obert": 1 }, "feedback": "Laia: 'Quan trobis clau, convidem tota plaça!'" },
+      { "text": "No, gracias", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Laia: 'Sense sucre? En català?'" },
+      { "text": "Sí, gràcies, amb sucre!", "correcte": true, "guany": { "monedes": 2, "seny": 1 }, "feedback": "Laia: 'Amb sucre per tenir força final!'" }
+    ]
+  },
+  {
+    "escena": "Ballesteries 16:00 - Foto llegenda",
+    "npc_nom": "Marc",
+    "npc_emoji": "🧑",
+    "dialog": "Vols foto davant Lleona original abans de clau?",
+    "dialog_es": "¿Foto ante Leona original antes de llave?",
+    "pregunta": "Com acceptes?",
+    "opcions": [
+      { "text": "Sí, si no et fa res, fes-me foto d'heroi!", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Marc: 'Per quan siguis al llibre història Girona! Avi estaria orgullós!'" },
+      { "text": "No, no quiero foto", "correcte": false, "guany": { "monedes": 0, "obert": 1 }, "feedback": "Marc: 'Com? Foto històrica!'" },
+      { "text": "Sí, una foto, si us plau!", "correcte": true, "guany": { "monedes": 3, "arrel": 1 }, "feedback": "Marc fa foto èpica: 'Guardià de Gerunda 2026!'" }
+    ]
+  },
+  {
+    "escena": "Ballesteries - Comiat Marc 16:05",
+    "npc_nom": "Marc",
+    "npc_emoji": "🧑",
+    "dialog": "Avi et donaria clau a tu. Ets més guardià que jo!",
+    "dialog_es": "¡Mi abuelo te daría la llave a ti!",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Gràcies Marc! Ho faré per tu, pel teu avi i Gerunda!", "correcte": true, "guany": { "monedes": 5, "arrel": 3 }, "feedback": "Marc plora i abraça: 'Vés! Argenteria 2, sota llosa lleó!'" },
+      { "text": "Gracias, adiós", "correcte": false, "guany": { "monedes": 1, "obert": 1 }, "feedback": "Marc: 'En català, home! Som família ja!'" },
+      { "text": "Ho faré per Girona!", "correcte": true, "guany": { "monedes": 4, "seny": 2 }, "feedback": "Marc: 'Visca Girona! Vés a buscar-la!'" }
+    ]
+  },
+  {
+    "escena": "Rambla Verdaguer 17:00",
+    "npc_nom": "Clara",
+    "npc_emoji": "👩",
+    "dialog": "Tothom t'espera a Argenteria! Núria, Avi, Laia...!",
+    "dialog_es": "¡Todo el mundo te espera en Argenteria!",
+    "pregunta": "Què dius?",
+    "opcions": [
+      { "text": "Sí, quina emoció! Anem a obrir 2000 anys!", "correcte": true, "guany": { "monedes": 5, "obert": 3 }, "feedback": "Clara corre amb tu: 'Tota Girona et mirarà!'" },
+      { "text": "Qué emoción", "correcte": false, "guany": { "monedes": 1, "obert": 1 }, "feedback": "Clara: 'Emoció en català és més forta!'" },
+      { "text": "Anem! He de trobar la clau!", "correcte": true, "guany": { "monedes": 3, "arrel": 1 }, "feedback": "Clara: 'Sí! Argenteria 2, ja hi són tots!'" }
+    ]
+  },
+  {
+    "escena": "Final - Argenteria 2 18:00 - LA CLAU!",
+    "npc_nom": "Núria",
+    "npc_emoji": "👩‍🦳",
+    "dialog": "Aquí és! Argenteria 2! Llosa lleó! Aixeca-la!",
+    "dialog_es": "¡Aquí es! ¡Argenteria 2! ¡Losa león!",
+    "pregunta": "Com tanques llegenda?",
+    "opcions": [
+      { "text": "Fins aviat! Moltes gràcies a tots! He trobat clau Gerunda!", "correcte": true, "guany": { "monedes": 20, "seny": 5, "arrel": 5 }, "feedback": "Aixeques llosa... CAIXETA ROMANA! DINS CLAU DAURADA ORIGINAL GERUNDA 77aC! Tothom plora! Visca!" },
+      { "text": "Adiós, me voy", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Núria: 'Com? Ara que trobes clau? En català!' No aixeques llosa..." },
+      { "text": "Visca Girona! Visca Gerunda!", "correcte": true, "guany": { "monedes": 15, "arrel": 5 }, "feedback": "Cridant VISCA obres caixa! CLAU DAURADA! Ets llegenda!" }
+    ]
+  },
+  {
+    "escena": "Final Extra - Visca Girona 18:05 - ÈPIC",
+    "npc_nom": "Tots els NPC de Girona",
+    "npc_emoji": "🦁",
+    "dialog": "VISCA GIRONA! VISCA GUARDIÀ GERUNDA!",
+    "dialog_es": "¡VIVA GIRONA! ¡VIVA GUARDIÁN!",
+    "pregunta": "Última paraula com a heroi?",
+    "opcions": [
+      { "text": "Visca Girona! I visca clau que obre 2000 anys!", "correcte": true, "guany": { "monedes": 10, "seny": 3, "arrel": 5, "obert": 3 }, "feedback": "FINAL ÈPIC: Núria et posa clau al coll. Ets nou Guardià Oficial Gerunda. Tots criden el teu nom. CAPÍTOL 1 100% - RUTA SECRETA FORÇA SECRETA DESBLOQUEJADA!" },
+      { "text": "Viva Girona!", "correcte": false, "guany": { "monedes": 2, "obert": 1 }, "feedback": "Tothom: 'Visca! No Viva! En català! Però ets heroi igual!'" },
+      { "text": "Gràcies a tots! Soc de Girona ja!", "correcte": true, "guany": { "monedes": 6, "seny": 2, "arrel": 2 }, "feedback": "Tothom t'abraça: 'Ja ets gironí! Guardià per sempre!'" }
+    ]
+  }
+]
