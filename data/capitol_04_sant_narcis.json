@@ -1,0 +1,433 @@
+[
+  {
+    "escena": "Espai 1 - Catedral Escales - 28 oct - Mosca desapareguda",
+    "npc_nom": "Mossèn Narcís",
+    "npc_emoji": "👨‍⚕️",
+    "dialog": "David! La Mosca Reina ha desaparegut! Demà 29 octubre Sant Narcís i sense mosca no hi ha Fires! Ajuda!",
+    "dialog_es": "¡David! ¡La Mosca Reina ha desaparecido! ¡Mañana 29 octubre Sant Narcís y sin mosca no hay Fires!",
+    "pregunta": "Com respons llegenda mosques?",
+    "opcions": [
+      { "text": "Què va passar? Explica'm llegenda mosques de Sant Narcís!", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Mossèn: '1285 francesos assetjaven Girona! Sant Narcís va treure mosques del sepulcre i van picar francesos fins fer-los fugir! Des de llavors mosques protegeixen Girona!'" },
+      { "text": "¿Qué pasó? ¡Explícame leyenda moscas de Sant Narcís!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Mossèn: 'En català: Què va passar? Explica'm llegenda... 1285 francesos! Sant Narcís mosques sepulcre! Protegeixen Girona!'" },
+      { "text": "Me'n vaig, mosques fan fàstic", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mossèn: 'Fàstic? Són salvadores Girona!'" }
+    ]
+  },
+  {
+    "escena": "Espai 2 - Catedral Interior - Sepulcre Sant Narcís buit",
+    "npc_nom": "Sagristà Catedral",
+    "npc_emoji": "👨‍🦳",
+    "dialog": "Mira sepulcre Sant Narcís buit! Mosca Reina dormia aquí 700 anys! Ara buit! Petjada cap a Call!",
+    "dialog_es": "¡Mira sepulcro Sant Narcís vacío! ¡Mosca Reina dormía aquí 700 años! ¡Ahora vacío!",
+    "pregunta": "Com investigues?",
+    "opcions": [
+      { "text": "Veig petjades petites cap al Call Jueu! Seguim rastre!", "correcte": true, "guany": { "monedes": 8, "seny": 3 }, "feedback": "Sagristà: 'Petjades mosca! Cap a Call! Va buscar Bonastruc ça Porta!'" },
+      { "text": "¡Veo huellas pequeñas hacia el Call Jueu! ¡Seguimos rastro!", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "Sagristà: 'En català: Veig petjades... Cap a Call! Bonastruc!'" },
+      { "text": "No veig res", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Sagristà: 'Mira terra! Petjades!'" }
+    ]
+  },
+  {
+    "escena": "Espai 3 - Carrer Força - Call - Rastre mosca",
+    "npc_nom": "Guia Call",
+    "npc_emoji": "🧑‍🏫",
+    "dialog": "Soc guia Call! He vist mosca gegant! Brillant! Verda i blava! Cap a Banys Àrabs Mikvé!",
+    "dialog_es": "¡Soy guía Call! ¡He visto mosca gigante! ¡Brillante! ¡Verde y azul! ¡Hacia Banys Àrabs!",
+    "pregunta": "Com preguntes detall mosca?",
+    "opcions": [
+      { "text": "Com era la mosca? Cap a on volava exactament?", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Guia: 'Mosca Reina! 10cm! Ulls vermells! Verda com Onyar! Cap a Banys Àrabs! Mikvé jueu!'" },
+      { "text": "¿Cómo era la mosca? ¿Hacia dónde volaba exactamente?", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "Guia: 'En català: Com era mosca... Mosca Reina! 10cm! Verda Onyar! Banys Àrabs!'" },
+      { "text": "Mosques normals", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Guia: 'No normal! Reina!'" }
+    ]
+  },
+  {
+    "escena": "Espai 4 - Banys Àrabs - Mikvé - Mosca es banya",
+    "npc_nom": "Mosca Reina - Primera trobada",
+    "npc_emoji": "🪰👑",
+    "dialog": "Bzzzz! Soc Mosca Reina! 700 anys protegint Girona! Estic cansada! Vull ser lliure!",
+    "dialog_es": "¡Bzzzz! ¡Soy Mosca Reina! ¡700 años protegiendo Girona! ¡Estoy cansada! ¡Quiero ser libre!",
+    "pregunta": "Com parles amb mosca que parla?",
+    "opcions": [
+      { "text": "Mosca Reina! Entenc que estiguis cansada! Parlem! Per què marxes?", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Mosca: 'Bzzz! 1285 vaig salvar Girona! 700 anys sense vacances! Vull veure Fires! Devesa! Barraques! Mai he anat a Fires!'" },
+      { "text": "¡Mosca Reina! ¡Entiendo que estés cansada! ¡Hablemos! ¿Por qué te vas?", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Mosca: 'En català: Mosca Reina! Entenc... Bzzz! 1285 salvar Girona! 700 anys! Vull veure Fires! Devesa!'" },
+      { "text": "Quina fàstic mosca que parla", "correcte": false, "guany": { "monedes": 0, "rauxa": 2 }, "feedback": "Mosca enfadada: 'Fàstic? Vaig salvar Girona!'" }
+    ]
+  },
+  {
+    "escena": "Espai 5 - Passeig Arqueològic - Muralla - Mosca vola",
+    "npc_nom": "Mosca Reina volant",
+    "npc_emoji": "🪰",
+    "dialog": "Bzzz! Vinc a muralla! Mai he vist Girona des de dalt lliure! Sempre tancada sepulcre!",
+    "dialog_es": "¡Bzzz! ¡Vengo a muralla! ¡Nunca he visto Girona desde arriba libre!",
+    "pregunta": "Com convences mosca quedar-se?",
+    "opcions": [
+      { "text": "Mira que bonica Girona des de muralla! Però Girona et necessita!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Mosca mira muralla: 'Bzzz! Girona bonica! Onyar, Catedral, Call, Devesa! Però vull Fires!'" },
+      { "text": "¡Mira qué bonita Girona desde muralla! ¡Pero Girona te necesita!", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Mosca: 'En català: Mira que bonica... Girona bonica! Però vull Fires!'" },
+      { "text": "Vola lluny mosca", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'No! Girona casa meva! Però vull Fires!'" }
+    ]
+  },
+  {
+    "escena": "Espai 6 - Torre Gironella - Mosca veu Fires Devesa",
+    "npc_nom": "Mosca Reina a Gironella",
+    "npc_emoji": "🪰",
+    "dialog": "Bzzz! Des d'aquí veig Fires Devesa! Llums! Música! Mai he anat! Portem-hi!",
+    "dialog_es": "¡Bzzz! ¡Desde aquí veo Fires Devesa! ¡Luces! ¡Música! ¡Nunca he ido!",
+    "pregunta": "Com respons mosca vol anar Fires?",
+    "opcions": [
+      { "text": "T'hi porto! Però promets tornar a Catedral després?", "correcte": true, "guany": { "monedes": 10, "obert": 3 }, "feedback": "Mosca: 'Bzzz! Prometo! Però una nit Fires lliure! 700 anys tancada!'" },
+      { "text": "¡Te llevo! ¿Pero prometes volver a Catedral después?", "correcte": true, "guany": { "monedes": 6, "obert": 2 }, "feedback": "Mosca: 'En català: T'hi porto! Però promets... Bzzz! Prometo! Una nit Fires lliure!'" },
+      { "text": "No, torna a sepulcre", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca trist: '700 anys tancada! Una nit!'" }
+    ]
+  },
+  {
+    "escena": "Espai 7 - Plaça del Vi - Vermut amb mosca amagada",
+    "npc_nom": "Cambrer Roger",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "David, què portes a butxaca que bzz bzz? Mosca?",
+    "dialog_es": "David, ¿qué llevas en bolsillo que bzz bzz? ¿Mosca?",
+    "pregunta": "Com amagues mosca Reina?",
+    "opcions": [
+      { "text": "Em poses un vermut amb olives i dissimulem mosca Reina?", "correcte": true, "guany": { "monedes": 6, "rauxa": 2 }, "feedback": "Roger entén: 'Mosca Reina? Bzzz? Amagada butxaca! Vermut per tu i gota vi per ella! Cap a Devesa!'" },
+      { "text": "¿Me pones un vermut con olivas y disimulamos mosca Reina?", "correcte": true, "guany": { "monedes": 4, "rauxa": 1 }, "feedback": "Roger: 'En català: Em poses vermut... Mosca Reina? Amagada butxaca! Vermut i gota vi! Devesa!'" },
+      { "text": "Res a butxaca", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Roger: 'Bzzz! Sento mosca!'" }
+    ]
+  },
+  {
+    "escena": "Espai 8 - Pont de Pedra - Mosca veu Onyar amb llums Fires",
+    "npc_nom": "Mosca Reina a Pont",
+    "npc_emoji": "🪰",
+    "dialog": "Bzzz! Onyar amb llums Fires! Mai vist! 700 anys sepulcre fosc! Que bonic!",
+    "dialog_es": "¡Bzzz! ¡Onyar con luces Fires! ¡Nunca visto! ¡700 años sepulcro oscuro!",
+    "pregunta": "Com comparteixes moment mosca?",
+    "opcions": [
+      { "text": "Sí! Onyar amb Fires és màgic! Veus? Girona t'estima!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Mosca plora (sí, mosques ploren): 'Bzzz! Girona m'estima? 700 anys protegint i mai Fires?'" },
+      { "text": "¡Sí! ¡Onyar con Fires es mágico! ¿Ves? ¡Girona te quiere!", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Mosca: 'En català: Sí! Onyar amb Fires màgic... Bzzz! Girona m'estima? 700 anys!'" },
+      { "text": "Normal Onyar", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Normal? Amb llums Fires!'" }
+    ]
+  },
+  {
+    "escena": "Espai 9 - Plaça Independència - Gent busca mosca",
+    "npc_nom": "Veïns Girona buscant",
+    "npc_emoji": "👥",
+    "dialog": "David! Hem perdut Mosca Sant Narcís! Sense mosca no hi ha Fires! L'has vist?",
+    "dialog_es": "¡David! ¡Hemos perdido Mosca Sant Narcís! ¡Sin mosca no hay Fires! ¿La has visto?",
+    "pregunta": "Com dissimules mosca butxaca?",
+    "opcions": [
+      { "text": "No l'he vista! Però seguim buscant cap a Devesa Fires!", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Veïns: 'Cap a Devesa! Fires! Si no trobem mosca, no hi ha Fires Sant Narcís 2026!'" },
+      { "text": "¡No la he visto! ¡Pero seguimos buscando hacia Devesa Fires!", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "Veïns: 'En català: No l'he vista... Cap a Devesa! Sense mosca no hi ha Fires!'" },
+      { "text": "Sí, a butxaca", "correcte": false, "guany": { "monedes": 0, "rauxa": 2 }, "feedback": "Mosca: 'Xxt! Secret! Vull Fires una nit!'" }
+    ]
+  },
+  {
+    "escena": "Espai 10 - Jardins Devesa - Entrada Fires - Llums",
+    "npc_nom": "Mosca Reina flipant Fires",
+    "npc_emoji": "🪰🎡",
+    "dialog": "BZZZ! FIRES! LLUMS! MÚSICA! 700 ANYS MAI VIST! BZZZ!",
+    "dialog_es": "¡BZZZ! ¡FIRES! ¡LUCES! ¡MÚSICA! ¡700 AÑOS NUNCA VISTO!",
+    "pregunta": "Com presentes Fires a mosca?",
+    "opcions": [
+      { "text": "Benvinguda a Fires Sant Narcís! Devesa! Atraccions! Menjar!", "correcte": true, "guany": { "monedes": 8, "obert": 3 }, "feedback": "Mosca boja contenta! Vola per Devesa! 'Bzzz! Fires! Per què mai m'han portat? 700 anys tancada!'" },
+      { "text": "¡Bienvenida a Fires Sant Narcís! ¡Devesa! ¡Atracciones! ¡Comida!", "correcte": true, "guany": { "monedes": 5, "obert": 2 }, "feedback": "Mosca: 'En català: Benvinguda a Fires... Bzzz! Fires! Per què mai portat? 700 anys!'" },
+      { "text": "Vale, Fires normals", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Normals? Mai vist!'" }
+    ]
+  },
+  {
+    "escena": "Espai 11 - Devesa - Barraques - Xurros",
+    "npc_nom": "Xurrera Devesa",
+    "npc_emoji": "👩‍🍳",
+    "dialog": "David! Fires! Xurros amb xocolata! I què portes que vola verd?",
+    "dialog_es": "¡David! ¡Fires! ¡Churros con chocolate! ¿Y qué llevas que vuela verde?",
+    "pregunta": "Com demanes xurros amb mosca?",
+    "opcions": [
+      { "text": "Em poses xurros amb xocolata i un trosset per mosca Reina?", "correcte": true, "guany": { "monedes": 6, "rauxa": 2 }, "feedback": "Xurrera: 'Mosca Reina? Bzzz? Menja xurro! Mai vist mosca menjar xurro! Fires!'" },
+      { "text": "¿Me pones churros con chocolate y un trocito para mosca Reina?", "correcte": true, "guany": { "monedes": 4, "rauxa": 1 }, "feedback": "Xurrera: 'En català: Em poses xurros... Mosca Reina? Menja xurro! Fires!'" },
+      { "text": "Un xurro ràpid", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Xurrera: 'I mosca? Té gana!'" }
+    ]
+  },
+  {
+    "escena": "Espai 12 - Devesa - Atraccions - Nòria",
+    "npc_nom": "Firaire Nòria",
+    "npc_emoji": "🎡",
+    "dialog": "Pugeu nòria Fires! Vistes Girona sencera! Tu i mosca verda!",
+    "dialog_es": "¡Subid noria Fires! ¡Vistas Girona entera! ¡Tú y mosca verde!",
+    "pregunta": "Com puges nòria amb mosca?",
+    "opcions": [
+      { "text": "Pugem a nòria! Mosca Reina veurà Girona des de dalt!", "correcte": true, "guany": { "monedes": 8, "obert": 3 }, "feedback": "Pugeu nòria! Mosca veu Girona nit amb llums Fires! 'Bzzz! Girona bonica nit! Catedral, Onyar, Call! Tot meu!'" },
+      { "text": "¡Subimos a noria! ¡Mosca Reina verá Girona desde arriba!", "correcte": true, "guany": { "monedes": 5, "obert": 2 }, "feedback": "Firaire: 'En català: Pugem a nòria... Mosca veu Girona nit llums Fires!'" },
+      { "text": "No pujo nòria", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Bzzz! Jo vull pujar!'" }
+    ]
+  },
+  {
+    "escena": "Espai 13 - Parc de la Copa - Concert Fires",
+    "npc_nom": "Músic Copa",
+    "npc_emoji": "🎸",
+    "dialog": "Concert Fires Sant Narcís Parc Copa! Rock català! Tu i mosca balleu?",
+    "dialog_es": "¡Concierto Fires Sant Narcís Parc Copa! ¡Rock catalán! ¿Tú y mosca bailáis?",
+    "pregunta": "Com balles amb mosca?",
+    "opcions": [
+      { "text": "Ballem! Mosca Reina balla rock de Fires!", "correcte": true, "guany": { "monedes": 8, "rauxa": 3 }, "feedback": "Balleu rock! Mosca balla bzzz bzzz! Gent mira mosca ballant! 'Mosca Reina a Fires!'" },
+      { "text": "¡Bailamos! ¡Mosca Reina baila rock de Fires!", "correcte": true, "guany": { "monedes": 5, "rauxa": 2 }, "feedback": "Músic: 'En català: Ballem! Mosca Reina balla rock... Gent mira mosca ballant!'" },
+      { "text": "No ballo", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Bzzz! Jo ballo!'" }
+    ]
+  },
+  {
+    "escena": "Espai 14 - Devesa - Fira Mostres - Formatges",
+    "npc_nom": "Pagesa Fira Mostres",
+    "npc_emoji": "🧀",
+    "dialog": "Fira Mostres Girona! Formatges Garrotxa! Embotits! I mosca tastadora?",
+    "dialog_es": "¡Fira Mostres Girona! ¡Quesos Garrotxa! ¡Embutidos! ¿Y mosca catadora?",
+    "pregunta": "Com compres formatge amb mosca?",
+    "opcions": [
+      { "text": "Em poses formatge de cabra i mosca Reina tasta?", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Pagesa: 'Mosca tastadora! Formatge cabra Garrotxa! Mosca: Bzzz! Boníssim! Mai tastat formatge! 700 anys sepulcre!'" },
+      { "text": "¿Me pones queso de cabra y mosca Reina cata?", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "Pagesa: 'En català: Em poses formatge... Mosca tastadora! Garrotxa!'" },
+      { "text": "No vull formatge", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Bzzz! Jo vull!'" }
+    ]
+  },
+  {
+    "escena": "Espai 15 - Plaça Mercadal - Fira artesania",
+    "npc_nom": "Artesà Mercadal",
+    "npc_emoji": "🧑‍🔧",
+    "dialog": "Fires Mercadal! Artesania Girona! Jo faig mosques de fusta! Com la teva!",
+    "dialog_es": "¡Fires Mercadal! ¡Artesanía Girona! ¡Yo hago moscas de madera! ¡Como la tuya!",
+    "pregunta": "Com mostres mosca artesà?",
+    "opcions": [
+      { "text": "Mira quina mosca de fusta! Igual que Mosca Reina! La compro!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Artesà veu Mosca Reina real! 'Bzzz! Mosca real! Compro mosca fusta per record Fires!'" },
+      { "text": "¡Mira qué mosca de madera! ¡Igual que Mosca Reina! ¡La compro!", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "Artesà: 'En català: Mira quina mosca fusta... Mosca real! Compro per record Fires!'" },
+      { "text": "No compro res", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Bzzz! Jo vull record!'" }
+    ]
+  },
+  {
+    "escena": "Espai 16 - Rambla Llibertat - Gegants i Capgrossos - Cercavila",
+    "npc_nom": "Gegant Carlemany",
+    "npc_emoji": "🧍‍♂️",
+    "dialog": "Soc Carlemany, gegant Girona! Busquem Mosca Reina! Sense ella no hi ha cercavila demà!",
+    "dialog_es": "¡Soy Carlemany, gigante Girona! ¡Buscamos Mosca Reina! ¡Sin ella no hay cercavila mañana!",
+    "pregunta": "Com respons a gegant Carlemany?",
+    "opcions": [
+      { "text": "Carlemany! Mosca Reina és amb mi! Volia veure Fires una nit!", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Carlemany gegant s'ajup: 'Mosca Reina? 700 anys protegint Girona i mai Fires? Deixem-la una nit! Demà torna Catedral!'" },
+      { "text": "¡Carlemany! ¡Mosca Reina está conmigo! ¡Quería ver Fires una noche!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Carlemany: 'En català: Carlemany! Mosca Reina amb mi... 700 anys protegint mai Fires? Deixem una nit!'" },
+      { "text": "No sé on és mosca", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca butxaca: 'Bzzz! Digues veritat! Vull Fires!'" }
+    ]
+  },
+  {
+    "escena": "Espai 17 - Plaça del Vi - Capgrossos ballen",
+    "npc_nom": "Capgròs Mosca",
+    "npc_emoji": "🪰",
+    "dialog": "Soc Capgròs Mosca! Faig de tu! On és Mosca Reina real? Ballo per ella!",
+    "dialog_es": "¡Soy Cabezudo Mosca! ¡Hago de ti! ¿Dónde está Mosca Reina real?",
+    "pregunta": "Com balles amb capgròs mosca?",
+    "opcions": [
+      { "text": "Ballem junts! Capgròs Mosca i Mosca Reina real!", "correcte": true, "guany": { "monedes": 8, "rauxa": 3 }, "feedback": "Balleu! Capgròs i Mosca Reina real! Plaça Vi plena! Tothom: 'Mosca Reina a Fires! Visca!'" },
+      { "text": "¡Bailemos juntos! ¡Cabezudo Mosca y Mosca Reina real!", "correcte": true, "guany": { "monedes": 5, "rauxa": 2 }, "feedback": "Capgròs: 'En català: Ballem junts... Plaça Vi plena! Mosca Reina Fires!'" },
+      { "text": "No ballo capgrossos", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Bzzz! Ballo jo!'" }
+    ]
+  },
+  {
+    "escena": "Espai 18 - Carrer Argenteria - Correfoc preparació",
+    "npc_nom": "Diable Correfoc",
+    "npc_emoji": "😈",
+    "dialog": "Soc Diable Correfoc! Demà correfoc Sant Narcís! Mosca Reina ha de beneir foc! On és?",
+    "dialog_es": "¡Soy Diablo Correfoc! ¡Mañana correfoc Sant Narcís! ¡Mosca Reina debe bendecir fuego!",
+    "pregunta": "Com respons diable?",
+    "opcions": [
+      { "text": "Mosca Reina beneirà foc! Però deixa-la gaudir última nit Fires!", "correcte": true, "guany": { "monedes": 10, "rauxa": 4 }, "feedback": "Diable: 'Mosca Reina beneeix foc! 1285 mosques van cremar francesos! Foc és nostre! Deixem gaudir nit!'" },
+      { "text": "¡Mosca Reina bendecirá fuego! ¡Pero déjala disfrutar última noche Fires!", "correcte": true, "guany": { "monedes": 6, "rauxa": 2 }, "feedback": "Diable: 'En català: Mosca Reina beneirà foc... 1285 mosques cremar francesos! Deixem gaudir nit!'" },
+      { "text": "No sé mosca", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Bzzz! Beneiré foc!'" }
+    ]
+  },
+  {
+    "escena": "Espai 19 - Pont de les Peixateries Velles - Onyar nit Fires",
+    "npc_nom": "Mosca Reina cansada feliç",
+    "npc_emoji": "🪰💫",
+    "dialog": "Bzzz... David... He vist Fires... Xurros, nòria, concert, formatge... Mai feliç així... 700 anys...",
+    "dialog_es": "Bzzz... David... He visto Fires... Churros, noria, concierto, queso... Nunca feliz así... 700 años...",
+    "pregunta": "Com parles cor a cor amb mosca?",
+    "opcions": [
+      { "text": "Mosca Reina, Girona t'estima! Per això 700 anys et guardem! Vols tornar?", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Mosca plora llàgrimes mosca: 'Bzzz... Girona m'estima? Jo pensava oblidada sepulcre... Però Fires és per mi també?'" },
+      { "text": "Mosca Reina, ¡Girona te quiere! ¡Por eso 700 años te guardamos! ¿Quieres volver?", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Mosca: 'En català: Mosca Reina, Girona t'estima... Bzzz... Girona m'estima? Jo pensava oblidada... Fires per mi també?'" },
+      { "text": "Torna ja mosca", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca trist: 'Ja... torno...'" }
+    ]
+  },
+  {
+    "escena": "Espai 20 - Plaça Sant Feliu - Basílica - Campanes Sant Narcís",
+    "npc_nom": "Campaner Sant Feliu",
+    "npc_emoji": "🔔",
+    "dialog": "Toco campanes Sant Narcís! 29 octubre demà! Tothom espera Mosca Reina per beneir Fires!",
+    "dialog_es": "¡Toco campanas Sant Narcís! ¡29 octubre mañana! ¡Todos esperan Mosca Reina para bendecir Fires!",
+    "pregunta": "Com demanes campanes per mosca?",
+    "opcions": [
+      { "text": "Toca campanes per Mosca Reina! Que senti que Girona la crida!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Campanes toquen! Tot Girona sent! Mosca sent campanes des de Pont! 'Bzzz! Campanes per mi?'" },
+      { "text": "¡Toca campanas para Mosca Reina! ¡Que sienta que Girona la llama!", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Campaner: 'En català: Toca campanes per Mosca Reina... Campanes toquen! Mosca sent!'" },
+      { "text": "No toquis campanes", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Bzzz! Campanes per mi?' " }
+    ]
+  },
+  {
+    "escena": "Espai 21 - Ajuntament - Alcalde crida Mosca",
+    "npc_nom": "Alcaldessa Girona",
+    "npc_emoji": "👩‍💼",
+    "dialog": "Soc alcaldessa! Girona busca Mosca Reina! Sense mosca no hi ha Sant Narcís! Ajuda David!",
+    "dialog_es": "¡Soy alcaldesa! ¡Girona busca Mosca Reina! ¡Sin mosca no hay Sant Narcís!",
+    "pregunta": "Com respons alcaldessa?",
+    "opcions": [
+      { "text": "Alcaldessa, Mosca Reina volia veure Fires! 700 anys sense! Deixem-la gaudir i tornarà!", "correcte": true, "guany": { "monedes": 10, "seny": 4 }, "feedback": "Alcaldessa entén: '700 anys sense Fires? Mosca Reina mai ha vist Fires que protegeix? Que gaudeixi nit! Demà 29 octubre la necessitem!'" },
+      { "text": "Alcaldesa, ¡Mosca Reina quería ver Fires! ¡700 años sin! ¡Dejémosla disfrutar y volverá!", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Alcaldessa: 'En català: Alcaldessa, Mosca Reina volia veure Fires... 700 anys sense Fires? Que gaudeixi nit!'" },
+      { "text": "No sé on és mosca", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca butxaca: 'Bzzz! Digues veritat!'" }
+    ]
+  },
+  {
+    "escena": "Espai 22 - Plaça Independència - Tothom crida Mosca",
+    "npc_nom": "Tots Girona cridant Mosca",
+    "npc_emoji": "👥🪰",
+    "dialog": "MOSCA REINA! TORNA! ET NECESSITEM! VISCA SANT NARCÍS! VISCA GIRONA!",
+    "dialog_es": "¡MOSCA REINA! ¡VUELVE! ¡TE NECESITAMOS! ¡VISCA SANT NARCÍS!",
+    "pregunta": "Com sents crit Girona a mosca?",
+    "opcions": [
+      { "text": "Sents? Girona crida Mosca Reina! T'estimen! 700 anys!", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Mosca surt butxaca i vola sobre Independència! Tothom veu Mosca Reina real! 'BZZZ! M'estimen! Girona m'estima!'" },
+      { "text": "¿Oyes? ¡Girona llama Mosca Reina! ¡Te quieren! ¡700 años!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Tothom: 'En català: Sents? Girona crida Mosca Reina... Mosca surt butxaca! BZZZ! M'estimen!'" },
+      { "text": "No sento res", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Tothom crida més fort: 'MOSCA REINA!'" }
+    ]
+  },
+  {
+    "escena": "Espai 23 - Rambla Llibertat - Mosca parla a Girona",
+    "npc_nom": "Mosca Reina parlant a Girona",
+    "npc_emoji": "🪰👑🎤",
+    "dialog": "BZZZ! GIRONA! SOC MOSCA REINA! 1285 VAIG SALVAR-VOS! 700 ANYS TANCADA! AVUI HE VIST FIRES! GRÀCIES!",
+    "dialog_es": "¡BZZZ! ¡GIRONA! ¡SOY MOSCA REINA! ¡1285 OS SALVÉ! ¡700 AÑOS CERRADA! ¡HOY HE VISTO FIRES! ¡GRACIAS!",
+    "pregunta": "Com tradueixes mosca a Girona?",
+    "opcions": [
+      { "text": "Mosca Reina diu: Gràcies Girona per 700 anys! Avui ha vist Fires i és feliç!", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Tothom Girona plora! Mosca Reina parla! 700 anys! 'Visca Mosca Reina! Visca Sant Narcís!'" },
+      { "text": "Mosca Reina dice: ¡Gracias Girona por 700 años! ¡Hoy ha visto Fires y es feliz!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Tothom: 'En català: Mosca Reina diu Gràcies... Visca Mosca Reina! Visca Sant Narcís!'" },
+      { "text": "Mosca fa soroll", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Tothom: 'No soroll! Parla!'" }
+    ]
+  },
+  {
+    "escena": "Espai 24 - Passeig Arqueològic - Muralla - Tornada junts",
+    "npc_nom": "Mosca Reina tornant",
+    "npc_emoji": "🪰❤️",
+    "dialog": "Bzzz David... Tornem a Catedral junts? Vull tornar... Però prometeu portar-me a Fires cada any una nit?",
+    "dialog_es": "Bzzz David... ¿Volvemos a Catedral juntos? Quiero volver... ¿Pero prometéis llevarme a Fires cada año una noche?",
+    "pregunta": "Com promets a mosca Reina?",
+    "opcions": [
+      { "text": "Prometo! Cada Sant Narcís, Mosca Reina veurà Fires una nit lliure!", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Mosca feliç: 'Bzzz! Promesa! Cada Sant Narcís una nit Fires! I torno a sepulcre protegir Girona!'" },
+      { "text": "¡Prometo! ¡Cada Sant Narcís, Mosca Reina verá Fires una noche libre!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Mosca: 'En català: Prometo! Cada Sant Narcís... Bzzz! Promesa! Cada any una nit Fires!'" },
+      { "text": "No prometo res", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca trist: 'Sense promesa no torno...'" }
+    ]
+  },
+  {
+    "escena": "Espai 25 - Catedral Escales - Pujada final amb mosca",
+    "npc_nom": "Mosca Reina i David pujant",
+    "npc_emoji": "🪰👦",
+    "dialog": "Bzzz! Pugem 90 graons junts última vegada! Com 1492 Call!",
+    "dialog_es": "¡Bzzz! ¡Subimos 90 escalones juntos última vez! ¡Como 1492 Call!",
+    "pregunta": "Com puges última vegada amb mosca?",
+    "opcions": [
+      { "text": "Pugem comptant: 1,2,3...90! Com amb pare 1492! Junts!", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Pugeu 90 graons comptant! Mosca: 'Bzzz! 90! Com anys Call! Junts!'" },
+      { "text": "¡Subimos contando: 1,2,3...90! ¡Como con padre 1492! ¡Juntos!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Mosca: 'En català: Pugem comptant... 90! Com anys Call! Junts!'" },
+      { "text": "Massa graons", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca: 'Bzzz! Última pujada! 90!'" }
+    ]
+  },
+  {
+    "escena": "Espai 26 - Catedral Interior - Sepulcre - Tornada Mosca",
+    "npc_nom": "Mosca Reina tornant a casa",
+    "npc_emoji": "🪰🏠",
+    "dialog": "Bzzz... Casa meva... Sepulcre Sant Narcís... 700 anys... Però ara amb record Fires... Gràcies David...",
+    "dialog_es": "Bzzz... Casa mía... Sepulcro Sant Narcís... 700 años... Pero ahora con recuerdo Fires...",
+    "pregunta": "Com acomiades mosca Reina?",
+    "opcions": [
+      { "text": "Gràcies Mosca Reina per 700 anys protegint Girona! Fins l'any que ve a Fires!", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Mosca entra sepulcre feliç! Brilla! Catedral il·lumina! Campanes toquen soles! Mosca Reina torna! Girona salvada!" },
+      { "text": "¡Gracias Mosca Reina por 700 años protegiendo Girona! ¡Hasta el año que viene en Fires!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Mosca: 'En català: Gràcies Mosca Reina... Bzzz! Brilla! Catedral il·lumina! Campanes soles! Torna!'" },
+      { "text": "Adéu mosca", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca trist entra: 'Adéu fred? 700 anys?'" }
+    ]
+  },
+  {
+    [
+  {
+    "escena": "Espai 27 - Catedral - 29 octubre - Dia Sant Narcís - Campanes",
+    "npc_nom": "Mossèn i Alcaldessa",
+    "npc_emoji": "👨‍⚕️👩‍💼",
+    "dialog": "29 OCTUBRE! DIA SANT NARCÍS! Campanes toquen! Mosca Reina ha tornat! Fires salvades!",
+    "dialog_es": "¡29 OCTUBRE! ¡DÍA SANT NARCÍS! ¡Campanas tocan! ¡Mosca Reina ha vuelto! ¡Fires salvadas!",
+    "pregunta": "Com celebres Sant Narcís?",
+    "opcions": [
+      { "text": "Visca Sant Narcís! Visca Mosca Reina! Visca Girona!", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Tothom Catedral crida! Visca Sant Narcís! 29 octubre patró Girona! Mosca Reina brilla sepulcre! Fires oficials obertes!" },
+      { "text": "¡Viva Sant Narcís! ¡Viva Mosca Reina! ¡Viva Girona!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Tothom: 'En català: Visca Sant Narcís... 29 octubre patró Girona! Mosca brilla! Fires obertes!'" },
+      { "text": "Normal dia", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Tothom: 'Normal? Sant Narcís! Patró Girona!'" }
+    ]
+  },
+  {
+    "escena": "Espai 28 - Plaça del Vi - Gegants surten",
+    "npc_nom": "Gegants Carlemany i Anna",
+    "npc_emoji": "🧍‍♂️🧍‍♀️",
+    "dialog": "Som Gegants Girona! Carlemany i Anna! Gràcies David! Mosca Reina tornada! Cercavila comença!",
+    "dialog_es": "¡Somos Gegantes Girona! ¡Carlemany y Anna! ¡Gracias David! ¡Mosca Reina vuelta! ¡Cercavila empieza!",
+    "pregunta": "Com balles amb gegants?",
+    "opcions": [
+      { "text": "Ballo amb gegants! Visca Sant Narcís! Visca Fires!", "correcte": true, "guany": { "monedes": 8, "rauxa": 3 }, "feedback": "Balles amb Gegants Carlemany i Anna! Plaça Vi plena! Gegants alts 4 metres! Visca Sant Narcís!" },
+      { "text": "¡Bailo con gigantes! ¡Viva Sant Narcís! ¡Viva Fires!", "correcte": true, "guany": { "monedes": 5, "rauxa": 2 }, "feedback": "Gegants: 'En català: Ballo amb gegants... Plaça Vi plena! 4 metres!'" },
+      { "text": "No ballo gegants", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Gegants trist: 'Cercavila sense tu?'" }
+    ]
+  },
+  {
+    "escena": "Espai 29 - Rambla Llibertat - Correfoc - Foc",
+    "npc_nom": "Diables Correfoc final",
+    "npc_emoji": "😈🔥",
+    "dialog": "CORREFOC SANT NARCÍS! Foc i pólvora! Mosca Reina ha beneït foc! Visca!",
+    "dialog_es": "¡CORREFOC SANT NARCÍS! ¡Fuego y pólvora! ¡Mosca Reina ha bendecido fuego!",
+    "pregunta": "Com vius correfoc?",
+    "opcions": [
+      { "text": "Visca Correfoc! Visca Sant Narcís! Foc i mosques!", "correcte": true, "guany": { "monedes": 10, "rauxa": 4 }, "feedback": "Correfoc Rambla! Diables amb foc! Gent balla! Mosca Reina des de Catedral mira feliç! Foc que va cremar francesos 1285!" },
+      { "text": "¡Viva Correfoc! ¡Viva Sant Narcís! ¡Fuego y moscas!", "correcte": true, "guany": { "monedes": 6, "rauxa": 2 }, "feedback": "Diables: 'En català: Visca Correfoc... Rambla! Diables foc! Mosca mira feliç!'" },
+      { "text": "Tinc por foc", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Diables: 'Foc és festa! Mosca beneeix!'" }
+    ]
+  },
+  {
+    "escena": "Espai 30 - Devesa - Fires nit - Barraques - Final feliç mosca",
+    "npc_nom": "Mosca Reina des de Catedral mirant Fires",
+    "npc_emoji": "🪰🎡",
+    "dialog": "Bzzz David des de Catedral... Veig Fires Devesa... Llums... Gràcies per nit lliure... Promesa cada any...",
+    "dialog_es": "Bzzz David desde Catedral... Veo Fires Devesa... Luces... Gracias por noche libre... Promesa cada año...",
+    "pregunta": "Com respons promesa mosca?",
+    "opcions": [
+      { "text": "Promesa! Cada Sant Narcís una nit lliure per Mosca Reina a Fires!", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Mosca feliç des de Catedral! Brilla! Tot Girona veu llum Catedral! Promesa segellada! Cada Sant Narcís Mosca Reina veurà Fires!" },
+      { "text": "¡Promesa! ¡Cada Sant Narcís una noche libre para Mosca Reina en Fires!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Mosca: 'En català: Promesa! Cada Sant Narcís... Bzzz! Brilla! Llum Catedral! Promesa segellada!'" },
+      { "text": "No prometo", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mosca trist: 'Sense promesa... 700 anys més tancada?'" }
+    ]
+  },
+  {
+    "escena": "Espai 31 - Plaça Mercadal - Ball de l'Àliga",
+    "npc_nom": "Àliga de Girona",
+    "npc_emoji": "🦅",
+    "dialog": "Soc Àliga Girona! Ballo per Sant Narcís! Mosca Reina tornada! Visca!",
+    "dialog_es": "¡Soy Águila Girona! ¡Bailo para Sant Narcís! ¡Mosca Reina vuelta! ¡Viva!",
+    "pregunta": "Com balles Àliga?",
+    "opcions": [
+      { "text": "Ballo Àliga! Visca Sant Narcís! Visca Mosca!", "correcte": true, "guany": { "monedes": 8, "rauxa": 3 }, "feedback": "Ball Àliga Mercadal! Tradició segle XIV! Àliga balla per Sant Narcís! Mosca Reina mira des de Catedral! Fires!" },
+      { "text": "¡Bailo Águila! ¡Viva Sant Narcís! ¡Viva Mosca!", "correcte": true, "guany": { "monedes": 5, "rauxa": 2 }, "feedback": "Àliga: 'En català: Ballo Àliga... Tradició segle XIV! Mosca mira Catedral!'" },
+      { "text": "No ballo", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Àliga trist: 'Ball segle XIV!'" }
+    ]
+  },
+  {
+    "escena": "Espai 32 - Pont de Pedra - Última nit Fires - Comiat temporada",
+    "npc_nom": "Tots Girona Fires",
+    "npc_emoji": "👥🎡",
+    "dialog": "David! Has salvat Fires Sant Narcís 2026! Mosca Reina tornada! Gegants, diables, àliga, tot gràcies a tu!",
+    "dialog_es": "¡David! ¡Has salvado Fires Sant Narcís 2026! ¡Mosca Reina vuelta!",
+    "pregunta": "Com t'acomiades Fires?",
+    "opcions": [
+      { "text": "Visca Sant Narcís! Visca Mosca Reina! Visca Fires! Visca Girona!", "correcte": true, "guany": { "monedes": 12, "arrel": 5, "obert": 3 }, "feedback": "Tothom crida! Visca Sant Narcís! Visca Mosca! Visca Fires! Pont Pedra ple! Onyar amb reflex llums Fires! Màgic!" },
+      { "text": "¡Viva Sant Narcís! ¡Viva Mosca Reina! ¡Viva Fires! ¡Viva Girona!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Tothom: 'En català: Visca Sant Narcís... Pont Pedra ple! Onyar reflex llums!'" },
+      { "text": "Adéu Fires", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Tothom: 'Adéu fred? Visca!'" }
+    ]
+  },
+  {
+    "escena": "FINAL - Catedral - 29 octubre nit - Mosca brilla - TANCAMENT MÓN GIRONA",
+    "npc_nom": "Mosca Reina, Bonastruc, Núria, Carme, Tots Girona 1285-2026",
+    "npc_emoji": "🪰👑🌸✡️🦁",
+    "dialog": "VISCA! David! Has tancat Món Girona! 1 Força Vella Clau Gerunda! 2 Temps de Flors 113! 3 Call Jueu 1492! 4 Mosca Sant Narcís 1285! Ets llegenda Girona!",
+    "dialog_es": "¡VIVA! ¡David! ¡Has cerrado Mundo Girona! ¡1 Força Vella! ¡2 Temps de Flors! ¡3 Call Jueu! ¡4 Mosca Sant Narcís!",
+    "pregunta": "Última paraula heroi Girona sencer?",
+    "opcions": [
+      { "text": "Visca Girona! Visca Sant Narcís! Visca Mosca! Visca Temps de Flors! Visca Call! Visca Gerunda! Visca 2000 anys!", "correcte": true, "guany": { "monedes": 30, "arrel": 10, "seny": 10, "obert": 10 }, "feedback": "FINAL ÈPIC MÓN GIRONA 100%! Has completat 4 capítols! Força Vella, Temps de Flors 113 espais, Call Jueu 1492 3 llavors, Mosca Sant Narcís 1285 700 anys! 132 escenes! Ets Guardià Etern Girona! Bonastruc, Mosca Reina, Núria i tots t'abracen! PROMESA: Cada Sant Narcís Mosca Reina veurà Fires una nit! MÓN GIRONA TANCAT! Ara Rutes Secretes desbloquejables després 3 voltes cada capítol!" },
+      { "text": "¡Viva Girona! ¡Viva Sant Narcís! ¡Viva Mosca! ¡Viva Temps de Flors! ¡Viva Call! ¡Viva Gerunda!", "correcte": true, "guany": { "monedes": 20, "arrel": 5 }, "feedback": "Tothom: 'Visca! No Viva! Però ets llegenda! 4 capítols! Força Vella, Temps de Flors 113, Call 1492, Mosca 1285! 132 escenes! Guardià Etern Girona!'" },
+      { "text": "Ja estic cansat de Girona", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Tothom: 'Cansat? 2000 anys Girona! Visca!'" }
+    ]
+  }
+]
