@@ -1,0 +1,433 @@
+[
+  {
+    "escena": "Espai 1 - Jardins de les Pedreres - Inici Ruta 1",
+    "npc_nom": "Voluntària Cap",
+    "npc_emoji": "👩‍🌾",
+    "dialog": "Benvingut! Aquest és l'espai 1 del plànol oficial 2026. 113 espais en total. Vols plànol?",
+    "dialog_es": "¡Bienvenido! Este es el espacio 1 del plano oficial 2026. 113 espacios en total.",
+    "pregunta": "Com comences?",
+    "opcions": [
+      { "text": "Sí, gràcies! Com va la ruta 1?", "correcte": true, "guany": { "monedes": 8, "obert": 2 }, "feedback": "Ruta 1: Barri Vell, 59 espais. De 9:30 a 21h, interiors fins 23h. Dissabtes 24h Flors de Nit!" },
+      { "text": "¡Sí, gracias! ¿Cómo va la ruta 1?", "correcte": true, "guany": { "monedes": 5, "obert": 1 }, "feedback": "En català: Sí, gràcies! Com va ruta 1? Ruta 1: 59 espais Barri Vell!" },
+      { "text": "No vull plànol", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Et perdràs. Són 113 espais!" }
+    ]
+  },
+  {
+    "escena": "Espai 2 - Plaça Jacint Verdaguer (dalt) - Tapís floral",
+    "npc_nom": "Florista 1954",
+    "npc_emoji": "🧑‍🌾",
+    "dialog": "Espai 2 i 3 són Plaça Verdaguer dalt i baix. Tapís dedicat a Verdaguer. Saps qui és?",
+    "dialog_es": "Espacio 2 y 3 son Plaza Verdaguer arriba y abajo. Tapiz dedicado a Verdaguer.",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Sí! L'Atlàntida és brutal. Per què flors aquí?", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Verdaguer va escriure sobre primavera! Temps de Flors va néixer 1954 per posar flors on hi havia runes postguerra!" },
+      { "text": "¡Sí! ¡L'Atlàntida es brutal. ¿Por qué flores aquí?", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "En català: Sí! L'Atlàntida és brutal. Per què flors? 1954 postguerra!" },
+      { "text": "No conec poeta", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Poeta nacional Catalunya. Va estimar Girona!" }
+    ]
+  },
+  {
+    "escena": "Espai 5 - Església dels Dolors (escales) - El més fotografiat",
+    "npc_nom": "Sagristà",
+    "npc_emoji": "👨‍⚕️",
+    "dialog": "Espai 5 del plànol! Escales dels Dolors! L'espai més fotografiat de Temps de Flors!",
+    "dialog_es": "¡Espacio 5 del plano! ¡Escaleras de los Dolores! ¡El espacio más fotografiado!",
+    "pregunta": "Com agraeixes feina?",
+    "opcions": [
+      { "text": "Ha quedat espectacular. Quant temps muntant?", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "3 dies! 20 voluntaris! Des de 1954 cada maig fem això! Maig és primavera, Girona floreix!" },
+      { "text": "¡Ha quedado espectacular. ¿Cuánto tiempo montando?", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "En català: Ha quedat espectacular... 3 dies! Des de 1954 cada maig!" },
+      { "text": "Normal, escales", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Normal? 2000 flors aquí!" }
+    ]
+  },
+  {
+    "escena": "Espai 7 - Centre Cultural La Mercè - Interior fins 23h",
+    "npc_nom": "Guia La Mercè",
+    "npc_emoji": "👩‍🏫",
+    "dialog": "Espai 7! La Mercè! Interior obert de diumenge a divendres fins 23h, dissabte 24h Flors de Nit!",
+    "dialog_es": "¡Espacio 7! ¡La Mercè! ¡Interior abierto hasta 23h, sábado 24h Flors de Nit!",
+    "pregunta": "Com preguntes horari?",
+    "opcions": [
+      { "text": "Fins a quina hora puc entrar avui?", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Avui fins 23h! Flors de Nit dissabte 24h! Art floral contemporani dins!" },
+      { "text": "¿Hasta qué hora puedo entrar hoy?", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "En català: Fins a quina hora... Fins 23h! Dissabte 24h!" },
+      { "text": "Tanca aviat?", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "No! 23h! Flors de Nit!" }
+    ]
+  },
+  {
+    "escena": "Espai 12 - Plaça del Vi amb Albereda - Cor festa",
+    "npc_nom": "Cambrer Roger",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "Espai 12, 14 i 17! Plaça del Vi té 3 espais del plànol! Cor de Girona durant Temps de Flors!",
+    "dialog_es": "¡Espacio 12, 14 y 17! ¡Plaza del Vi tiene 3 espacios del plano!",
+    "pregunta": "Com demanes?",
+    "opcions": [
+      { "text": "Em poses un vermut amb olives a la terrassa del Vi?", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Vermut al Vi! Durant Temps de Flors terrasses plenes! Primavera a Girona!" },
+      { "text": "¿Me pones un vermut con olivas en la terraza del Vi?", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "En català: Em poses vermut... Terrasses plenes primavera!" },
+      { "text": "Una cerveza rápida", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Vermut en català! És Plaça del Vi!" }
+    ]
+  },
+  {
+    "escena": "Espai 13 - Pujada Pont de Pedra - Vistes Onyar",
+    "npc_nom": "Guia Pont",
+    "npc_emoji": "🧑",
+    "dialog": "Espai 13! Pujada Pont de Pedra! D'aquí vistes a l'Onyar amb cases de colors i flors!",
+    "dialog_es": "¡Espacio 13! ¡Subida Pont de Pedra! ¡Vistas al Onyar con casas de colores!",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Quines vistes més boniques amb flors a l'Onyar!", "correcte": true, "guany": { "monedes": 6, "obert": 2 }, "feedback": "Onyar florit! Cases penjades amb flors! Foto obligatòria Temps de Flors!" },
+      { "text": "¡Qué vistas más bonitas con flores en el Onyar!", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "En català: Quines vistes... Onyar florit! Foto!" },
+      { "text": "Massa gent per foto", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Vés a les 9:30 quan obre! Sense gent!" }
+    ]
+  },
+  {
+    "escena": "Espai 24 - Pont Peixateries Velles - Pont Eiffel florit",
+    "npc_nom": "Pintor Onyar",
+    "npc_emoji": "👨‍🎨",
+    "dialog": "Espai 24! Pont Peixateries Velles! El de Gustave Eiffel! Tot florit per Temps de Flors!",
+    "dialog_es": "¡Espacio 24! ¡Pont Peixateries Velles! ¡El de Gustave Eiffel! ¡Todo florido!",
+    "pregunta": "Com mostres interès?",
+    "opcions": [
+      { "text": "Els colors de l'Onyar són increïbles amb flors!", "correcte": true, "guany": { "monedes": 6, "obert": 2 }, "feedback": "Eiffel 1877! Ara amb flors 2026! Pont més fotografiat després de Dolors!" },
+      { "text": "¡Los colores del Onyar son increíbles con flores!", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "En català: Els colors... Eiffel 1877 amb flors 2026!" },
+      { "text": "Pont normal", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Normal? Eiffel! Igual que Torre París!" }
+    ]
+  },
+  {
+    "escena": "Espai 25 - Carrer Argenteria - Comerços florits",
+    "npc_nom": "Botiguera Argenteria",
+    "npc_emoji": "👩‍💼",
+    "dialog": "Espai 25! Carrer Argenteria! Totes les botigues decoren aparadors amb flors!",
+    "dialog_es": "¡Espacio 25! ¡Calle Argenteria! ¡Todas las tiendas decoran escaparates con flores!",
+    "pregunta": "Com preguntes?",
+    "opcions": [
+      { "text": "Quant val aquest ram de flors de Girona?", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Rams primavera! Durant Temps de Flors tot Argenteria floreix! Des de 1954 tradició!" },
+      { "text": "¿Cuánto vale este ramo de flores de Girona?", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "En català: Quant val ram... Tot Argenteria floreix 1954!" },
+      { "text": "No compro flors", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Són de Girona! Primavera!" }
+    ]
+  },
+  {
+    "escena": "Espai 31 - Carrer Ballesteries - Pujada florida",
+    "npc_nom": "Veí Ballesteries",
+    "npc_emoji": "👴",
+    "dialog": "Espai 31! Carrer Ballesteries! Tota la pujada cap a Catedral plena de flors! Pujada dura!",
+    "dialog_es": "¡Espacio 31! ¡Calle Ballesteries! ¡Toda la subida hacia Catedral llena de flores!",
+    "pregunta": "Com respons pujant?",
+    "opcions": [
+      { "text": "Quina pujada més bonica amb flors per tot arreu!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Ballesteries uneix Rambla amb Catedral! Durant Temps de Flors és riu de flors!" },
+      { "text": "¡Qué subida más bonita con flores por todas partes!", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "En català: Quina pujada... Riu de flors cap Catedral!" },
+      { "text": "Quina pujada més llarga", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Llarga però amb flors! Val la pena!" }
+    ]
+  },
+  {
+    "escena": "Espai 35 - Museu Història Jueus (pati) - Call Jueu",
+    "npc_nom": "Historiador Call",
+    "npc_emoji": "🧑‍🏫",
+    "dialog": "Espai 35! Museu Història Jueus pati! Estàs al Call Jueu! Flors respecten història jueva fins 1492!",
+    "dialog_es": "¡Espacio 35! ¡Museo Historia Judíos patio! ¡Estás en el Call Jueu!",
+    "pregunta": "Com reacciones?",
+    "opcions": [
+      { "text": "És molt respectuós. Girona té 2000 anys de cultures", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Call més ben conservat d'Europa! Flors blanques per respecte! Temps de Flors des de 1954 uneix cultures!" },
+      { "text": "Es muy respetuoso. Girona tiene 2000 años de culturas", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "En català: És molt respectuós... Call més ben conservat Europa!" },
+      { "text": "No m'interessa Call", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Call és clau Girona!" }
+    ]
+  },
+  {
+    "escena": "Espai 37 - Pujada Catedral escales de la Pera",
+    "npc_nom": "Guia Pera",
+    "npc_emoji": "👩‍🏫",
+    "dialog": "Espai 37! Pujada Catedral escales de la Pera! Abans d'escales principals! Flors a cada graó!",
+    "dialog_es": "¡Espacio 37! ¡Subida Catedral escaleras de la Pera!",
+    "pregunta": "Com preguntes?",
+    "opcions": [
+      { "text": "Quants graons queden per Catedral?", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "90 graons totals! Catedral Santa Maria! Escales de la Pera són prèvies! Tot florit maig!" },
+      { "text": "¿Cuántos escalones quedan para Catedral?", "correcte": true, "guany": { "monedes": 3, "seny": 1 }, "feedback": "En català: Quants graons... 90 graons! Santa Maria!" },
+      { "text": "Massa escales", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Amb flors no cansen!" }
+    ]
+  },
+  {
+    "escena": "Espai 44 - Catedral escales - Juego de Tronos",
+    "npc_nom": "Fotògrafa Catedral",
+    "npc_emoji": "📸",
+    "dialog": "Espai 44! Catedral escales! Aquí van gravar Juego de Tronos! Amb flors encara més èpic!",
+    "dialog_es": "¡Espacio 44! ¡Catedral escaleras! ¡Aquí grabaron Juego de Tronos!",
+    "pregunta": "Com preguntes nom?",
+    "opcions": [
+      { "text": "Com es diuen aquestes escales en català?", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Escales de la Catedral de Santa Maria! 90 graons! 1 sola nau gòtica més ampla del món!" },
+      { "text": "¿Cómo se llaman estas escaleras en catalán?", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "En català: Com es diuen... Santa Maria! Nau gòtica més ampla món!" },
+      { "text": "No ho sé nom", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Pregunta com es diu!" }
+    ]
+  },
+  {
+    "escena": "Espai 46 - Catedral claustre - Interior 23h",
+    "npc_nom": "Sagristà Catedral",
+    "npc_emoji": "👨‍⚕️",
+    "dialog": "Espai 46! Catedral claustre! Interior obert fins 23h, dissabte 24h! Flors de Nit!",
+    "dialog_es": "¡Espacio 46! ¡Catedral claustro! ¡Interior abierto hasta 23h, sábado 24h!",
+    "pregunta": "Com agraeixes?",
+    "opcions": [
+      { "text": "Moltes gràcies. És un lloc màgic amb flors", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Claustre romànic segle XII! Durant Temps de Flors instal·lació llum i flors! Màgic nit!" },
+      { "text": "Muchas gracias. Es un lugar mágico con flores", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "En català: Moltes gràcies... Claustre segle XII! Flors nit!" },
+      { "text": "Vale, ja ho he vist", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Màgic? Amb flors?" }
+    ]
+  },
+  {
+    "escena": "Espai 52 - Jardins Alemanys - Espai calma real PDF",
+    "npc_nom": "Jardinera Alemanys",
+    "npc_emoji": "🧑‍🌾",
+    "dialog": "Espai 52! Jardins Alemanys! Al plànol posa Espai calma! Per descansar de 113 espais!",
+    "dialog_es": "¡Espacio 52! ¡Jardins Alemanys! ¡En el plano pone Espacio calma!",
+    "pregunta": "Com agraeixes consell?",
+    "opcions": [
+      { "text": "Gràcies. És perfecte per parar 5 minuts", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Espai calma oficial! Sense música, només flors! Per descansar ruta 1! Després Torre Gironella!" },
+      { "text": "Gracias. Es perfecto para parar 5 minutos", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "En català: Gràcies... Espai calma oficial! Descans!" },
+      { "text": "Vale, me'n vaig", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Calma! 5 min!" }
+    ]
+  },
+  {
+    "escena": "Espai 53 - Passeig Arqueològic Bosc encantat - PDF",
+    "npc_nom": "Guia Bosc",
+    "npc_emoji": "🧚",
+    "dialog": "Espai 53! Passeig Arqueològic Bosc encantat! Així surt al plànol oficial 2026!",
+    "dialog_es": "¡Espacio 53! ¡Paseo Arqueológico Bosque encantado!",
+    "pregunta": "Com expresses admiració?",
+    "opcions": [
+      { "text": "És impressionant! Un bosc de flors a la muralla!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Muralla carolíngia segle IX! Bosc encantat fet per escoles Girona! Nens planten!" },
+      { "text": "¡Es impresionante! ¡Un bosque de flores en la muralla!", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "En català: És impressionant... Muralla segle IX! Escoles!" },
+      { "text": "Normal, arbres", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Normal? Bosc encantat! Escoles!" }
+    ]
+  },
+  {
+    "escena": "Espai 55 - Torre Gironella - Mirador 113 espais",
+    "npc_nom": "Arqueòloga Gironella",
+    "npc_emoji": "👩‍🔬",
+    "dialog": "Espai 55! Torre Gironella! Des d'aquí veus els 113 espais florits de Girona sencera!",
+    "dialog_es": "¡Espacio 55! ¡Torre Gironella! ¡Desde aquí ves los 113 espacios floridos!",
+    "pregunta": "Com expresses?",
+    "opcions": [
+      { "text": "És impressionant! Un mar de flors des de Gironella!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Torre Gironella segle X! Punt més alt Barri Vell! Veus Devesa, Catedral, Onyar tot florit!" },
+      { "text": "¡Es impresionante! ¡Un mar de flores desde Gironella!", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "En català: És impressionant... Punt més alt Barri Vell!" },
+      { "text": "Normal vistes", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Normal? 113 espais!" }
+    ]
+  },
+  {
+    "escena": "Espai 56 - Passeig Arqueològic mirador de dalt - PDF",
+    "npc_nom": "Fotògrafa Mirador",
+    "npc_emoji": "👩‍📷",
+    "dialog": "Espai 56! Mirador de dalt! Millor llum per fotos Temps de Flors! Hora daurada!",
+    "dialog_es": "¡Espacio 56! ¡Mirador de arriba! ¡Mejor luz para fotos!",
+    "pregunta": "Com preguntes truc?",
+    "opcions": [
+      { "text": "Quin truc em dónes per foto de Girona florida?", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Hora daurada 19h! Llum sobre Catedral i flors! Millor foto Temps de Flors!" },
+      { "text": "¿Qué truco me das para foto de Girona florida?", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "En català: Quin truc... Hora daurada 19h!" },
+      { "text": "Jo faig amb mòbil cutre", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mòbil val! Però llum clau!" }
+    ]
+  },
+  {
+    "escena": "Espai 70 - La Lleona de Girona - Amb flors",
+    "npc_nom": "Guia Lleona",
+    "npc_emoji": "🦁",
+    "dialog": "Espai 70 del plànol! La Lleona de Girona! Durant Temps de Flors porta corona de flors!",
+    "dialog_es": "¡Espacio 70 del plano! ¡La Leona de Girona! ¡Durante Temps de Flors lleva corona de flores!",
+    "pregunta": "Com respons llegenda?",
+    "opcions": [
+      { "text": "Ho faré! Vull tornar a Girona florida!", "correcte": true, "guany": { "monedes": 6, "rauxa": 2 }, "feedback": "Llegenda: Besa cul Lleona i tornaràs! Amb flors encara més màgia! Tornaràs cada maig!" },
+      { "text": "¡Lo haré! ¡Quiero volver a Girona florida!", "correcte": true, "guany": { "monedes": 4, "rauxa": 1 }, "feedback": "En català: Ho faré! Vull tornar... Besa cul i tornaràs cada maig!" },
+      { "text": "Quina tonteria llegenda", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Llegendes són Girona!" }
+    ]
+  },
+  {
+    "escena": "Espai 83 - Jardins de la Devesa - Ruta 2",
+    "npc_nom": "Corredor Devesa",
+    "npc_emoji": "🏃",
+    "dialog": "Espai 83! Jardins de la Devesa! Aquí comença Ruta 2! Parc urbà més gran Catalunya!",
+    "dialog_es": "¡Espacio 83! ¡Jardins de la Devesa! ¡Aquí empieza Ruta 2! ¡Parque urbano más grande Cataluña!",
+    "pregunta": "Com preguntes?",
+    "opcions": [
+      { "text": "Hi ha carril bici per tornar al centre des de Devesa?", "correcte": true, "guany": { "monedes": 6, "obert": 2 }, "feedback": "Sí! Ruta 2: Devesa fins Palau-sacosta! 15 espais nous aquest any zona ampliada darrere plànol!" },
+      { "text": "¿Hay carril bici para volver al centro desde Devesa?", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "En català: Hi ha carril bici... Ruta 2 Devesa Palau-sacosta!" },
+      { "text": "No m'agrada bici", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Carril verd! Millor ruta!" }
+    ]
+  },
+  {
+    "escena": "Espai 84 - La Rosaleda - Devesa",
+    "npc_nom": "Jardinera Rosaleda",
+    "npc_emoji": "🌹",
+    "dialog": "Espai 84! La Rosaleda! 200 varietats roses! Millor maig, primavera!",
+    "dialog_es": "¡Espacio 84! ¡La Rosaleda! ¡200 variedades rosas! ¡Mejor mayo, primavera!",
+    "pregunta": "Com mostres interès?",
+    "opcions": [
+      { "text": "Quina olor més bona! Per què maig Temps de Flors?", "correcte": true, "guany": { "monedes": 8, "seny": 3 }, "feedback": "Maig és primavera plena Girona! Roses floreixen! Temps de Flors sempre segona setmana maig! Des de 1954!" },
+      { "text": "¡Qué olor más buena! ¿Por qué mayo Temps de Flors?", "correcte": true, "guany": { "monedes": 5, "seny": 2 }, "feedback": "En català: Quina olor... Maig primavera! Des de 1954 segona setmana maig!" },
+      { "text": "Massa olor roses", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Olor primavera Girona!" }
+    ]
+  },
+  {
+    "escena": "Espai 86 - Plaça Independència - Cor Girona",
+    "npc_nom": "Barista Independència",
+    "npc_emoji": "☕",
+    "dialog": "Espai 86! Plaça Independència! Cor de Girona! Durant Temps de Flors obert fins 24h Flors de Nit!",
+    "dialog_es": "¡Espacio 86! ¡Plaza Independència! ¡Corazón Girona!",
+    "pregunta": "Com demanes cafè?",
+    "opcions": [
+      { "text": "Em poses un tallat a la terrassa d'Independència?", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Tallat a Independència! Plaça 1800! Durant Temps de Flors terrasses amb flors! Gent de Girona aquí!" },
+      { "text": "¿Me pones un cortado en la terraza de Independència?", "correcte": true, "guany": { "monedes": 3, "arrel": 1 }, "feedback": "En català: Em poses tallat... Plaça 1800! Terrasses flors!" },
+      { "text": "No bec cafè", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Te i xocolata també!" }
+    ]
+  },
+  {
+    "escena": "Espai 88 - Plaça Jordi de Sant Jordi - Nou",
+    "npc_nom": "Veí Sant Jordi",
+    "npc_emoji": "👨",
+    "dialog": "Espai 88! Plaça Jordi de Sant Jordi! Espai nou d'aquest any! Zona ampliada darrere plànol!",
+    "dialog_es": "¡Espacio 88! ¡Plaza Jordi de Sant Jordi! ¡Espacio nuevo de este año!",
+    "pregunta": "Com reacciones?",
+    "opcions": [
+      { "text": "Genial! Un espai nou cada any! Quants espais 2026?", "correcte": true, "guany": { "monedes": 8, "obert": 3 }, "feedback": "113 espais 2026! 2025 eren 107! Cada any més! Zona ampliada darrere plànol amb 15 nous! Creix!" },
+      { "text": "¡Genial! ¡Un espacio nuevo cada año! ¿Cuántos espacios 2026?", "correcte": true, "guany": { "monedes": 5, "obert": 2 }, "feedback": "En català: Genial! Un espai nou... 113 2026! 107 2025! Creix!" },
+      { "text": "No tinc temps", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "15 nous darrere plànol!" }
+    ]
+  },
+  {
+    "escena": "Espai 94 - Casa de Cultura - Flors interiors",
+    "npc_nom": "Bibliotecària",
+    "npc_emoji": "📚",
+    "dialog": "Espai 94! Casa de Cultura! Interior amb instal·lació floral sobre llibres! Fins 23h!",
+    "dialog_es": "¡Espacio 94! ¡Casa de Cultura! ¡Interior con instalación floral sobre libros!",
+    "pregunta": "Com agraeixes?",
+    "opcions": [
+      { "text": "Gràcies per mantenir cultura viva amb flors", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Cultura i flors! Temps de Flors va néixer perquè dones de Girona volien cultura després guerra! 1954!" },
+      { "text": "Gracias por mantener cultura viva con flores", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "En català: Gràcies per mantenir... Dones Girona 1954 postguerra!" },
+      { "text": "Teniu llibres castellà?", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Català! Missió!" }
+    ]
+  },
+  {
+    "escena": "Espai 99 - Centre Cívic Santa Eugènia - Ruta 3",
+    "npc_nom": "Voluntari Eugènia",
+    "npc_emoji": "🧍",
+    "dialog": "Espai 99! Centre Cívic Santa Eugènia! Ruta 3! Fora Barri Vell! Temps de Flors arriba a barris!",
+    "dialog_es": "¡Espacio 99! ¡Centro Cívico Santa Eugènia! ¡Ruta 3! ¡Fuera Barri Vell!",
+    "pregunta": "Com reacciones?",
+    "opcions": [
+      { "text": "Genial! Temps de Flors també als barris!", "correcte": true, "guany": { "monedes": 6, "obert": 2 }, "feedback": "Ruta 3: Santa Eugènia, Sant Narcís! Flors als barris! No només Barri Vell! Tot Girona floreix!" },
+      { "text": "¡Genial! ¡Temps de Flors también en los barrios!", "correcte": true, "guany": { "monedes": 4, "obert": 1 }, "feedback": "En català: Genial! Temps de Flors també... Tot Girona floreix!" },
+      { "text": "Lluny del centre", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Barris també Girona!" }
+    ]
+  },
+  {
+    "escena": "Espai 105 - Mercat del Lleó - Flors comestibles",
+    "npc_nom": "Pagesa Lleó",
+    "npc_emoji": "👩‍🌾",
+    "dialog": "Espai 105! Mercat del Lleó! Al plànol! Flors comestibles de Salt! Ecològiques!",
+    "dialog_es": "¡Espacio 105! ¡Mercat del Lleó! ¡En el plano! ¡Flores comestibles de Salt!",
+    "pregunta": "Com compres?",
+    "opcions": [
+      { "text": "Em poses flors de borratja per amanida?", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Borratja comestible! Producte proximitat Salt! Temps de Flors també menja flors!" },
+      { "text": "¿Me pones flores de borraja para ensalada?", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "En català: Em poses flors... Borratja comestible Salt!" },
+      { "text": "És car", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Ecològic proximitat!" }
+    ]
+  },
+  {
+    "escena": "Espai 110 - Jardí de la Pau - Zona ampliada",
+    "npc_nom": "Voluntari Pau",
+    "npc_emoji": "🕊️",
+    "dialog": "Espai 110! Jardí de la Pau! Zona ampliada darrere plànol! 15 espais nous 2026!",
+    "dialog_es": "¡Espacio 110! ¡Jardí de la Pau! ¡Zona ampliada detrás plano!",
+    "pregunta": "Com reacciones?",
+    "opcions": [
+      { "text": "Quina pau amb flors! Per què zona ampliada?", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Cada any ampliem! 2026 15 nous darrere plànol! Jardí Pau és nou! Perquè tothom tingui flors!" },
+      { "text": "¡Qué paz con flores! ¿Por qué zona ampliada?", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "En català: Quina pau... Cada any ampliem! 15 nous!" },
+      { "text": "No tinc temps", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Pau amb flors!" }
+    ]
+  },
+  {
+    [
+  {
+    "escena": "Espai 112 - Jardins Riera Gornau - Espai calma",
+    "npc_nom": "Voluntària Calma",
+    "npc_emoji": "🧘",
+    "dialog": "Espai 112! Jardins Riera Gornau! Al plànol posa Espai calma! WC accessible!",
+    "dialog_es": "¡Espacio 112! ¡Jardins Riera Gornau! ¡En plano pone Espacio calma! ¡WC accesible!",
+    "pregunta": "Com agraeixes?",
+    "opcions": [
+      { "text": "Gràcies. Necessitava calma després de 112 espais", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Espai calma oficial! WC accessible! Al plànol hi ha icona! Per descansar, silenci!" },
+      { "text": "Gracias. Necesitaba calma después de 112 espacios", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "En català: Gràcies... Espai calma oficial! WC accessible!" },
+      { "text": "Vale", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Calma! 5 min!" }
+    ]
+  },
+  {
+    "escena": "Espai 113 - Jardins església Sant Miquel Palausacosta - Últim",
+    "npc_nom": "Mossèn Palausacosta",
+    "npc_emoji": "👨‍⚕️",
+    "dialog": "Espai 113! Últim del plànol oficial 2026! Jardins església Sant Miquel Palausacosta! Has fet 113!",
+    "dialog_es": "¡Espacio 113! ¡Último del plano oficial 2026! ¡Jardins iglesia Sant Miquel!",
+    "pregunta": "Com tanques ruta?",
+    "opcions": [
+      { "text": "Moltes gràcies! He fet 113 espais de Temps de Flors 2026!", "correcte": true, "guany": { "monedes": 15, "arrel": 5 }, "feedback": "113 espais! De Pedreres a Palausacosta! 3 rutes! Has vist tot Girona florida! Primavera!" },
+      { "text": "¡Muchas gracias! ¡He hecho 113 espacios de Temps de Flors 2026!", "correcte": true, "guany": { "monedes": 10, "arrel": 3 }, "feedback": "En català: Moltes gràcies... 113 espais! 3 rutes! Primavera Girona!" },
+      { "text": "Ja n'hi ha prou", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Prou? 113! Històric!" }
+    ]
+  },
+  {
+    "escena": "Plànol general - 6 punts entrada sortida Barri Vell",
+    "npc_nom": "Policia Municipal",
+    "npc_emoji": "👮",
+    "dialog": "Per seguretat Barri Vell tancat perimetralment! 6 punts entrada sortida al plànol! Ho has vist?",
+    "dialog_es": "¡Por seguridad Barri Vell cerrado perimetralmente! ¡6 puntos entrada salida en plano!",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Sí! He vist els 6 punts al plànol general!", "correcte": true, "guany": { "monedes": 6, "seny": 3 }, "feedback": "6 punts: Sant Domènec, Rei Martí, Pujada Sant Feliu rampa, Pujada Sant Feliu escales, Plaça Jurats, Pujada Sant Domènec! Seguretat!" },
+      { "text": "¡Sí! ¡He visto los 6 puntos en el plano general!", "correcte": true, "guany": { "monedes": 4, "seny": 2 }, "feedback": "En català: Sí! He vist 6 punts... Sant Domènec, Rei Martí, etc! Seguretat!" },
+      { "text": "No he vist punts", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mira plànol general! 6 punts!" }
+    ]
+  },
+  {
+    "escena": "Oficina Turisme - Info i app",
+    "npc_nom": "Informadora Turisme",
+    "npc_emoji": "ℹ️",
+    "dialog": "Tota info a www.gironatempsdeflors.cat i app Girona app! Plànol digital i paper Oficina Turisme!",
+    "dialog_es": "¡Toda info en web y app Girona app! ¡Plano digital y papel Oficina Turismo!",
+    "pregunta": "Com agraeixes?",
+    "opcions": [
+      { "text": "Moltes gràcies! Baixaré Girona app amb plànol!", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Girona app amb plànols actualitzats! Tota info Temps de Flors! #tempsdeflors!" },
+      { "text": "¡Muchas gracias! ¡Bajaré Girona app con plano!", "correcte": true, "guany": { "monedes": 4, "seny": 1 }, "feedback": "En català: Moltes gràcies... Girona app! #tempsdeflors!" },
+      { "text": "No tinc mòbil", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Paper a Oficina Turisme pàg 41!" }
+    ]
+  },
+  {
+    "escena": "Flors de Nit - Fins 24h dissabte",
+    "npc_nom": "Voluntària Nit",
+    "npc_emoji": "🌙",
+    "dialog": "Flors de Nit! Dissabtes interiors fins 24h! De diumenge a divendres fins 23h! Has vingut de nit?",
+    "dialog_es": "¡Flors de Nit! ¡Sábados interiores hasta 24h! ¡Domingo a viernes hasta 23h!",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Sí! De nit amb llum és màgic! Per què 1954 de nit?", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Flors de Nit des de fa 10 anys! Llum artificial fa màgia! Catedral claustre nit espectacular! 1954 no hi havia nit!" },
+      { "text": "¡Sí! ¡De noche con luz es mágico! ¿Por qué 1954 de noche?", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "En català: Sí! De nit... Llum màgia! Catedral nit!" },
+      { "text": "No, de nit no", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Nit màgica! Fins 24h!" }
+    ]
+  },
+  {
+    "escena": "Zona ampliada darrere plànol - 15 espais nous",
+    "npc_nom": "Coordinador 2026",
+    "npc_emoji": "👨‍💼",
+    "dialog": "Has vist zona ampliada darrere plànol? 15 espais nous 2026! Mas Ramada, Palausacosta!",
+    "dialog_es": "¿Has visto zona ampliada detrás plano? ¡15 espacios nuevos 2026!",
+    "pregunta": "Com reacciones?",
+    "opcions": [
+      { "text": "Sí! He vist Mas Ramada i Palausacosta nous!", "correcte": true, "guany": { "monedes": 8, "obert": 3 }, "feedback": "Zona ampliada cada any! 2026 15 nous! De 107 a 113 espais! Girona creix en flors! Primavera!" },
+      { "text": "¡Sí! ¡He visto Mas Ramada y Palausacosta nuevos!", "correcte": true, "guany": { "monedes": 5, "obert": 2 }, "feedback": "En català: Sí! He vist Mas Ramada... 107 a 113! Creix!" },
+      { "text": "No he girat plànol", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Gira plànol! Darrere 15 nous!" }
+    ]
+  },
+  {
+    "escena": "FINAL - Temps de Flors 2026 - 113 espais completats",
+    "npc_nom": "Tots voluntaris 1954-2026",
+    "npc_emoji": "🌸",
+    "dialog": "VISCA! Has fet 113 espais oficials Temps de Flors 2026! De Pedreres a Palausacosta! 3 rutes! Ets gironí de flors!",
+    "dialog_es": "¡VIVA! ¡Has hecho 113 espacios oficiales Temps de Flors 2026!",
+    "pregunta": "Última paraula?",
+    "opcions": [
+      { "text": "Visca Girona! Visca Temps de Flors! Visca primavera!", "correcte": true, "guany": { "monedes": 20, "arrel": 5, "seny": 5, "obert": 5 }, "feedback": "FINAL ÈPIC CAPÍTOL 2: Has completat 113 espais reals plànol oficial 2026! 3 rutes, 6 punts entrada, Flors de Nit 24h! Des de 1954! Ets voluntari oficial! CAPÍTOL 2 100% - RUTA SECRETA JARDÍ PERDUT DESBLOQUEJABLE DESPRÉS DE 3 VOLTES!" },
+      { "text": "¡Viva Girona! ¡Viva Temps de Flors! ¡Viva primavera!", "correcte": true, "guany": { "monedes": 12, "arrel": 3 }, "feedback": "Tothom: 'Visca! No Viva! Però ets voluntari! 113 espais! Primavera!'" },
+      { "text": "Ja estic cansat de flors", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Cansat? 113! 1954-2026! Visca!" }
+    ]
+  }
+]
