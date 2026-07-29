@@ -1,0 +1,431 @@
+[
+  {
+    "escena": "Espai 1 - Carrer de la Força 2 - Casa meva - 8:00 - 9 juliol 1492",
+    "npc_nom": "Mare Raquel",
+    "npc_emoji": "👩",
+    "dialog": "David, fill meu, demà marxem del Call. Avui últim dia a Girona. T'acomiades de casa?",
+    "dialog_es": "David, hijo mío, mañana nos vamos del Call. Hoy último día en Girona.",
+    "pregunta": "Com t'acomiades de casa?",
+    "opcions": [
+      { "text": "Mare, no vull marxar. Aquesta és casa nostra des de fa 500 anys!", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Mare plora: 'Ho sé fill. 500 anys al Call. Però Reis Catòlics diuen fora. Agafa 3 llavors, planta-les on vagis perquè recordis Girona.'" },
+      { "text": "Madre, no quiero irme. ¡Esta es nuestra casa desde hace 500 años!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Mare t'entén en castellà: 'En català: Mare, no vull marxar... 500 anys Call! Agafa 3 llavors!'" },
+      { "text": "Me'n vaig sense dir res", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mare: 'David! Casa nostra mereix adeu!'" }
+    ]
+  },
+  {
+    "escena": "Espai 2 - Carrer Força - Forn jueu - Xuixo kosher",
+    "npc_nom": "Forner Samuel",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "David! Últim dia! Vinc fent xuixos des de 1400! Saps que xuixo ve de jueus?",
+    "dialog_es": "¡David! ¡Último día! ¡Hago xuixos desde 1400! ¿Sabes que xuixo viene de judíos?",
+    "pregunta": "Com demanes últim xuixo?",
+    "opcions": [
+      { "text": "Em poses l'últim xuixo kosher, si us plau? El recordaré sempre", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Forner plora: 'Xuixo és nostre! Diuen xuixu en hebreu soroll! Menja! I agafa recepta!'" },
+      { "text": "¿Me pones el último xuixo kosher, por favor? Lo recordaré siempre", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Forner: 'En català: Em poses últim xuixo... Xuixo és nostre! Xuixu soroll!'" },
+      { "text": "No vull xuixo", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Forner trist: 'Últim xuixo Call!'" }
+    ]
+  },
+  {
+    "escena": "Espai 3 - Plaça del Vi - Mercat últim dia",
+    "npc_nom": "Pagesa cristiana Mercè",
+    "npc_emoji": "👩‍🌾",
+    "dialog": "David, nen, demà marxeu... Us trobarem a faltar al mercat. Venies cada dissabte amb ta mare.",
+    "dialog_es": "David, niño, mañana os vais... Os echaremos de menos en el mercado.",
+    "pregunta": "Com t'acomiades?",
+    "opcions": [
+      { "text": "Moltes gràcies per tot. Portaré tomàquets de Girona on vagi", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Pagesa et dona tomàquets: 'Toma, per camí. I no oblideu Girona. Nosaltres no us oblidarem.'" },
+      { "text": "Muchas gracias por todo. Llevaré tomates de Girona donde vaya", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Pagesa: 'En català: Moltes gràcies... Tomàquets per camí. No oblideu Girona!'" },
+      { "text": "Adéu sense més", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Pagesa plora: 'Adeu fred?'" }
+    ]
+  },
+  {
+    "escena": "Espai 4 - Carrer Sant Llorenç - Escola jueva",
+    "npc_nom": "Mestre Bonastruc",
+    "npc_emoji": "👨‍🏫",
+    "dialog": "David, últim dia escola. Saps qui va ser Nahmànides? El gran savi de Girona?",
+    "dialog_es": "David, último día escuela. ¿Sabes quién fue Nahmánides? ¿El gran sabio de Girona?",
+    "pregunta": "Com respons?",
+    "opcions": [
+      { "text": "Sí! Nahmànides, metge del Rei Jaume I! Va néixer aquí al Call!", "correcte": true, "guany": { "monedes": 10, "seny": 4 }, "feedback": "Mestre: 'Exacte! 1194-1270! Savi més gran Girona! Va defensar jueus davant Rei! Tu ets com ell!'" },
+      { "text": "¡Sí! ¡Nahmánides, médico del Rey Jaime I! ¡Nació aquí en el Call!", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Mestre: 'En català: Sí! Nahmànides... 1194-1270! Savi més gran Girona!'" },
+      { "text": "No ho sé", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mestre trist: 'Nahmànides és Girona!'" }
+    ]
+  },
+  {
+    "escena": "Espai 5 - Museu Història Jueus pati - Sinagoga petita",
+    "npc_nom": "Rabí",
+    "npc_emoji": "👨‍🦳",
+    "dialog": "David, últim res a sinagoga petita. Demà tanquem. On resareu ara?",
+    "dialog_es": "David, último rezo en sinagoga pequeña. Mañana cerramos.",
+    "pregunta": "Com reses?",
+    "opcions": [
+      { "text": "Resaré cada Shabat i recordaré Call de Girona", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Rabí: 'Shabat és divendres nit! Espelmes, pa, vi! Recorda sempre! I agafa Torà petita!'" },
+      { "text": "Rezaré cada Shabat y recordaré Call de Girona", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Rabí: 'En català: Resaré cada Shabat... Espelmes, pa, vi! Recorda!'" },
+      { "text": "No resaré més", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Rabí plora: 'Shabat és ànima jueva!'" }
+    ]
+  },
+  {
+    "escena": "Espai 6 - Carrer Lluís Batlle i Prats - Casa veïna cristiana",
+    "npc_nom": "Veïna Maria cristiana",
+    "npc_emoji": "👩‍🦳",
+    "dialog": "David, veí meu 12 anys... Demà casa vostra buida... Ho sento molt.",
+    "dialog_es": "David, vecino mío 12 años... Mañana vuestra casa vacía... Lo siento mucho.",
+    "pregunta": "Com t'acomiades veïna cristiana?",
+    "opcions": [
+      { "text": "Gràcies per ser bona veïna. No oblidaré mai Carrer Força", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Veïna plora i t'abraça: 'Cristians i jueus vivíem junts 500 anys! Reis ens separen! Torna amb flors!'" },
+      { "text": "Gracias por ser buena vecina. No olvidaré nunca Carrer Força", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Veïna: 'En català: Gràcies per ser bona veïna... 500 anys junts! Torna amb flors!'" },
+      { "text": "Adéu", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Veïna: 'Adéu fred? 12 anys veïns!'" }
+    ]
+  },
+  {
+    "escena": "Espai 7 - Pujada Sant Domènec - Escales - Última pujada",
+    "npc_nom": "Amic Jordi cristià",
+    "npc_emoji": "👦",
+    "dialog": "David! Amic meu! Demà marxes... Jugarem mai més a bales a Sant Domènec?",
+    "dialog_es": "¡David! ¡Amigo mío! ¡Mañana te vas... ¿Jugaremos nunca más a canicas en Sant Domènec?",
+    "pregunta": "Com t'acomiades amic cristià?",
+    "opcions": [
+      { "text": "Sempre serem amics, Jordi! On sigui, jugaré pensant en tu!", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Jordi plora: 'Amics per sempre! Et dono bales meves! I tu em dónes llavor teva perquè recordi!'" },
+      { "text": "¡Siempre seremos amigos, Jordi! ¡Donde sea, jugaré pensando en ti!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Jordi: 'En català: Sempre serem amics... Amics per sempre! Bales meves! Llavor teva!'" },
+      { "text": "Ja no jugarem", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Jordi plora: 'Amic meu...'" }
+    ]
+  },
+  {
+    "escena": "Espai 8 - Plaça dels Jurats - Font - Última aigua Girona",
+    "npc_nom": "Pare Abraham",
+    "npc_emoji": "👨",
+    "dialog": "David, fill, beu última aigua Girona. Demà camí llarg cap a França.",
+    "dialog_es": "David, hijo, bebe última agua Girona. Mañana camino largo hacia Francia.",
+    "pregunta": "Com beus última aigua?",
+    "opcions": [
+      { "text": "Pare, aquesta aigua de Girona no l'oblidaré mai", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Pare: 'Aigua Onyar és Girona! Beu! I agafa ampolla per camí! I recorda 3 llavors mare!'" },
+      { "text": "Padre, esta agua de Girona no la olvidaré nunca", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Pare: 'En català: Pare, aquesta aigua... Aigua Onyar és Girona! Ampolla per camí!'" },
+      { "text": "No tinc set", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Pare: 'Última aigua Girona!'" }
+    ]
+  },
+  {
+    "escena": "Espai 9 - Passeig Arqueològic - Muralla - Última vista",
+    "npc_nom": "Àvia Sara",
+    "npc_emoji": "👵",
+    "dialog": "David, net meu, puja muralla. Última vista Girona des de muralla carolíngia. Mira que bonica.",
+    "dialog_es": "David, nieto mío, sube muralla. Última vista Girona desde muralla carolingia.",
+    "pregunta": "Com expresses última vista?",
+    "opcions": [
+      { "text": "És impressionant! Girona sencera! No l'oblidaré mai!", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Àvia plora: 'Girona teva! Catedral, Onyar, Call, Devesa! Tot! Deixa 3 llavors aquí dalt perquè floreixin quan tornem!'" },
+      { "text": "¡Es impresionante! ¡Girona entera! ¡No la olvidaré nunca!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Àvia: 'En català: És impressionant... Girona teva! Deixa 3 llavors dalt!'" },
+      { "text": "Normal vistes", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Àvia: 'Normal? Última vista Girona!'" }
+    ]
+  },
+  {
+    "escena": "Espai 10 - Torre Gironella - Amagar llavor 1 blava Onyar",
+    "npc_nom": "Àvia Sara",
+    "npc_emoji": "👵",
+    "dialog": "David, amaga primera llavor blava Onyar aquí dalt Torre Gironella. Quan torni a ploure, creixerà.",
+    "dialog_es": "David, esconde primera semilla azul Onyar aquí arriba Torre Gironella.",
+    "pregunta": "Com amagues llavor blava?",
+    "opcions": [
+      { "text": "Amago llavor blava aquí dalt amb terra de Girona i aigua Onyar", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Amagues LLAVOR 1 BLAVA ONYAR! Àvia: 'Blava com Onyar! Que floreixi quan tornem!'" },
+      { "text": "Escondo semilla azul aquí arriba con tierra de Girona y agua Onyar", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Àvia: 'En català: Amago llavor blava... Blava com Onyar!'" },
+      { "text": "Llenço llavor", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Àvia: 'No llencis! Amaga!'" }
+    ]
+  },
+  {
+    "escena": "Espai 11 - Banys Àrabs - Mikvé jueu - Amagar llavor 2 vermella",
+    "npc_nom": "Rabí",
+    "npc_emoji": "👨‍🦳",
+    "dialog": "David, aquests Banys no són àrabs! Són Mikvé nostre! Bany ritual jueu! Amaga segona llavor aquí!",
+    "dialog_es": "¡David, estos Baños no son árabes! ¡Son Mikvé nuestro! ¡Baño ritual judío!",
+    "pregunta": "Com amagues llavor vermella Mikvé?",
+    "opcions": [
+      { "text": "Amago llavor vermella aquí al Mikvé, aigua pura per purificar memòria", "correcte": true, "guany": { "monedes": 10, "seny": 4 }, "feedback": "Amagues LLAVOR 2 VERMELLA SANT FELIU! Rabí: 'Mikvé purifica! Vermella com sang nostra! Que recordi!'" },
+      { "text": "Escondo semilla roja aquí en el Mikvé, agua pura para purificar memoria", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Rabí: 'En català: Amago llavor vermella... Mikvé purifica! Vermella sang!'" },
+      { "text": "No amago res aquí", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Rabí: 'Mikvé és nostre! Amaga!'" }
+    ]
+  },
+  {
+    "escena": "Espai 12 - Catedral escales - Pedres sinagoga - Última",
+    "npc_nom": "Mestre d'obres cristià Pere",
+    "npc_emoji": "👨‍🔧",
+    "dialog": "David, marxeu... Aquesta Catedral té pedres de vostra sinagoga... Ho sento.",
+    "dialog_es": "David, os vais... Esta Catedral tiene piedras de vuestra sinagoga... Lo siento.",
+    "pregunta": "Com respons pedres sinagoga?",
+    "opcions": [
+      { "text": "Ho sé. Però pedres són Girona. Que quedin aquí amb flors", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Pere plora: 'Pedres sinagoga a Catedral! Història Girona! Perdona'ns!'" },
+      { "text": "Lo sé. Pero piedras son Girona. Que queden aquí con flores", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Pere: 'En català: Ho sé. Però pedres... Pedres sinagoga Catedral! Perdona!'" },
+      { "text": "Lladres pedres", "correcte": false, "guany": { "monedes": 0, "rauxa": 2 }, "feedback": "Pere: 'No lladres... temps...'" }
+    ]
+  },
+  {
+    "escena": "Espai 13 - Jardins Alemanys - Espai calma - Plorar",
+    "npc_nom": "Mare Raquel",
+    "npc_emoji": "👩",
+    "dialog": "David, fill, aquí Jardins Alemanys tranquils... Plorem una mica abans seguir? Espai calma...",
+    "dialog_es": "David, hijo, aquí Jardins Alemanys tranquilos... ¿Lloramos un poco antes seguir?",
+    "pregunta": "Com respons calma?",
+    "opcions": [
+      { "text": "Sí mare, plorem junts però després seguim forts", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Ploreu junts Jardins Alemanys! Espai calma real! Mare: 'Plorem avui, però demà llavors floriran!'" },
+      { "text": "Sí madre, lloremos juntos pero después seguimos fuertes", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Mare: 'En català: Sí mare, plorem... Plorem avui, demà llavors floriran!'" },
+      { "text": "No vull plorar", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mare: 'Plorar és fort, no feble!'" }
+    ]
+  },
+  {
+    "escena": "Espai 14 - Plaça Sant Domènec - Últim joc",
+    "npc_nom": "Amic Jordi cristià",
+    "npc_emoji": "👦",
+    "dialog": "David, última partida bales a Sant Domènec! Qui guanyi es queda amb llavor meva!",
+    "dialog_es": "¡David, última partida canicas en Sant Domènec! ¡Quien gane se queda con semilla mía!",
+    "pregunta": "Com jugues última partida?",
+    "opcions": [
+      { "text": "Jugo última partida amb tu, amic per sempre! Guanyi qui guanyi, Call queda!", "correcte": true, "guany": { "monedes": 8, "obert": 3 }, "feedback": "Jugeu última! Jordi et dona bala blava: 'Perquè recordis! I tu dones llavor groga!'" },
+      { "text": "¡Juego última partida contigo, amigo para siempre! ¡Gane quien gane, Call queda!", "correcte": true, "guany": { "monedes": 5, "obert": 2 }, "feedback": "Jordi: 'En català: Jugo última partida... Amic per sempre! Bala blava! Llavor groga!'" },
+      { "text": "No vull jugar", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Jordi trist: 'Última partida...'" }
+    ]
+  },
+  {
+    "escena": "Espai 15 - Monestir Sant Pere Galligants - Acomiadar monjos",
+    "npc_nom": "Monjo cristià",
+    "npc_emoji": "👨‍⚕️",
+    "dialog": "David, monjos us acomiadem... Vivíem costat des de segle XII... Perdona expulsió...",
+    "dialog_es": "David, monjes os despedimos... Vivíamos lado desde siglo XII... Perdona expulsión...",
+    "pregunta": "Com respons monjo cristià?",
+    "opcions": [
+      { "text": "Gràcies germà. Monestir i Call sempre veïns, malgrat Reis", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Monjo plora: 'Veïns 300 anys! Galligants i Call! Torna quan puguis!'" },
+      { "text": "Gracias hermano. Monasterio y Call siempre vecinos, a pesar de Reyes", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Monjo: 'En català: Gràcies germà... Veïns 300 anys! Torna!'" },
+      { "text": "Adéu monjo", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Monjo: 'Germà, no adéu fred...'" }
+    ]
+  },
+  {
+    "escena": "Espai 16 - Pujada Catedral - Última pujada 90 graons",
+    "npc_nom": "Pare Abraham",
+    "npc_emoji": "👨",
+    "dialog": "David, última pujada 90 graons Catedral! Com quan eres petit i comptaves!",
+    "dialog_es": "David, última subida 90 escalones Catedral! ¡Como cuando eras pequeño y contabas!",
+    "pregunta": "Com puges última vegada?",
+    "opcions": [
+      { "text": "Pujo comptant: 1, 2, 3... 90! Com de petit! No oblidaré mai!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Puges comptant 90! Pare: '90 graons! Com anys que portem aquí! Ara 90 fora! Però llavors queden!'" },
+      { "text": "¡Subo contando: 1, 2, 3... 90! ¡Como de pequeño! ¡No olvidaré nunca!", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Pare: 'En català: Pujo comptant... 90 graons! Anys aquí! Llavors queden!'" },
+      { "text": "Massa graons no pujo", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Pare: 'Última pujada! 90!'" }
+    ]
+  },
+  {
+    "escena": "Espai 17 - Plaça de la Lleona - Llegenda petó - Últim",
+    "npc_nom": "Guia Lleona",
+    "npc_emoji": "🦁",
+    "dialog": "David, llegenda Lleona: Besa cul i tornaràs Girona! Tu marxes demà... Beses?",
+    "dialog_es": "David, leyenda Leona: ¡Besa culo y volverás Girona! Tú te vas mañana... ¿Besas?",
+    "pregunta": "Com respons llegenda Lleona últim dia?",
+    "opcions": [
+      { "text": "Ho faré! Besaré Lleona perquè torni a Girona encara que sigui amb flors!", "correcte": true, "guany": { "monedes": 10, "rauxa": 3 }, "feedback": "Besses Lleona! Tothom Call aplaudeix! Llegenda diu tornaràs! I tornaràs 1954 amb flors! Temps de Flors!" },
+      { "text": "¡Lo haré! ¡Besaré Leona para volver a Girona aunque sea con flores!", "correcte": true, "guany": { "monedes": 6, "rauxa": 2 }, "feedback": "Guia: 'En català: Ho faré! Besaré Lleona... Tornaràs! 1954 amb flors!'" },
+      { "text": "Quina tonteria Lleona", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Guia: 'Tonteria? És tornar!'" }
+    ]
+  },
+  {
+    "escena": "Espai 18 - Pont de Pedra - Acomiadar Onyar - Amagar llavor 3",
+    "npc_nom": "Mare Raquel",
+    "npc_emoji": "👩",
+    "dialog": "David, últim Onyar! Amaga tercera llavor groga Devesa aquí! Onyar la portarà!",
+    "dialog_es": "David, último Onyar! ¡Esconde tercera semilla amarilla Devesa aquí!",
+    "pregunta": "Com amagues última llavor groga?",
+    "opcions": [
+      { "text": "Amago llavor groga aquí a l'Onyar amb les altres dues memòries", "correcte": true, "guany": { "monedes": 10, "arrel": 5 }, "feedback": "Amagues LLAVOR 3 GROGA DEVESA! Mare: 'Groga com sol! 3 llavors amagades! Blava Gironella, vermella Mikvé, groga Onyar! Floriran!'" },
+      { "text": "Escondo semilla amarilla aquí en el Onyar con las otras dos memorias", "correcte": true, "guany": { "monedes": 6, "arrel": 3 }, "feedback": "Mare: 'En català: Amago llavor groga... Groga sol! 3 amagades! Blava, vermella, groga! Floriran!'" },
+      { "text": "Llenço llavors al riu", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mare: 'No llencis! Amaga!'" }
+    ]
+  },
+  {
+    "escena": "Espai 19 - Plaça del Vi - Últim vermut jueu-cristià",
+    "npc_nom": "Cambrer cristià Roger avantpassat",
+    "npc_emoji": "👨‍🍳",
+    "dialog": "David, últim vermut junts... Jueus i cristians beviem junts aquí al Vi... Demà no...",
+    "dialog_es": "David, último vermut juntos... Judíos y cristianos bebíamos juntos aquí en el Vi...",
+    "pregunta": "Com demanes últim vermut?",
+    "opcions": [
+      { "text": "Em poses últim vermut amb olives, com sempre fèiem?", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Roger plora i et posa vermut gratis: 'Últim junts... 500 anys junts al Vi! Torna!'" },
+      { "text": "¿Me pones último vermut con olivas, como siempre hacíamos?", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Roger: 'En català: Em poses últim vermut... 500 anys junts Vi! Torna!'" },
+      { "text": "No vull vermut", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Roger trist: 'Últim junts...'" }
+    ]
+  },
+  {
+    "escena": "Espai 20 - Plaça Independència - Acomiadar Girona sencera",
+    "npc_nom": "Tots veïns Girona cristians i jueus",
+    "npc_emoji": "👥",
+    "dialog": "David! Tots Girona aquí Independència per dir adéu Call! 500 anys junts!",
+    "dialog_es": "¡David! ¡Todo Girona aquí Independència para decir adiós Call! ¡500 años juntos!",
+    "pregunta": "Com t'acomiades de Girona sencera?",
+    "opcions": [
+      { "text": "Gràcies Girona per 500 anys junts! No us oblidarem mai!", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Tots ploren! Cristians i jueus abraçats! Independència plena! 'Tornareu amb flors!' criden!" },
+      { "text": "¡Gracias Girona por 500 años juntos! ¡No os olvidaremos nunca!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Tots: 'En català: Gràcies Girona... 500 anys! Tornareu amb flors!'" },
+      { "text": "Adéu a tots", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Tots: 'Adéu fred? 500 anys!'" }
+    ]
+  },
+  {
+    "escena": "Espai 21 - Jardins Devesa - Última Devesa",
+    "npc_nom": "Pare Abraham",
+    "npc_emoji": "👨",
+    "dialog": "David, última Devesa! Parc mil·lenari! Aquí jugaves de petit! Agafa terra!",
+    "dialog_es": "David, última Devesa! ¡Parque milenario! ¡Aquí jugabas de pequeño! ¡Coge tierra!",
+    "pregunta": "Com agafes última terra Devesa?",
+    "opcions": [
+      { "text": "Agarro terra mil·lenària de Devesa per plantar llavors on vagi", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Agafes terra Devesa 1000 anys! Pare: 'Terra Girona on vagis! I llavors amagades floriran aquí!'" },
+      { "text": "Cojo tierra milenaria de Devesa para plantar semillas donde vaya", "correcte": true, "guany": { "monedes": 5, "arrel": 2 }, "feedback": "Pare: 'En català: Agarro terra... Terra Girona on vagis! Llavors floriran aquí!'" },
+      { "text": "No vull terra", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Pare: 'Terra és Girona!'" }
+    ]
+  },
+  {
+    "escena": "Espai 22 - Mercat del Lleó - Últim mercat",
+    "npc_nom": "Pagesa Lleó cristiana",
+    "npc_emoji": "👩‍🌾",
+    "dialog": "David, últim mercat Lleó... Portaves flors de la mare cada dissabte...",
+    "dialog_es": "David, último mercado Lleó... Traías flores de tu madre cada sábado...",
+    "pregunta": "Com compres última vegada?",
+    "opcions": [
+      { "text": "Em poses flors de borratja per última vegada, si us plau?", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Pagesa et dona flors gratis: 'Últimes flors Call! Per camí! I torna amb flors!'" },
+      { "text": "¿Me pones flores de borraja por última vez, por favor?", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "Pagesa: 'En català: Em poses flors... Últimes flors Call! Torna amb flors!'" },
+      { "text": "No compro", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Pagesa plora: 'Últimes flors...'" }
+    ]
+  },
+  {
+    "escena": "Espai 23 - Passeig Muralla Mirador - Última foto mental",
+    "npc_nom": "Mare Raquel",
+    "npc_emoji": "👩",
+    "dialog": "David, última foto mental Girona des de muralla. Guarda-la per sempre.",
+    "dialog_es": "David, última foto mental Girona desde muralla. Guárdala para siempre.",
+    "pregunta": "Com guardes última foto?",
+    "opcions": [
+      { "text": "Guardo Girona al cor: Onyar, Catedral, Call, Devesa, tot!", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Mare: 'Guarda-ho fill! Girona al cor! I 3 llavors amagades floriran 1954! Temps de Flors!'" },
+      { "text": "Guardo Girona en el corazón: ¡Onyar, Catedral, Call, Devesa, todo!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Mare: 'En català: Guardo Girona al cor... Girona cor! 3 llavors floriran 1954!'" },
+      { "text": "No miro", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mare: 'Mira! Última!'" }
+    ]
+  },
+  {
+    "escena": "Espai 24 - Casa de Cultura - Últim llibre",
+    "npc_nom": "Bibliotecari cristià",
+    "npc_emoji": "📚",
+    "dialog": "David, et dono llibre de Bonastruc ça Porta. Savi de Girona. Perquè no oblidis.",
+    "dialog_es": "David, te doy libro de Bonastruc ça Porta. Sabio de Girona. Para que no olvides.",
+    "pregunta": "Com agraeixes llibre?",
+    "opcions": [
+      { "text": "Moltes gràcies. Llegiré Bonastruc i recordaré Girona sempre", "correcte": true, "guany": { "monedes": 10, "seny": 4 }, "feedback": "Bibliotecari: 'Bonastruc 1194-1270! Savi més gran! Va néixer Call! Llibre teu!'" },
+      { "text": "Muchas gracias. Leeré Bonastruc y recordaré Girona siempre", "correcte": true, "guany": { "monedes": 6, "seny": 2 }, "feedback": "Bibliotecari: 'En català: Moltes gràcies... Bonastruc 1194-1270! Savi més gran!'" },
+      { "text": "No vull llibre", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Bibliotecari trist: 'Bonastruc és Girona!'" }
+    ]
+  },
+  {
+    "escena": "Espai 25 - Plaça Oli - Últim cafè junts",
+    "npc_nom": "Barista cristià",
+    "npc_emoji": "☕",
+    "dialog": "David, últim tallat junts al Oli... Cristians i jueus junts sempre aquí...",
+    "dialog_es": "David, último cortado juntos en el Oli... Cristianos y judíos juntos siempre aquí...",
+    "pregunta": "Com demanes últim tallat?",
+    "opcions": [
+      { "text": "Em poses últim tallat, si us plau? Com sempre", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Barista plora i posa tallat gratis: 'Últim junts Oli... 500 anys junts! Torna!'" },
+      { "text": "¿Me pones último cortado, por favor? Como siempre", "correcte": true, "guany": { "monedes": 4, "arrel": 1 }, "feedback": "Barista: 'En català: Em poses últim tallat... 500 anys junts Oli! Torna!'" },
+      { "text": "No vull cafè", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Barista: 'Últim junts...'" }
+    ]
+  },
+  {
+    "escena": "Espai 26 - Font de la Pólvora - Amagatall - Carta",
+    "npc_nom": "Amic Jordi",
+    "npc_emoji": "👦",
+    "dialog": "David, amagatall nostre Font Pólvora... Deixem carta aquí perquè algú la trobi en futur!",
+    "dialog_es": "David, escondite nuestro Font Pólvora... ¡Dejemos carta aquí para que alguien la encuentre en futuro!",
+    "pregunta": "Com escrius carta futur?",
+    "opcions": [
+      { "text": "Escric: Som David i Jordi, Call 1492, amics per sempre, tornarem amb flors", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Escriviu carta junts jueu i cristià! Jordi: 'Amics per sempre! I llavors teves floriran! Temps de Flors!'" },
+      { "text": "Escribo: Somos David y Jordi, Call 1492, amigos para siempre, volveremos con flores", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Jordi: 'En català: Escric: Som David i Jordi... Amics per sempre! Llavors floriran!'" },
+      { "text": "No escric carta", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Jordi: 'Carta per futur!'" }
+    ]
+  },
+  {
+    "escena": "Espai 27 - Carrer Força nit - Última nit Call",
+    "npc_nom": "Tots veïns Call",
+    "npc_emoji": "🕯️",
+    "dialog": "Última nit Call... Espelmes Shabat últim... Demà marxem...",
+    "dialog_es": "Última noche Call... Velas Shabat último... Mañana nos vamos...",
+    "pregunta": "Com vius última nit Shabat?",
+    "opcions": [
+      { "text": "Encenc espelmes Shabat per última vegada al Call", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Enceses espelmes Shabat! Tot Call plora amb llum! Últim Shabat Girona 1492! Llum no s'apagarà!" },
+      { "text": "Enciendo velas Shabat por última vez en el Call", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Veïns: 'En català: Encenc espelmes... Últim Shabat Girona 1492! Llum no s'apagarà!'" },
+      { "text": "No encenc res", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Veïns: 'Shabat és llum!'" }
+    ]
+  },
+  {
+    "escena": "Espai 28 - Porta Call - 10 juliol 1492 - 6:00 matí - Marxa",
+    "npc_nom": "Guàrdia Reis Catòlics",
+    "npc_emoji": "⚔️",
+    "dialog": "Jueus de Girona! Fora del Call! Ordre Reis Catòlics! 10 juliol 1492! Marxeu!",
+    "dialog_es": "¡Judíos de Girona! ¡Fuera del Call! ¡Orden Reyes Católicos! ¡10 julio 1492!",
+    "pregunta": "Com marxes de Girona?",
+    "opcions": [
+      { "text": "Marxo amb dignitat. Som de Girona, tornarem amb flors!", "correcte": true, "guany": { "monedes": 12, "arrel": 5 }, "feedback": "Marxes amb cap alt! Tot Call marxa! 500 anys! Camí França! Però 3 llavors queden amagades! Blava, vermella, groga!" },
+      { "text": "¡Me voy con dignidad. Somos de Girona, volveremos con flores!", "correcte": true, "guany": { "monedes": 8, "arrel": 3 }, "feedback": "Guàrdia: 'En català: Marxo amb dignitat... 500 anys! 3 llavors queden!'" },
+      { "text": "Marxo plorant sense dir res", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Mare: 'Fill, dignitat!'" }
+    ]
+  },
+  {
+    "escena": "Espai 29 - Camí de França - Mirant enrere Girona",
+    "npc_nom": "Pare Abraham",
+    "npc_emoji": "👨",
+    "dialog": "David, última mirada Girona des de camí França. Què veus?",
+    "dialog_es": "David, última mirada Girona desde camino Francia. ¿Qué ves?",
+    "pregunta": "Com mires última vegada Girona?",
+    "opcions": [
+      { "text": "Veig Girona sencera: Catedral, Onyar, Call, Devesa! Tornaré!", "correcte": true, "guany": { "monedes": 10, "arrel": 4 }, "feedback": "Pare plora: 'Veus Girona! I llavors amagades floriran! Un dia 1954 algú les trobarà! Temps de Flors!'" },
+      { "text": "¡Veo Girona entera: Catedral, Onyar, Call, Devesa! ¡Volveré!", "correcte": true, "guany": { "monedes": 6, "arrel": 2 }, "feedback": "Pare: 'En català: Veig Girona sencera... Llavors floriran! 1954! Temps de Flors!'" },
+      { "text": "No miro enrere", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Pare: 'Mira! Última!'" }
+    ]
+  },
+  {
+    "escena": "Espai 30 - Any 1954 - 462 anys després - Naixement Temps de Flors",
+    "npc_nom": "Narrador 1954",
+    "npc_emoji": "📅",
+    "dialog": "1954! 462 anys després expulsió 1492! Dones Girona troben 3 llavors teves i creen Temps de Flors!",
+    "dialog_es": "¡1954! ¡462 años después expulsión 1492! ¡Mujeres Girona encuentran 3 semillas tuyas y crean Temps de Flors!",
+    "pregunta": "Com reacciones des del passat?",
+    "opcions": [
+      { "text": "Les meves llavors! Han florit! Girona no ens ha oblidat!", "correcte": true, "guany": { "monedes": 15, "arrel": 5 }, "feedback": "Narrador: 'Sí! Llavors teves! Blava Gironella, vermella Mikvé, groga Onyar! Han florit! Dones 1954 van dir: Posem flors on hi havia dolor! Temps de Flors neix!'" },
+      { "text": "¡Mis semillas! ¡Han florecido! ¡Girona no nos ha olvidado!", "correcte": true, "guany": { "monedes": 10, "arrel": 3 }, "feedback": "Narrador: 'En català: Les meves llavors! Han florit! Llavors teves! Blava, vermella, groga! Dones 1954! Temps de Flors neix!'" },
+      { "text": "Quines llavors?", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Narrador: 'Llavors teves 1492!'" }
+    ]
+  },
+  {
+    "escena": "Espai 31 - Any 2026 - Temps de Flors 113 espais - Tornada",
+    "npc_nom": "Voluntària 2026 - Descendent",
+    "npc_emoji": "👩‍🌾",
+    "dialog": "Soc descendent teva David! 2026! 113 espais Temps de Flors! Gràcies a llavors teves 1492!",
+    "dialog_es": "¡Soy descendiente tuya David! ¡2026! ¡113 espacios Temps de Flors! ¡Gracias a semillas tuyas 1492!",
+    "pregunta": "Com respons descendent?",
+    "opcions": [
+      { "text": "Visca Girona! Visca Call! Visca Temps de Flors 113 espais!", "correcte": true, "guany": { "monedes": 15, "arrel": 5, "seny": 3 }, "feedback": "Descendent plora: 'Tornes a Girona! 534 anys després! Call t'espera! 113 espais gràcies a tu!'" },
+      { "text": "¡Viva Girona! ¡Viva Call! ¡Viva Temps de Flors 113 espacios!", "correcte": true, "guany": { "monedes": 10, "arrel": 3 }, "feedback": "Descendent: 'En català: Visca Girona... Tornes Girona! 534 anys! 113 espais gràcies a tu!'" },
+      { "text": "Qui ets?", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Descendent: 'Descendent teva! 1492!'" }
+    ]
+  },
+  {
+    "escena": "Espai 32 - Call Jueu nit - Tots jueus tornen amb flors",
+    "npc_nom": "Bonastruc ça Porta fantasma",
+    "npc_emoji": "👻",
+    "dialog": "David, soc Bonastruc ça Porta, savi Girona 1194! Has tornat Call amb flors! Has guanyat!",
+    "dialog_es": "David, soy Bonastruc ça Porta, sabio Girona 1194! ¡Has vuelto Call con flores!",
+    "pregunta": "Com respons a Bonastruc?",
+    "opcions": [
+      { "text": "Mestre Bonastruc! He tornat amb 3 llavors! Call viu amb flors!", "correcte": true, "guany": { "monedes": 12, "seny": 5 }, "feedback": "Bonastruc: 'Savi 1194-1270! Tu ets nou savi Girona! Call viu! 113 espais són 113 jueus tornats amb flors!'" },
+      { "text": "¡Maestro Bonastruc! ¡He vuelto con 3 semillas! ¡Call vive con flores!", "correcte": true, "guany": { "monedes": 8, "seny": 3 }, "feedback": "Bonastruc: 'En català: Mestre Bonastruc... Nou savi Girona! 113 espais són 113 jueus tornats!'" },
+      { "text": "Tinc por fantasma", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Bonastruc: 'No por! Soc Girona!'" }
+    ]
+  },
+  {
+    "escena": "FINAL - Call Jueu - 1492-2026 - 534 anys - TORNADA",
+    "npc_nom": "Tots Call Jueu 1492-2026 i Núria Força Vella",
+    "npc_emoji": "✡️🌸🦁",
+    "dialog": "VISCA! David! 1492 vas marxar amb 3 llavors! 1954 van florir! 2026 113 espais! Has tornat!",
+    "dialog_es": "¡VIVA! ¡David! ¡1492 te fuiste con 3 semillas! ¡1954 florecieron! ¡2026 113 espacios! ¡Has vuelto!",
+    "pregunta": "Última paraula heroi Call?",
+    "opcions": [
+      { "text": "Visca Call! Visca Girona! Mai més expulsions! Mai més oblit! Visca Temps de Flors!", "correcte": true, "guany": { "monedes": 25, "arrel": 10, "seny": 5, "obert": 5 }, "feedback": "FINAL ÈPIC CAPÍTOL 3: Has completat dia que Girona va plorar 1492! Has amagat 3 llavors! Blava Gironella, vermella Mikvé, groga Onyar! 1954 van crear Temps de Flors! 2026 113 espais! Ets llegenda Call! Bonastruc, Núria i tots t'abracen! CAPÍTOL 3 100% - MEMÒRIA JUEVA DESBLOQUEJADA! Ruta secreta Call desbloquejable després 3 voltes!" },
+      { "text": "¡Viva Call! ¡Viva Girona! ¡Nunca más expulsiones! ¡Nunca más olvido! ¡Viva Temps de Flors!", "correcte": true, "guany": { "monedes": 15, "arrel": 5 }, "feedback": "Tothom: 'Visca! No Viva! Però tornes! 1492-2026! 534 anys! 113 espais! Memòria viva!'" },
+      { "text": "Adéu Call, ja estic cansat", "correcte": false, "guany": { "monedes": 0, "rauxa": 1 }, "feedback": "Tothom: 'Cansat? 534 anys esperant! Visca Call!'" }
+    ]
+  }
+]
