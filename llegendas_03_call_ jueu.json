@@ -1,0 +1,68 @@
+{
+  "id": "llegenda_03_call_jueu",
+  "capitol_id": "capitol_03_call_jueu",
+  "icona": "✡️",
+  "desbloquejada": false,
+  "condicio": "completar_capitol_03_call_jueu_2_veces",
+  "titol": "El Call Jueu - 800 persones, 600 anys de convivència i 24 famílies el 1492",
+  "titol_es": "El Call Jueu - 800 personas, 600 años de convivencia y 24 familias en 1492",
+  "subtitol": "Un dels calls més ben conservats del món",
+
+  "pagines": [
+    {
+      "id": 1,
+      "tipus": "portada",
+      "titol": "EL CALL JUEU DE GIRONA",
+      "subtitol": "600 anys de vida jueva dins la Força Vella",
+      "text": "Benvingut al Call. No és un carrer, és un laberint. Carrers estrets, escales de pedra que pugen i baixen, finestres petites i portes que amaguen patis secrets del segle XII. Aquí van viure durant 600 anys els jueus de Girona, des de l'any 888 fins al 1492. Van arribar a ser 800 persones, 25 famílies al principi i 600 famílies en el seu moment més gran. Eren metges, banquers, traductors, astrònoms i cabalistes. El seu barri es deia Call, que ve de l'hebreu kahal, que vol dir comunitat. I la seva història és la història de la Girona més savia, més rica i més trista. Perquè el 1492 tot es va acabar en 4 mesos. Però les pedres encara parlen.",
+      "text_es": "Bienvenido al Call. No es una calle, es un laberinto. Calles estrechas, escaleras de piedra que suben y bajan, ventanas pequeñas y puertas que esconden patios secretos del siglo XII. Aquí vivieron durante 600 años los judíos de Girona, desde el año 888 hasta 1492. Llegaron a ser 800 personas, 25 familias al principio y 600 familias en su momento más grande. Eran médicos, banqueros, traductores, astrónomos y cabalistas. Su barrio se llamaba Call, que viene del hebreo kahal, que significa comunidad. Y su historia es la historia de la Girona más sabia, más rica y más triste. Porque en 1492 todo se acabó en 4 meses. Pero las piedras aún hablan."
+    },
+    {
+      "id": 2,
+      "tipus": "historia",
+      "titol": "888 - 25 Famílies al Carrer de la Força",
+      "text": "La primera vegada que surten jueus a Girona als documents és l'any 888. S'esmenten 25 famílies de religió mosaica que vivien a prop de la Catedral de Santa Maria. Al segle XII el Call es consolida definitivament al Carrer de la Força, que avui és el carrer principal del Call i que abans era el cardo maximus romà. Aquí s'hi van instal·lar famílies que abans vivien disperses. Van arribar a ser 800 persones vivint en cases de 3 pisos amb patis interiors. A baix hi havia l'obrador, a dalt la casa i al mig el pati amb pou. Eren veïns dels cristians i durant segles van conviure en pau, en un marc de tolerància i diversitat cultural. El seu contacte va enriquir mútuament les dues comunitats. Girona era famosa a tot el món per la seva escola cabalística, on s'estudiava la Càbala per penetrar en el misteri de la Divinitat. D'aquí va sortir el mestre més famós: Moixè ben Nahman, conegut com Bonastruc ça Porta o Nahmànides, nascut a Girona el 1194 i mort a Palestina el 1270.",
+      "text_es": "La primera vez que salen judíos en Girona en los documentos es el año 888. Se mencionan 25 familias de religión mosaica que vivían cerca de la Catedral de Santa María. En el siglo XII el Call se consolida definitivamente en la Calle de la Força, que hoy es la calle principal del Call y que antes era el cardo maximus romano. Aquí se instalaron familias que antes vivían dispersas. Llegaron a ser 800 personas viviendo en casas de 3 pisos con patios interiores. Abajo estaba el obrador, arriba la casa y en medio el patio con pozo. Eran vecinos de los cristianos y durante siglos convivieron en paz, en un marco de tolerancia y diversidad cultural. Su contacto enriqueció mutuamente a las dos comunidades. Girona era famosa en todo el mundo por su escuela cabalística, donde se estudiaba la Cábala para penetrar en el misterio de la Divinidad. De aquí salió el maestro más famoso: Moixè ben Nahman, conocido como Bonastruc ça Porta o Nahmánides, nacido en Girona en 1194 y muerto en Palestina en 1270.",
+      "dada_curiosa": "✡️ 888 - Primer document - 25 famílies - Paraula Call ve de kahal (comunitat en hebreu)",
+      "llocs_a_visitar": [{ "nom": "Carrer de la Força - Carrer principal del Call", "ubicacio": "Carrer de la Força, Girona" }]
+    },
+    {
+      "id": 3,
+      "tipus": "historia",
+      "titol": "1435 - L'Última Sinagoga i el Micvé trobat el 2014",
+      "text": "Al Call hi va haver 3 sinagogues en 600 anys. La més gran es va clausurar el 1415 i estava a ponent de la Força. La darrera, la que va funcionar fins a l'expulsió de 1492, es va construir el 1435 a l'altra banda del Call, a l'indret que avui ocupa el Centre Bonastruc ça Porta, que és el Museu d'Història dels Jueus. Era un complex sencer: sala d'oració, patis, espai per escorxador, escola d'infants que es deia talmutorà i un bany ritual que es diu micvé. El micvé era una cambra amb dipòsit d'aigua natural per a la purificació de persones, sobretot dones, i d'estris. A Girona era dins de la sinagoga. Durant segles es va pensar que s'havia perdut. Fins que el 2014 un equip d'arqueòlegs de la Universitat de Girona el va localitzar al pati del Centre Bonastruc ça Porta, al tercer pis de l'edifici. Estava datat del 1435 i va ser el darrer que va utilitzar la comunitat jueva fins a l'expulsió. Avui el pots veure, amb l'estructura original conservada, malgrat que després es va convertir en cisterna.",
+      "text_es": "En el Call hubo 3 sinagogas en 600 años. La más grande se clausuró en 1415 y estaba a poniente de la Força. La última, la que funcionó hasta la expulsión de 1492, se construyó en 1435 al otro lado del Call, en el lugar que hoy ocupa el Centre Bonastruc ça Porta, que es el Museo de Historia de los Judíos. Era un complejo entero: sala de oración, patios, espacio para matadero, escuela de niños que se llamaba talmutorà y un baño ritual que se llama micvé. El micvé era una cámara con depósito de agua natural para la purificación de personas, sobre todo mujeres, y de utensilios. En Girona estaba dentro de la sinagoga. Durante siglos se pensó que se había perdido. Hasta que en 2014 un equipo de arqueólogos de la Universidad de Girona lo localizó en el patio del Centre Bonastruc ça Porta, en el tercer piso del edificio. Estaba datado de 1435 y fue el último que utilizó la comunidad judía hasta la expulsión. Hoy lo puedes ver, con la estructura original conservada, a pesar de que después se convirtió en cisterna.",
+      "dada_curiosa": "💧 Micvé trobat el 2014 - Darrer bany ritual jueu de 1435 - Al pati del Museu",
+      "llocs_a_visitar": [{ "nom": "Museu d'Història dels Jueus - Micvé 1435", "ubicacio": "Carrer de la Força 8, Girona - Centre Bonastruc ça Porta" }]
+    },
+    {
+      "id": 4,
+      "tipus": "misteri",
+      "titol": "31 de març de 1492 - Decret d'Expulsió i les 3 Llavors",
+      "text": "El 31 de març de 1492 els Reis Catòlics signen a l'Alhambra el decret d'expulsió. Els jueus tenen 4 mesos, del març al juliol, per malvendre el seu patrimoni i abandonar cases, obradors, sinagogues i cementiris. A Girona, els jurats reben la carta reial el 20 d'abril de 1492. Queden poques famílies, només 24 famílies segons els documents de 1492, perquè moltes ja havien marxat després dels atacs de 1391. Algunes es converteixen al cristianisme i es queden, són els conversos. Altres marxen. La llegenda del nostre joc diu que la nit del 9 de juliol de 1492, l'última nit abans de marxar, 3 famílies amaguen en un túnel sota la sinagoga de 1435 una Torà de 800 anys i 3 llavors daurades. Una llavor és per la Força Vella, que es convertirà en la Rosa Mare de Temps de Flors. Una altra per la Catedral. I una altra per Sant Narcís. Aquestes 3 llavors són les que buscaràs a les 4 rutes secretes. Si poses l'orella a la paret de la Força 12, la pedra està freda encara que faci sol: a sota hi ha el túnel.",
+      "text_es": "El 31 de marzo de 1492 los Reyes Católicos firman en la Alhambra el decreto de expulsión. Los judíos tienen 4 meses, de marzo a julio, para malvender su patrimonio y abandonar casas, obradores, sinagogas y cementerios. En Girona, los jurados reciben la carta real el 20 de abril de 1492. Quedan pocas familias, solo 24 familias según los documentos de 1492, porque muchas ya se habían ido después de los ataques de 1391. Algunas se convierten al cristianismo y se quedan, son los conversos. Otras se van. La leyenda de nuestro juego dice que la noche del 9 de julio de 1492, la última noche antes de irse, 3 familias esconden en un túnel bajo la sinagoga de 1435 una Torá de 800 años y 3 semillas doradas. Una semilla es para la Força Vella, que se convertirá en la Rosa Mare de Temps de Flors. Otra para la Catedral. Y otra para Sant Narcís. Estas 3 semillas son las que buscarás en las 4 rutas secretas. Si pones la oreja en la pared de la Força 12, la piedra está fría aunque haga sol: debajo hay el túnel.",
+      "dada_curiosa": "📜 31 març 1492 - Decret Alhambra - 4 mesos per marxar - 24 famílies quedaven a Girona",
+      "llocs_a_visitar": [{ "nom": "Carrer de la Força 12 - Pedra freda (túnel sota)", "ubicacio": "Carrer de la Força 12, Girona" }]
+    },
+    {
+      "id": 5,
+      "tipus": "cultura",
+      "titol": "Cultura Viva Avui - El Call més ben conservat",
+      "text": "Avui el Call de Girona és un dels calls més ben conservats del món, junt amb el de Besalú i el de Barcelona. Després de l'expulsió de 1492 es van obrir les portes que el clausuraven i es van enderrocar els murs que el recloïen i es va convertir en un barri més de la ciutat, habitat per famílies converses i gent cristiana. Però han quedat carrers, espais i fins i tot algunes construccions originals. El Centre Bonastruc ça Porta funciona avui com a Museu i com a Institut d'Estudis Nahmànides amb el suport de l'ambaixada d'Israel. A dins hi ha el micvé de 1435. Al carrer pots tocar pedres amb marques jueves. Als patis hi ha pous medievals. I cada any per Temps de Flors els patis del Call s'obren i pots entrar a cases del segle XII. El Call és barri d'artistes, de galeries i de silenci. Si hi vas al vespre, quan no hi ha turistes, sents 600 anys de història sota els teus peus.",
+      "text_es": "Hoy el Call de Girona es uno de los calls mejor conservados del mundo, junto con el de Besalú y el de Barcelona. Después de la expulsión de 1492 se abrieron las puertas que lo clausuraban y se derribaron los muros que lo recluían y se convirtió en un barrio más de la ciudad, habitado por familias conversas y gente cristiana. Pero han quedado calles, espacios e incluso algunas construcciones originales. El Centre Bonastruc ça Porta funciona hoy como Museo y como Instituto de Estudios Nahmánides con el apoyo de la embajada de Israel. Dentro está el micvé de 1435. En la calle puedes tocar piedras con marcas judías. En los patios hay pozos medievales. Y cada año por Temps de Flors los patios del Call se abren y puedes entrar a casas del siglo XII. El Call es barrio de artistas, de galerías y de silencio. Si vas por la tarde, cuando no hay turistas, sientes 600 años de historia bajo tus pies.",
+      "llocs_a_visitar": [{ "nom": "Institut d'Estudis Nahmànides - Escola Cabalística", "ubicacio": "Carrer de la Força 8, Girona - Segon pis Museu" }]
+    },
+    {
+      "id": 6,
+      "tipus": "recomanacions_visita",
+      "titol": "🗺️ On Anar Ara Mateix? Ruta Call 45 min",
+      "text": "Ruta real del Call que pots fer ara mateix. 3 llocs a 3 min caminant. Ruta total 45 min. Porta aigua perquè hi ha pujades.",
+      "text_es": "Ruta real del Call que puedes hacer ahora mismo. 3 lugares a 3 min andando. Ruta total 45 min. Lleva agua porque hay cuestas.",
+      "llocs_a_visitar": [
+        { "nom": "1. Museu d'Història dels Jueus - Micvé 1435 i Torà", "ubicacio": "Carrer de la Força 8, Girona" },
+        { "nom": "2. Carrer de Sant Llorenç - Carrer més estret del Call", "ubicacio": "Carrer de Sant Llorenç, Girona" },
+        { "nom": "3. Pujada de Sant Domènec - Escales famoses Joc de Trons", "ubicacio": "Pujada de Sant Domènec, Girona" }
+      ]
+    }
+  ]
+}
