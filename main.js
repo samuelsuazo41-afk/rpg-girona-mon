@@ -16,7 +16,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   document.body.appendChild(btn);
 });
 
-// main.js - RPG Món de Girona - Versió Girona
+// main.js - RPG Món de Girona - Versió COMPLETA HMN 12 entrades
 let musicaActivada = true;
 let BIBLIOTECA_EMOJIS_BASE = [];
 let FRASES_MINIJOC = [];
@@ -42,6 +42,7 @@ let estat = {
   capitolsCompletats: JSON.parse(localStorage.getItem('cat_completats')) || [],
   objectes: JSON.parse(localStorage.getItem('cat_objectes')) || [],
   rutesDesbloquejades: JSON.parse(localStorage.getItem('cat_rutes')) || [],
+  llegendesDesbloquejades: JSON.parse(localStorage.getItem('cat_llegendes')) || [],
   capitols100Counts: JSON.parse(localStorage.getItem('cat_capitols100')) || {},
   stats: { seny: parseInt(localStorage.getItem('cat_seny')) || 0, rauxa: parseInt(localStorage.getItem('cat_rauxa')) || 0, arrel: parseInt(localStorage.getItem('cat_arrel')) || 0, obert: parseInt(localStorage.getItem('cat_obert')) || 0 },
   totem: localStorage.getItem('cat_totem') || 'neutral',
@@ -58,8 +59,8 @@ let estat = {
 };
 
 const LANGS = {
-  es: {app_titol: "RPG Món de Girona", monedes: "Monedas", tab_mapa: "Món Girona", tab_missio: "Missió", tab_gremi: "Gremi", tab_botiga: "Botiga", text_mon: "🗺️ Mapa de Girona", text_botiga: "🛒 Botiga de Girona", entrar: "Entrar", bloquejat: "Bloqueado", completat: "Completado", repetir: "Repetir", volver_mapa: "Volver al mapa", mision_completada: "¡Misión completada!", item_desbloquejat: "¡Item desbloqueado!", ruta_secreta: "Ruta secreta desbloquejada!", repas_rapido: "Repàs Ràpid", repas_titulo: "Repàs Ràpid - 5 Preguntes", tria_personatge: "Tria el teu personatge", nom_personatge: "Com et dius?", canviar_personatge: "Canviar Personatge", biblioteca: "Biblioteca", biblioteca_desc: "Llegendes i secrets de Girona", biblioteca_cta: "💡 Compra packs a la botiga i desbloqueja Girona!", minijoc_titol: "Arma la frase", minijoc_desc: "Tria els emojis per formar la frase", comprovar: "Comprovar", correcte: "Correcte!", incorrecte: "No és així. Era:", no_prou_monedes: "No tens prou monedes!", comprat: "Comprat", desbloqueja_ruta: "Amb 3 ítems del capítol {n} desbloqueges la ruta secreta de {ciutat}", no_frases_disponibles: "Compra més emojis per desbloquejar frases!"},
-  ca: {app_titol: "RPG Món de Girona", monedes: "Monedes", tab_mapa: "Món Girona", tab_missio: "Missió", tab_gremi: "Gremi", tab_botiga: "Botiga", text_mon: "🗺️ Mapa de Girona - 2000 anys d'història", text_botiga: "🛒 Botiga del Barri Vell", entrar: "Entrar", bloquejat: "Bloquejat", completat: "Completat", repetir: "Repetir", volver_mapa: "Tornar al mapa", mision_completada: "Missió completada!", item_desbloquejat: "Item desbloquejat!", ruta_secreta: "Ruta secreta desbloquejada!", repas_rapido: "Repàs Ràpid", repas_titulo: "Repàs Ràpid - 5 Preguntes", tria_personatge: "Tria el teu personatge", nom_personatge: "Com et dius?", canviar_personatge: "Canviar Personatge", biblioteca: "Biblioteca", biblioteca_desc: "Llegendes i secrets de Girona - Call, Lleona, Flors...", biblioteca_cta: "💡 Compra packs d'emoji a la botiga i desbloqueja tota Girona!", minijoc_titol: "Arma la frase", minijoc_desc: "Tria els emojis per formar la frase", comprovar: "Comprovar", correcte: "Correcte!", incorrecte: "No és així. Era:", no_prou_monedes: "No tens prou monedes!", comprat: "Comprat", desbloqueja_ruta: "Amb 3 ítems del capítol {n} desbloqueges la ruta secreta de {ciutat}", no_frases_disponibles: "Compra més emojis per desbloquejar frases!"}
+  es: {app_titol: "RPG Món de Girona", monedes: "Monedas", tab_mapa: "Món Girona", tab_missio: "Missió", tab_gremi: "Gremi", tab_botiga: "Botiga", text_mon: "🗺️ Mapa de Girona", text_botiga: "🛒 Botiga de Girona", entrar: "Entrar", bloquejat: "Bloqueado", completat: "Completado", repetir: "Repetir", volver_mapa: "Volver al mapa", mision_completada: "¡Misión completada!", item_desbloquejat: "¡Item desbloqueado!", ruta_secreta: "Ruta secreta desbloquejada!", llegenda_desbloquejada: "Llegenda desbloquejada!", repas_rapido: "Repàs Ràpid", repas_titulo: "Repàs Ràpid - 5 Preguntes", tria_personatge: "Tria el teu personatge", nom_personatge: "Com et dius?", canviar_personatge: "Canviar Personatge", biblioteca: "Biblioteca", biblioteca_desc: "Llegendes i secrets de Girona", biblioteca_cta: "💡 Compra packs a la botiga i desbloqueja Girona!", minijoc_titol: "Arma la frase", minijoc_desc: "Tria els emojis per formar la frase", comprovar: "Comprovar", correcte: "Correcte!", incorrecte: "No és així. Era:", no_prou_monedes: "No tens prou monedes!", comprat: "Comprat", desbloqueja_ruta: "Amb 3 ítems del capítol {n} desbloqueges la ruta secreta de {ciutat}", no_frases_disponibles: "Compra més emojis per desbloquejar frases!"},
+  ca: {app_titol: "RPG Món de Girona", monedes: "Monedes", tab_mapa: "Món Girona", tab_missio: "Missió", tab_gremi: "Gremi", tab_botiga: "Botiga", text_mon: "🗺️ Mapa de Girona - 2000 anys d'història", text_botiga: "🛒 Botiga del Barri Vell", entrar: "Entrar", bloquejat: "Bloquejat", completat: "Completat", repetir: "Repetir", volver_mapa: "Tornar al mapa", mision_completada: "Missió completada!", item_desbloquejat: "Item desbloquejat!", ruta_secreta: "Ruta secreta desbloquejada!", llegenda_desbloquejada: "Llegenda desbloquejada!", repas_rapido: "Repàs Ràpid", repas_titulo: "Repàs Ràpid - 5 Preguntes", tria_personatge: "Tria el teu personatge", nom_personatge: "Com et dius?", canviar_personatge: "Canviar Personatge", biblioteca: "Biblioteca", biblioteca_desc: "Llegendes i secrets de Girona - Call, Lleona, Flors...", biblioteca_cta: "💡 Compra packs d'emoji a la botiga i desbloqueja tota Girona!", minijoc_titol: "Arma la frase", minijoc_desc: "Tria els emojis per formar la frase", comprovar: "Comprovar", correcte: "Correcte!", incorrecte: "No és així. Era:", no_prou_monedes: "No tens prou monedes!", comprat: "Comprat", desbloqueja_ruta: "Amb 3 ítems del capítol {n} desbloqueges la ruta secreta de {ciutat}", no_frases_disponibles: "Compra més emojis per desbloquejar frases!"}
 };
 
 let idioma = localStorage.getItem('cat_idioma') || 'ca';
@@ -76,21 +77,19 @@ const PERSONATGES_JUGADOR = [
 
 const NIVELL_MINIJOC = {minEmojis: 2, maxEmojis: 5, nivelActual: parseInt(localStorage.getItem('cat_nivell_minijoc')) || 1};
 
-// MON GIRONA - 4 Capitols, mateixa estructura que abans
+// MON GIRONA - 12 entrades - Carregat de data/capitols.json
+let MON_GIRONA = [];
 const CAPITOLS = [
-  {id: "capitol_01_forca_vella", nom: "Força Vella - Gerunda", icona: "🏛️", desbloquejat: true, desc: `Gerunda Romana. Via Augusta.
-2000 anys sota els teus peus 🏛️`, archivo: "capitol_01_forca_vella.json", recompensa_100: {item_id: "pedra_gerunda", ruta: "ruta_forca_secreta"}},
-  {id: "capitol_02_temps_flors", nom: "Temps de Flors", icona: "🌸", desbloquejat: false, desc: "113 espais. Flors al Barri Vell.\nCatalà lent, de poble.", archivo: "capitol_02_temps_flors.json", requereix: "capitol_01_forca_vella", recompensa_100: {item_id: "flor_suprema_temps_flors", ruta: "ruta_girona_muralla_viva"}},
-  {id: "capitol_03_call_jueu", nom: "El Call Jueu", icona: "✡️", desbloquejat: false, desc: "El Call més ben conservat.\nCàbala i misteri jueu.", archivo: "capitol_03_call_jueu.json", requereix: "capitol_02_temps_flors", recompensa_100: {item_id: "llibre_cabala", ruta: "ruta_call_secret"}},
-  {id: "capitol_04_sant_narcis", nom: "Sant Narcís - Fires", icona: "🪰", desbloquejat: false, desc: "Per Sant Narcís, cada mosca val per sis.\nFires i Lleona.", archivo: "capitol_04_sant_narcis.json", requereix: "capitol_03_call_jueu", recompensa_100: {item_id: "mosca_daura", ruta: "ruta_fires_narcis"}}
+  {id: "capitol_01_forca_vella", nom: "Força Vella - Gerunda", icona: "🏛️", desbloquejat: true, desc: "Gerunda Romana. Via Augusta.\n2000 anys sota els teus peus", archivo: "capitol_01_forca_vella.json", recompensa_100: {item_id: "pedra_gerunda", ruta: "ruta_secreta_01_tunel_forca_vella"}},
+  {id: "capitol_02_temps_flors", nom: "Temps de Flors", icona: "🌸", desbloquejat: false, desc: "113 espais. Flors al Barri Vell.", archivo: "capitol_02_temps_flors.json", requereix: "capitol_01_forca_vella", recompensa_100: {item_id: "flor_suprema_temps_flors", ruta: "ruta_secreta_02_jardi_prohibit"}},
+  {id: "capitol_03_call_jueu", nom: "El Call Jueu", icona: "✡️", desbloquejat: false, desc: "El Call més ben conservat.\nCàbala i misteri jueu.", archivo: "capitol_03_call_jueu.json", requereix: "capitol_02_temps_flors", recompensa_100: {item_id: "llibre_cabala", ruta: "ruta_secreta_03_sinagoga_secreta"}},
+  {id: "capitol_04_sant_narcis", nom: "Sant Narcís - Fires", icona: "🪰", desbloquejat: false, desc: "Per Sant Narcís, cada mosca val per sis.\nFires i Lleona.", archivo: "capitol_04_sant_narcis.json", requereix: "capitol_03_call_jueu", recompensa_100: {item_id: "mosca_daura", ruta: "ruta_secreta_04_vol_mosca"}}
 ];
-
-// RUTES SECRETES - Tot Girona
 const RUTES_SECRETES = [
-  {id: "ruta_forca_secreta", nom: "Força Secreta", icona: "🗝️", requereix_capitol: "capitol_01_forca_vella", desc: "Desbloqueja fent 3x100 Força Vella"},
-  {id: "ruta_girona_muralla_viva", nom: "Muralla Viva", icona: "🗝️", requereix_capitol: "capitol_02_temps_flors", desc: "Desbloqueja fent 3x100 Temps de Flors"},
-  {id: "ruta_call_secret", nom: "Call Secret", icona: "🗝️", requereix_capitol: "capitol_03_call_jueu", desc: "Desbloqueja fent 3x100 El Call"},
-  {id: "ruta_fires_narcis", nom: "Fires de Nit", icona: "🗝️", requereix_capitol: "capitol_04_sant_narcis", desc: "Desbloqueja fent 3x100 Sant Narcís"}
+  {id: "ruta_secreta_01_tunel_forca_vella", nom: "Força Secreta", icona: "🗝️", requereix_capitol: "capitol_01_forca_vella", desc: "Desbloqueja fent 3x100 Força Vella"},
+  {id: "ruta_secreta_02_jardi_prohibit", nom: "Muralla Viva", icona: "🗝️", requereix_capitol: "capitol_02_temps_flors", desc: "Desbloqueja fent 3x100 Temps de Flors"},
+  {id: "ruta_secreta_03_sinagoga_secreta", nom: "Call Secret", icona: "🗝️", requereix_capitol: "capitol_03_call_jueu", desc: "Desbloqueja fent 3x100 El Call"},
+  {id: "ruta_secreta_04_vol_mosca", nom: "Fires de Nit", icona: "🗝️", requereix_capitol: "capitol_04_sant_narcis", desc: "Desbloqueja fent 3x100 Sant Narcís"}
 ];
 
 let ITEMS = {};
@@ -205,8 +204,18 @@ async function carregarDades() {
   try {
     const res = await fetch('./data/minijoc_frases.json');
     const data = await res.json();
-    FRASES_MINIJOC = data.frases;
+    FRASES_MINIJOC = data.frases || data;
   } catch(err) { FRASES_MINIJOC = []; }
+  try {
+    const res = await fetch('./data/capitols.json');
+    const data = await res.json();
+    if (data.length >= 8) { MON_GIRONA = data; }
+    else { MON_GIRONA = data; }
+    console.log('MON_GIRONA carregat:', MON_GIRONA.length);
+  } catch(err) {
+    console.log('capitols.json no trobat, usant CAPITOLS antic');
+    MON_GIRONA = [];
+  }
 }
 document.addEventListener('DOMContentLoaded', async () => {
   const jaVistaEnAquestaSessio = sessionStorage.getItem('introVista');
@@ -271,54 +280,68 @@ function carregarMapa() {
   const mapaDiv = document.getElementById('mapa');
   if (!mapaDiv) return;
   mapaDiv.innerHTML = '';
-  CAPITOLS.forEach(capitol => {
-    const completat = estat.capitolsCompletats.includes(capitol.id);
-    const desbloquejat = capitol.desbloquejat || estat.capitolsCompletats.includes(capitol.requereix);
+  const llista = MON_GIRONA.length > 0? MON_GIRONA : [...CAPITOLS,...RUTES_SECRETES.map(r => ({...r, tipus: 'ruta_secreta', arxiu: `data/${r.id}.json`, condicio_text: r.desc, requereix: r.requereix_capitol}))];
+
+  llista.forEach(entry => {
+    const esCapitol = entry.tipus === 'capitol' || (!entry.tipus && entry.id.startsWith('capitol_'));
+    const esLlegenda = entry.tipus === 'llegenda';
+    const esRuta = entry.tipus === 'ruta_secreta';
+    let desbloquejat = false;
+    if (entry.desbloquejat) desbloquejat = true;
+    else if (entry.requereix) {
+      if (estat.capitolsCompletats.includes(entry.requereix)) desbloquejat = true;
+      const vegades = estat.capitols100Counts[entry.requereix] || 0;
+      if (esLlegenda && vegades >= 2) desbloquejat = true;
+      if (esRuta && vegades >= 3) desbloquejat = true;
+      if (!esCapitol &&!esLlegenda &&!esRuta && entry.requereix) {
+        if (estat.capitolsCompletats.includes(entry.requereix)) desbloquejat = true;
+      }
+    } else if (!entry.requereix) {
+      desbloquejat = entry.desbloquejat!== false;
+    }
+    if ((esLlegenda || esRuta) &&!desbloquejat) {
+      if (esRuta) {
+        const card = document.createElement('div');
+        card.className = 'capitol-card ruta-secreta bloquejat';
+        card.innerHTML = `<div class="capitol-icona" style="filter:grayscale(1) brightness(0.3);">${entry.icona||'🗝️'}</div><h3 style="color:#555;">???</h3><p style="color:#666; font-size:12px;">${entry.condicio_text||entry.desc||'Bloquejat'}</p><p style="color:#444; margin-top:8px;">🔒 ${LANG.bloquejat}</p>`;
+        mapaDiv.appendChild(card);
+      }
+      return;
+    }
+    const completat = estat.capitolsCompletats.includes(entry.id) || estat.llegendesDesbloquejades.includes(entry.id) || estat.rutesDesbloquejades.includes(entry.id);
     const card = document.createElement('div');
-    card.className = 'capitol-card' + (completat? ' completat' : '') + (!desbloquejat? ' bloquejat' : '');
-    let html = `<div class="capitol-icona">${capitol.icona}</div><h3>${capitol.nom}</h3><p>${capitol.desc}</p>`;
+    let claseExtra = esLlegenda? ' llegenda-card' : esRuta? ' ruta-secreta' : '';
+    card.className = 'capitol-card' + (completat? ' completat' : '') + (!desbloquejat? ' bloquejat' : '') + claseExtra;
+    let html = `<div class="capitol-icona">${entry.icona||'📜'}</div><h3>${entry.nom||entry.id}</h3><p>${entry.descripcio||entry.desc||''}</p>`;
+    if (esLlegenda) html += `<p style="color:#4CAF50; font-size:12px; margin-top:8px;">📜 ${entry.condicio_text||''}</p>`;
+    if (esRuta) html += `<p style="color:#FFD700; font-size:12px;">${LANG.ruta_secreta}</p>`;
     if (completat) {
-      html += `✓ ${LANG.completat} <button class="btn btn-sec" style="margin-top:10px;" onclick="repetirCapitol('${capitol.id}'); event.stopPropagation()">${LANG.repetir}</button>`;
+      html += `✓ ${LANG.completat} <button class="btn btn-sec" style="margin-top:10px;" onclick="repetirCapitol('${entry.id}'); event.stopPropagation()">${LANG.repetir}</button>`;
     } else if (desbloquejat) {
-      html += `<button class="btn" onclick="entrarCapitol('${capitol.id}')">${LANG.entrar}</button>`;
+      html += `<button class="btn" onclick="entrarPerId('${entry.id}')">${LANG.entrar}</button>`;
     } else {
       html += `<p style="color:#888; margin-top:10px;">${LANG.bloquejat}</p>`;
+    }
+    if (esCapitol) {
+      const vegades = estat.capitols100Counts[entry.id] || 0;
+      if (vegades>0) html += `<div style="margin-top:8px; font-size:11px; color:#aaa;">🏆 ${vegades}x 100% | ${vegades>=2?'📜 OK':'📜 '+(2-vegades)+' per llegenda'} | ${vegades>=3?'🗝️ OK':'🗝️ '+(3-vegades)+' per ruta'}</div>`;
     }
     card.innerHTML = html;
     mapaDiv.appendChild(card);
   });
-  RUTES_SECRETES.forEach(ruta => {
-    const desbloquejada = estat.rutesDesbloquejades.includes(ruta.id);
-    const card = document.createElement('div');
-    card.className = 'capitol-card ruta-secreta' + (desbloquejada? '' : ' bloquejat');
-    if(desbloquejada) {
-      card.innerHTML = `
-        <div class="capitol-icona">${ruta.icona}</div>
-        <h3>${ruta.nom}</h3>
-        <p style="color:#FFD700;">${LANG.ruta_secreta}</p>
-        <button class="btn" onclick="carregarCapitol('${ruta.id}.json')">Entrar</button>
-      `;
-    } else {
-      card.innerHTML = `
-        <div class="capitol-icona" style="filter:grayscale(1) brightness(0.3);">${ruta.icona}</div>
-        <h3 style="color:#555;">???</h3>
-        <p style="color:#666; font-size:12px;">${ruta.desc}</p>
-        <p style="color:#444; margin-top:8px;">🔒 ${LANG.bloquejat}</p>
-      `;
-    }
-    mapaDiv.appendChild(card);
-  });
 }
-function entrarCapitol(id) {
-  const capitol = CAPITOLS.find(c => c.id === id);
-  if (capitol && capitol.archivo) carregarCapitol(capitol.archivo);
+function entrarPerId(id) {
+  const entry = (MON_GIRONA.length>0? MON_GIRONA : [...CAPITOLS,...RUTES_SECRETES]).find(c => c.id === id);
+  if (!entry) return;
+  let arxiu = (entry.arxiu || entry.archivo || `data/${id}.json`).replace('./','').replace('data/','');
+  carregarCapitol(arxiu);
 }
+function entrarCapitol(id) { entrarPerId(id); }
 function repetirCapitol(id) {
-  const capitol = CAPITOLS.find(c => c.id === id);
-  if (!capitol) return;
-  estat.capitolsCompletats = estat.capitolsCompletats.filter(c => c!== id);
-  guardarEstat();
-  carregarCapitol(capitol.archivo);
+  const entry = (MON_GIRONA.length>0? MON_GIRONA : [...CAPITOLS,...RUTES_SECRETES]).find(c => c.id === id);
+  if (!entry) return;
+  let arxiu = (entry.arxiu || entry.archivo || `data/${id}.json`).replace('./','').replace('data/','');
+  carregarCapitol(arxiu);
 }
 async function carregarCapitol(nombreArchivo) {
   pararMusica();
@@ -326,18 +349,26 @@ async function carregarCapitol(nombreArchivo) {
     const res = await fetch(`./data/${nombreArchivo}`);
     if (!res.ok) throw new Error('Archivo no encontrado: ' + nombreArchivo);
     const data = await res.json();
-    let capitolInfo = CAPITOLS.find(c => c.archivo === nombreArchivo);
-    if (!capitolInfo) {
-      const resCap = await fetch('./data/capitols.json');
-      const capitolsData = await resCap.json();
-      capitolInfo = capitolsData.find(c => c.arxiu === `./data/${nombreArchivo}` || c.archivo === nombreArchivo);
+    let info = null;
+    if (MON_GIRONA.length>0) info = MON_GIRONA.find(c => c.arxiu && c.arxiu.includes(nombreArchivo));
+    if (!info) info = CAPITOLS.find(c => c.archivo === nombreArchivo);
+    if (!info) info = RUTES_SECRETES.find(c => `${c.id}.json` === nombreArchivo);
+    if (!info) {
+      try {
+        const resCap = await fetch('./data/capitols.json');
+        const capitolsData = await resCap.json();
+        info = capitolsData.find(c => (c.arxiu && c.arxiu.includes(nombreArchivo)) || c.id === nombreArchivo.replace('.json',''));
+      } catch {}
     }
-    if (!capitolInfo) throw new Error('Capítol no trobat');
-    estat.capitolActual = {id: capitolInfo.id, passos: data, recompensa_100: capitolInfo.recompensa_100 || null};
+    if (!info) info = { id: nombreArchivo.replace('.json',''), tipus: nombreArchivo.includes('llegenda')? 'llegenda' : nombreArchivo.includes('ruta')? 'ruta_secreta' : 'capitol' };
+    let passos = data;
+    if (data.pagines) passos = data.pagines;
+    if (data.passos) passos = data.passos;
+    estat.capitolActual = {id: info.id, passos: passos, tipus: info.tipus || (nombreArchivo.includes('llegenda')? 'llegenda' : nombreArchivo.includes('ruta')? 'ruta_secreta' : 'capitol'), info: info, recompensa_100: info.recompensa_100 || null};
     estat.pasActual = 0;
     estat.falladesCapitol = 0;
     document.getElementById('missio-card').innerHTML = `
-      <h3 id="missio-titol">Selecciona una missió al mapa</h3>
+      <h3 id="missio-titol">Carregant...</h3>
       <div id="npc-box" style="display:none;">
         <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
           <span id="npc-emoji" style="font-size:42px; line-height:1;"></span>
@@ -370,6 +401,28 @@ function carregarPas() {
     if (el) { callback(el); } else if (intentos > 0) { setTimeout(() => esperarElemento(id, callback, intentos - 1), 50); }
   };
   esperarElemento('npc-box', (npcBox) => {
+    const esLlegendaMode = estat.capitolActual.tipus === 'llegenda' || estat.capitolActual.tipus === 'ruta_secreta' || pas.tipus;
+    if (esLlegendaMode) {
+      document.getElementById('npc-box').style.display = 'none';
+      document.getElementById('missio-titol').textContent = pas.titol || pas.nom || `Pàgina ${pas.id||estat.pasActual+1}`;
+      let htmlText = `<div style="background:#1a1a1a; padding:20px; border-radius:12px; line-height:1.7; font-size:15px;">`;
+      if (pas.subtitol) htmlText += `<h4 style="color:#FFD700; margin-bottom:10px;">${pas.subtitol}</h4>`;
+      htmlText += `<p>${pas.text||pas.descripcio||''}</p>`;
+      if (pas.text_es) htmlText += `<details style="margin-top:15px; color:#888;"><summary>Ver en español</summary><p style="margin-top:10px;">${pas.text_es}</p></details>`;
+      if (pas.dada_curiosa) htmlText += `<div style="margin-top:15px; background:#2a2a2a; padding:10px; border-radius:8px; color:#FFD700;">${pas.dada_curiosa}</div>`;
+      if (pas.dada_real) htmlText += `<div style="margin-top:10px; color:#aaa; font-size:12px;">📚 ${pas.dada_real}</div>`;
+      if (pas.vocabulari) htmlText += `<div style="margin-top:10px; color:#4CAF50; font-size:13px;"><b>${pas.vocabulari.paraula}:</b> ${pas.vocabulari.def}</div>`;
+      if (pas.llocs_a_visitar) {
+        htmlText += `<div style="margin-top:15px;"><b>📍 On anar:</b><ul>`;
+        pas.llocs_a_visitar.forEach(lloc => { htmlText += `<li style="margin:5px 0;"><b>${lloc.nom}</b><br><span style="color:#888; font-size:12px;">${lloc.ubicacio}</span></li>`; });
+        htmlText += `</ul></div>`;
+      }
+      htmlText += `</div>`;
+      document.getElementById('missio-escenari').innerHTML = htmlText;
+      document.getElementById('missio-opcions').innerHTML = `<button class="btn" style="margin-top:20px; width:100%;" onclick="seguentPaginaLlegenda()">Següent ➡️</button>`;
+      document.getElementById('missio-feedback').innerHTML = `<div style="text-align:center; color:#888; margin-top:10px; font-size:12px;">Pàgina ${estat.pasActual+1} de ${estat.capitolActual.passos.length}</div>`;
+      return;
+    }
     const npcEmoji = pas.npc_emoji || '👤';
     const npcNom = pas.npc_nom || 'NPC';
     const jugadorEmoji = estat.personatge?.emoji || '🧑';
@@ -381,28 +434,27 @@ function carregarPas() {
     const textoES = pas.dialog_es || pas.dialog;
     document.getElementById('npc-dialog').innerHTML = `
       ${textoCA}
-      <button onclick="parlarNPC(\`${textoCA.replace(/`/g, '\\`')}\`, 'ca')"
-        style="background:none; border:none; font-size:20px; margin-left:8px; cursor:pointer; opacity:0.7;"
-        title="Escoltar en català">🔊</button>
-      <button onclick="parlarNPC(\`${textoES.replace(/`/g, '\\`')}\`, 'es')"
-        style="background:none; border:none; font-size:20px; margin-left:4px; cursor:pointer; opacity:0.7;"
-        title="Escuchar en español">🗣️</button>
+      <button onclick="parlarNPC(\`${textoCA.replace(/`/g, '\\`')}\`, 'ca')" style="background:none; border:none; font-size:20px; margin-left:8px; cursor:pointer; opacity:0.7;">🔊</button>
+      <button onclick="parlarNPC(\`${textoES.replace(/`/g, '\\`')}\`, 'es')" style="background:none; border:none; font-size:20px; margin-left:4px; cursor:pointer; opacity:0.7;">🗣️</button>
     `;
     document.getElementById('jugador-emoji').textContent = jugadorEmoji;
     document.getElementById('jugador-nom').textContent = jugadorNom;
-    document.getElementById('missio-titol').textContent = pas.pregunta;
+    document.getElementById('missio-titol').textContent = pas.pregunta || '';
     const opcionsDiv = document.getElementById('missio-opcions');
     opcionsDiv.innerHTML = '';
-    pas.opcions.forEach((opcio, i) => {
-      const div = document.createElement('div');
-      div.className = 'opcio';
-      div.innerHTML = `<span class="opcio-text">${opcio.text}</span>`;
-      div.onclick = () => seleccionarOpcio(i);
-      opcionsDiv.appendChild(div);
-    });
+    if (pas.opcions) {
+      pas.opcions.forEach((opcio, i) => {
+        const div = document.createElement('div');
+        div.className = 'opcio';
+        div.innerHTML = `<span class="opcio-text">${opcio.text}</span>`;
+        div.onclick = () => seleccionarOpcio(i);
+        opcionsDiv.appendChild(div);
+      });
+    }
     document.getElementById('missio-feedback').innerHTML = '';
   });
 }
+function seguentPaginaLlegenda() { estat.pasActual++; carregarPas(); }
 function seleccionarOpcio(idx) {
   if(estat.bloquejat) return;
   vibrar();
@@ -437,39 +489,49 @@ function seleccionarOpcio(idx) {
 }
 function mostrarFeedback(text, duracio) {
   const feedbackDiv = document.getElementById('missio-feedback');
-  feedbackDiv.innerHTML = `<div id="feedback-box">
-    <p>${text}</p>
-    <div id="feedback-barra" style="height:4px; background:var(--accent); width:0%; animation: fillBar ${duracio}ms linear forwards; margin-top:10px; border-radius:2px;"></div>
-  </div>`;
+  feedbackDiv.innerHTML = `<div id="feedback-box"><p>${text}</p><div id="feedback-barra" style="height:4px; background:var(--accent); width:0%; animation: fillBar ${duracio}ms linear forwards; margin-top:10px; border-radius:2px;"></div></div>`;
 }
 function completarCapitol() {
   tocarJingleCompletado();
-  if (!estat.capitolsCompletats.includes(estat.capitolActual.id)) {
-    estat.capitolsCompletats.push(estat.capitolActual.id);
-  }
-  const seguent = CAPITOLS.find(c => c.requereix === estat.capitolActual.id);
-  if (seguent) seguent.desbloquejat = true;
-  document.getElementById('npc-box').style.display = 'none';
+  const id = estat.capitolActual.id;
+  const tipus = estat.capitolActual.tipus;
   const es100 = (estat.falladesCapitol || 0) === 0;
-  const fallades = estat.falladesCapitol || 0;
-  let htmlPremi = '';
-  const vecesNecesarias = 3;
-  if(es100 && estat.capitolActual.recompensa_100) {
-    estat.capitols100Counts[estat.capitolActual.id] = (estat.capitols100Counts[estat.capitolActual.id] || 0) + 1;
-    const veces100 = estat.capitols100Counts[estat.capitolActual.id];
-    const item = ITEMS[estat.capitolActual.recompensa_100.item_id];
-    if(item &&!estat.objectes.includes(estat.capitolActual.recompensa_100.item_id)) {
-      estat.objectes.push(estat.capitolActual.recompensa_100.item_id);
-    }
-    if(veces100 >= vecesNecesarias && estat.capitolActual.recompensa_100.ruta) {
-      if(!estat.rutesDesbloquejades.includes(estat.capitolActual.recompensa_100.ruta)) {
-        estat.rutesDesbloquejades.push(estat.capitolActual.recompensa_100.ruta);
+  const esCapitol = tipus === 'capitol' || (!tipus && id.startsWith('capitol_'));
+
+  if (tipus === 'llegenda') {
+    if (!estat.llegendesDesbloquejades.includes(id)) estat.llegendesDesbloquejades.push(id);
+  } else if (tipus === 'ruta_secreta') {
+    if (!estat.rutesDesbloquejades.includes(id)) estat.rutesDesbloquejades.push(id);
+  } else if (esCapitol) {
+    if (!estat.capitolsCompletats.includes(id)) estat.capitolsCompletats.push(id);
+    if (es100) {
+      estat.capitols100Counts[id] = (estat.capitols100Counts[id] || 0) + 1;
+      const vegades = estat.capitols100Counts[id];
+      if (vegades === 2) mostrarModal(`📜 Llegenda desbloquejada!\nHas completat ${id} 2 vegades al 100%`);
+      if (vegades === 3) {
+        const ruta = (MON_GIRONA.length>0? MON_GIRONA : []).find(e => e.tipus==='ruta_secreta' && e.requereix === id) || RUTES_SECRETES.find(r => r.requereix_capitol === id);
+        const rutaId = ruta?.id;
+        if (rutaId &&!estat.rutesDesbloquejades.includes(rutaId)) {
+          estat.rutesDesbloquejades.push(rutaId);
+          mostrarModal(`🗝️ Ruta Secreta desbloquejada!\n${ruta.nom||rutaId}`);
+        }
       }
     }
-    const imgHtmlPremi = item?.emoji? `<div style="font-size: 80px; margin-bottom: 15px;">${item.emoji}</div>` : `<img src="${item?.imatge}" style="width:100px; height:100px; object-fit:contain;">`;
-    htmlPremi = `<div class="item-desbloquejat">${imgHtmlPremi}<h3>${item?.nom || 'Premi'}</h3><p>${item?.descripcio || ''}</p><div style="color:#FFD700; font-weight:bold;">${veces100 >= vecesNecesarias? '<span style="color:#4CAF50;">Ruta secreta desbloquejada!</span>' : `Falten ${vecesNecesarias - veces100} cops per la ruta secreta`}</div></div>`;
   } else {
-    htmlPremi = `<div style="text-align:center; margin-top:20px;"><p style="color:#ff6b6b; font-size:18px; font-weight:bold;">Has fallat ${fallades} pregunta${fallades > 1? 's' : ''}</p><p style="color:#888; margin-top:10px;">Fes 0 fallos per guanyar l'item especial.</p></div>`;
+    if (!estat.capitolsCompletats.includes(id)) estat.capitolsCompletats.push(id);
+  }
+
+  document.getElementById('npc-box').style.display = 'none';
+  let htmlPremi = '';
+  if (esCapitol) {
+    if(es100) {
+      const vegades = estat.capitols100Counts[id] || 1;
+      htmlPremi = `<div style="text-align:center;"><p style="color:#4CAF50; font-size:18px; font-weight:bold;">100% 🏆 Vegades: ${vegades}</p><div style="color:#FFD700; font-weight:bold; margin-top:10px;">${vegades>=2?'<span style="color:#4CAF50;">📜 Llegenda desbloquejada!</span>':`Falten ${2-vegades} per Llegenda`}<br>${vegades>=3?'<span style="color:#4CAF50;">🗝️ Ruta desbloquejada!</span>':`Falten ${3-vegades} per Ruta`}</div></div>`;
+    } else {
+      htmlPremi = `<div style="text-align:center; margin-top:20px;"><p style="color:#ff6b6b; font-size:18px; font-weight:bold;">Has fallat ${estat.falladesCapitol} pregunta(s)</p><p style="color:#888; margin-top:10px;">Fes 0 fallos per guanyar 100%</p></div>`;
+    }
+  } else {
+    htmlPremi = `<div style="text-align:center;"><p style="color:#4CAF50; font-size:18px;">✅ ${tipus} completada!</p><p style="color:#888; margin-top:10px;">Has après història real de Girona</p></div>`;
   }
   document.getElementById('missio-card').innerHTML = `
     <div class="completion-screen">
@@ -514,6 +576,7 @@ function guardarEstat() {
   localStorage.setItem('cat_completats', JSON.stringify(estat.capitolsCompletats));
   localStorage.setItem('cat_objectes', JSON.stringify(estat.objectes));
   localStorage.setItem('cat_rutes', JSON.stringify(estat.rutesDesbloquejades));
+  localStorage.setItem('cat_llegendes', JSON.stringify(estat.llegendesDesbloquejades));
   localStorage.setItem('cat_capitols100', JSON.stringify(estat.capitols100Counts));
   localStorage.setItem('cat_seny', estat.stats.seny);
   localStorage.setItem('cat_rauxa', estat.stats.rauxa);
@@ -556,7 +619,7 @@ function mostrarGremi(tab, e) {
       const titols = { seny: 'Estratèg', rauxa: 'Impulsiu', arrel: 'Arrelat', obert: 'Cosmopolita', neutral: 'Novell' };
       const totalStats = estat.stats.seny + estat.stats.rauxa + estat.stats.arrel + estat.stats.obert;
       const rang = totalStats < 20? 'Novell' : totalStats < 50? 'Viatjant' : totalStats < 100? 'Mestre' : 'Llegendari';
-      cont.innerHTML = `<div class="gremi-item" style="grid-column:1/-1; text-align:center;"><div style="font-size:64px;">${estat.personatge.emoji}</div><h3 style="margin:10px 0;">${estat.personatge.nom}</h3><p style="color:#888;">${estat.personatge.nom_cat}</p><hr style="border-color:#333; margin:15px 0;"><p><b>Rang:</b> ${rang}</p><p><b>Títol:</b> ${titols[estat.totem]}</p><p><b>Capítols 100%:</b> ${estat.capitolsCompletats.length}/${CAPITOLS.length}</p><button class="btn btn-sec" style="margin-top:15px;" onclick="canviarPersonatge()">${LANG.canviar_personatge}</button></div>`;
+      cont.innerHTML = `<div class="gremi-item" style="grid-column:1/-1; text-align:center;"><div style="font-size:64px;">${estat.personatge.emoji}</div><h3 style="margin:10px 0;">${estat.personatge.nom}</h3><p style="color:#888;">${estat.personatge.nom_cat}</p><hr style="border-color:#333; margin:15px 0;"><p><b>Rang:</b> ${rang}</p><p><b>Títol:</b> ${titols[estat.totem]}</p><p><b>Capítols 100%:</b> ${estat.capitolsCompletats.length}/${CAPITOLS.length}</p><p><b>Llegendes:</b> ${estat.llegendesDesbloquejades.length}</p><p><b>Rutes:</b> ${estat.rutesDesbloquejades.length}</p><button class="btn btn-sec" style="margin-top:15px;" onclick="canviarPersonatge()">${LANG.canviar_personatge}</button></div>`;
     }
   }
   if(tab === 'objectes') {
@@ -564,33 +627,19 @@ function mostrarGremi(tab, e) {
     else { estat.objectes.forEach(id => { const item = ITEMS[id]; if(item) { const esEmoji = item.imatge?.length <= 2 &&!item.imatge.startsWith('./'); const imgHtml = esEmoji? `<div style="font-size: 60px; margin-bottom: 10px;">${item.imatge}</div>` : `<img src="${item.imatge}" style="width:80px; height:80px; object-fit:contain;">`; cont.innerHTML += `<div class="gremi-item">${imgHtml}<div>${item.nom}</div><div style="font-size:12px; color:#888;">${item.descripcio}</div></div>`; } }); }
   }
   if(tab === 'llegendes') {
-    Promise.all([
-      fetch('./data/llegendes_girona.json').then(r => r.json()).catch(()=>[]),
-      fetch('./data/llegendes_forca.json').then(r => r.json()).catch(()=>[]),
-      fetch('./data/llegendes_call.json').then(r => r.json()).catch(()=>[]),
-      fetch('./data/llegendes_barcelona.json').then(r => r.json()).catch(()=>[]),
-      fetch('./data/llegendes_valencia.json').then(r => r.json()).catch(()=>[])
-    ])
- .then(([girona, forca, call, barcelona, valencia]) => {
-      const totes = [...girona,...forca,...call,...barcelona,...valencia];
-      cont.innerHTML = '';
-      if(totes.length === 0) { cont.innerHTML = '<p style="text-align:center; color:#666;">No hi ha llegendes encara - Completa missions!</p>'; return; }
-      totes.forEach(l => {
-        let desbloquejada = false;
-        if(l.condicio && l.condicio.startsWith('completar_')) {
-          const idCapitol = l.condicio.replace('completar_', '');
-          desbloquejada = estat.capitolsCompletats.includes(idCapitol);
-        } else if(l.condicio) {
-          const idCapitol = l.condicio.replace('.json','');
-          desbloquejada = estat.capitolsCompletats.includes(idCapitol);
-        } else { desbloquejada = true; }
+    const llistaLlegendes = MON_GIRONA.filter(x=>x.tipus==='llegenda');
+    if (llistaLlegendes.length>0) {
+      llistaLlegendes.forEach(l => {
+        const desbloquejada = (estat.capitols100Counts[l.requereix]||0)>=2 || estat.llegendesDesbloquejades.includes(l.id);
         if(desbloquejada) {
-          cont.innerHTML += `<div class="gremi-item" style="grid-column:1/-1;"><div style="font-size:36px;">${l.icona}</div><h3 style="margin:10px 0;">${l.titol}</h3><p style="font-size:14px; color:#ccc; line-height:1.6; text-align:left;">${l.text}</p><div style="color:#4CAF50; font-size:12px; margin-top:10px;">✓ Desbloquejada</div></div>`;
+          cont.innerHTML += `<div class="gremi-item" style="grid-column:1/-1;"><div style="font-size:36px;">${l.icona}</div><h3 style="margin:10px 0;">${l.nom}</h3><p style="font-size:14px; color:#ccc; line-height:1.6; text-align:left;">${l.descripcio||''}</p><p style="font-size:12px; color:#4CAF50;">${l.condicio_text||''}</p><button class="btn btn-sec" style="margin-top:10px;" onclick="entrarPerId('${l.id}')">Llegir Llegenda</button></div>`;
         } else {
-          cont.innerHTML += `<div class="gremi-item" style="grid-column:1/-1; opacity:0.4;"><div style="font-size:36px;">🔒</div><h3 style="margin:10px 0;">???</h3><p style="font-size:14px; color:#666;">Completa el capítol per desbloquejar</p></div>`;
+          cont.innerHTML += `<div class="gremi-item" style="grid-column:1/-1; opacity:0.4;"><div style="font-size:36px;">🔒</div><h3 style="margin:10px 0;">???</h3><p style="font-size:14px; color:#666;">${l.condicio_text||'Completa el capítol per desbloquejar'}</p></div>`;
         }
       });
-    }).catch(err => console.error('Error carregant llegendes:', err));
+    } else {
+      cont.innerHTML = '<p style="text-align:center; color:#666;">No hi ha llegendes - Carrega el nou capitols.json de 12 entrades</p>';
+    }
   }
 }
 function mostrarBibliotecaTab(tab, e) {
@@ -779,4 +828,6 @@ function parlarNPC(texto, lang = 'ca') {
 if ('speechSynthesis' in window) { speechSynthesis.onvoiceschanged = () => {}; }
 window.repetirCapitolActual = repetirCapitolActual;
 window.tornarMapa = tornarMapa;
+window.entrarPerId = entrarPerId;
+window.seguentPaginaLlegenda = seguentPaginaLlegenda;
 if ('serviceWorker' in navigator) { navigator.serviceWorker.register('./sw.js').catch(err => console.log('SW error:', err)); }
