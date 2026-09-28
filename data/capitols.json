@@ -1,110 +1,14 @@
 [
-  {
-    "id": "capitol_01_forca_vella",
-    "nom": "Girona - Força Vella - Origen Romà",
-    "icona": "🏛️",
-    "descripcio": "2000 anys de muralla. On neix tot. Túnel, 3 llavors, Lleó.",
-    "arxiu": "./data/capitol_01_forca_vella.json",
-    "desbloquejat": true,
-    "tipus": "capitol",
-    "recompensa_100": {
-      "item_id": "clau_tunel_forca_vella",
-      "ruta": "ruta_secreta_01_tunel_forca_vella"
-    }
-  },
-  {
-    "id": "capitol_02_temps_flors",
-    "nom": "Girona - Temps de Flors",
-    "icona": "🌸",
-    "descripcio": "113 espais amb flors. Català de colors. Maig 2026.",
-    "arxiu": "./data/capitol_02_temps_flors.json",
-    "requereix": "capitol_01_forca_vella",
-    "tipus": "capitol",
-    "recompensa_100": {
-      "item_id": "flor_suprema_temps_flors",
-      "ruta": "ruta_secreta_02_jardi_prohibit"
-    }
-  },
-  {
-    "id": "capitol_03_call_jueu",
-    "nom": "Girona - Call Jueu - 1492",
-    "icona": "✡️",
-    "descripcio": "El dia que Girona va plorar. 9 juliol 1492. Bonastruc.",
-    "arxiu": "./data/capitol_03_call_jueu.json",
-    "requereix": "capitol_02_temps_flors",
-    "tipus": "capitol",
-    "recompensa_100": {
-      "item_id": "tora_segle_xii_call",
-      "ruta": "ruta_secreta_03_sinagoga_secreta"
-    }
-  },
-  {
-    "id": "capitol_04_sant_narcis",
-    "nom": "Girona - Sant Narcís - Mosca Reina",
-    "icona": "🪰",
-    "descripcio": "Festa Major. Barraques, focs, Mosca Reina des de 1285.",
-    "arxiu": "./data/capitol_04_sant_narcis.json",
-    "requereix": "capitol_03_call_jueu",
-    "tipus": "capitol",
-    "recompensa_100": {
-      "item_id": "corona_mosca_reina",
-      "ruta": "ruta_secreta_04_vol_mosca"
-    }
-  },
-  {
-    "id": "ruta_secreta_01_tunel_forca_vella",
-    "nom": "Ruta Secreta - Túnel Força Vella - 2000 anys",
-    "icona": "🗝️",
-    "descripcio": "Túnel romà secret. 3 llavors que creen tot el Món Girona.",
-    "arxiu": "./data/ruta_secreta_01_tunel_forca_vella.json",
-    "secret": true,
-    "tipus": "ruta_secreta",
-    "desbloqueig": "completar_capitol_01_forca_vella_3_veces",
-    "recompensa_100": {
-      "item_id": "llavor_origen_forca_vella",
-      "ruta": null
-    }
-  },
-  {
-    "id": "ruta_secreta_02_jardi_prohibit",
-    "nom": "Ruta Secreta - Jardí Prohibit - Espai 114",
-    "icona": "🌹",
-    "descripcio": "Espai 114 secret Catedral. Rosa Mare 1492. Tancat 364 dies.",
-    "arxiu": "./data/ruta_secreta_02_jardi_prohibit_catedral.json",
-    "secret": true,
-    "tipus": "ruta_secreta",
-    "desbloqueig": "completar_capitol_02_temps_flors_3_veces",
-    "recompensa_100": {
-      "item_id": "llavor_mare_rosa_1492",
-      "ruta": null
-    }
-  },
-  {
-    "id": "ruta_secreta_03_sinagoga_secreta",
-    "nom": "Ruta Secreta - Sinagoga Secreta sota el Call",
-    "icona": "🕍",
-    "descripcio": "Sinagoga segle XIII tapada sota Mikvé. Torà 800 anys.",
-    "arxiu": "./data/ruta_secreta_03_sinagoga_secreta.json",
-    "secret": true,
-    "tipus": "ruta_secreta",
-    "desbloqueig": "completar_capitol_03_call_jueu_3_veces",
-    "recompensa_100": {
-      "item_id": "corona_sinagoga_secreta",
-      "ruta": null
-    }
-  },
-  {
-    "id": "ruta_secreta_04_vol_mosca",
-    "nom": "Ruta Secreta - Vol de la Mosca - Girona des de dalt",
-    "icona": "👑",
-    "descripcio": "Et fas mosca 1 hora. Voles ENTRE focs. Ulls de mosca per sempre.",
-    "arxiu": "./data/ruta_secreta_04_vol_mosca.json",
-    "secret": true,
-    "tipus": "ruta_secreta",
-    "desbloqueig": "completar_capitol_04_sant_narcis_3_veces",
-    "recompensa_100": {
-      "item_id": "corona_vol_mosca",
-      "ruta": null
-    }
-  }
+  {"id":"capitol_01_forca_vella","nom":"Girona - Força Vella","icona":"🏛️","tipus":"capitol","desbloquejat":true,"requereix":null,"arxiu":"data/capitol_01_forca_vella.json","descripcio":"2000 anys de muralla"},
+  {"id":"llegenda_01_forca_vella","nom":"Llegenda - Força Vella 77aC","icona":"📜","tipus":"llegenda","desbloquejat":false,"requereix":"capitol_01_forca_vella","condicio_text":"Completa Capítol 01 2x 100%","arxiu":"data/llegenda_01_forca_vella.json"},
+  {"id":"ruta_secreta_01_tunel_forca_vella","nom":"Ruta Secreta - Túnel","icona":"🗝️","tipus":"ruta_secreta","secret":true,"desbloquejat":false,"requereix":"capitol_01_forca_vella","condicio_text":"Completa Capítol 01 3x 100%","arxiu":"data/ruta_secreta_01_tunel_forca_vella.json"},
+  {"id":"capitol_02_temps_flors","nom":"Girona - Temps de Flors","icona":"🌸","tipus":"capitol","desbloquejat":false,"requereix":"capitol_01_forca_vella","arxiu":"data/capitol_02_temps_flors.json"},
+  {"id":"llegenda_02_temps_flors","nom":"Llegenda - Temps de Flors 1954","icona":"📜","tipus":"llegenda","desbloquejat":false,"requereix":"capitol_02_temps_flors","condicio_text":"Completa Capítol 02 2x 100%","arxiu":"data/llegenda_02_temps_flors.json"},
+  {"id":"ruta_secreta_02_jardi_prohibit","nom":"Ruta Secreta - Jardí Prohibit","icona":"🌹","tipus":"ruta_secreta","secret":true,"desbloquejat":false,"requereix":"capitol_02_temps_flors","condicio_text":"Completa Capítol 02 3x 100%","arxiu":"data/ruta_secreta_02_jardi_prohibit_catedral.json"},
+  {"id":"capitol_03_call_jueu","nom":"Girona - Call Jueu 1492","icona":"✡️","tipus":"capitol","desbloquejat":false,"requereix":"capitol_02_temps_flors","arxiu":"data/capitol_03_call_jueu.json"},
+  {"id":"llegenda_03_call_jueu","nom":"Llegenda - Call Jueu 888-1492","icona":"📜","tipus":"llegenda","desbloquejat":false,"requereix":"capitol_03_call_jueu","condicio_text":"Completa Capítol 03 2x 100%","arxiu":"data/llegenda_03_call_jueu.json"},
+  {"id":"ruta_secreta_03_sinagoga_secreta","nom":"Ruta Secreta - Sinagoga","icona":"🕍","tipus":"ruta_secreta","secret":true,"desbloquejat":false,"requereix":"capitol_03_call_jueu","condicio_text":"Completa Capítol 03 3x 100%","arxiu":"data/ruta_secreta_03_sinagoga_secreta.json"},
+  {"id":"capitol_04_sant_narcis","nom":"Girona - Sant Narcís","icona":"🪰","tipus":"capitol","desbloquejat":false,"requereix":"capitol_03_call_jueu","arxiu":"data/capitol_04_sant_narcis.json"},
+  {"id":"llegenda_04_sant_narcis","nom":"Llegenda - Sant Narcís 1285","icona":"📜","tipus":"llegenda","desbloquejat":false,"requereix":"capitol_04_sant_narcis","condicio_text":"Completa Capítol 04 2x 100%","arxiu":"data/llegenda_04_sant_narcis.json"},
+  {"id":"ruta_secreta_04_vol_mosca","nom":"Ruta Secreta - Vol Mosca","icona":"👑","tipus":"ruta_secreta","secret":true,"desbloquejat":false,"requereix":"capitol_04_sant_narcis","condicio_text":"Completa Capítol 04 3x 100%","arxiu":"data/ruta_secreta_04_vol_mosca.json"}
 ]
