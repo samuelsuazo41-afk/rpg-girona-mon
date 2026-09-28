@@ -9,6 +9,7 @@
   --success: #4CAF50;
   --danger: #f44336;
   --secret: #FFD700;
+  --llegenda: #4CAF50;
   --radius: 16px;
 }
 [data-totem="seny"] { --accent: #2196F3; --accent2: #64B5F6; }
@@ -58,11 +59,23 @@ header h1 {
 .tab-content.active { display:block; animation:fadeIn 0.3s ease; }
 @keyframes fadeIn { from{opacity:0; transform:translateY(10px)} to{opacity:1; transform:translateY(0)} }
 @keyframes fillBar { from{width:0%} to{width:100%} }
+
+/* MAPA GRID - 12 ENTRADES */
+#mapa {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+  padding: 10px 0;
+}
+@media (max-width: 600px) {
+  #mapa { grid-template-columns: 1fr; }
+}
+
 .capitol-card {
   background: var(--card);
   border-radius: var(--radius);
   padding: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   border: 2px solid transparent;
   border-left: 4px solid var(--accent);
   transition: all 0.3s ease;
@@ -76,11 +89,67 @@ header h1 {
 #mapa .capitol-card:nth-child(3) { border-left-color:#9C27B0; }
 #mapa .capitol-card:nth-child(4) { border-left-color:#FFD700; }
 .capitol-icona { font-size:48px; margin-bottom:12px; }
+
+/* HMN - LLEGENDES - 150 PARAULES - VERD */
+.capitol-card.llegenda-card {
+  border: 2px solid var(--llegenda)!important;
+  border-left: 4px solid var(--llegenda)!important;
+  background: linear-gradient(135deg, #1a221a 0%, #1a1a1a 100%)!important;
+  box-shadow: 0 0 12px rgba(76, 175, 80, 0.25)!important;
+  position: relative;
+}
+.capitol-card.llegenda-card::before {
+  content: "📜 HISTÒRIA REAL";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 9px;
+  background: var(--llegenda);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.capitol-card.llegenda-card.completat {
+  border-color: #81C784!important;
+  background: linear-gradient(135deg, #1f2f1f, #1a1a1a)!important;
+}
+
+/* HMN - RUTES SECRETES - DAURAT */
+.capitol-card.ruta-secreta {
+  border: 2px dashed var(--secret)!important;
+  background: linear-gradient(135deg, #151515 0%, #1f1f0a 100%)!important;
+  box-shadow:0 0 8px rgba(255,215,0,0.15);
+  position: relative;
+}
+.capitol-card.ruta-secreta::before {
+  content: "🗝️ SECRET";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 9px;
+  background: var(--secret);
+  color: #000;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 900;
+}
+.capitol-card.ruta-secreta.bloquejat { opacity:0.85; filter:none; cursor:not-allowed; }
+.capitol-card.ruta-secreta.bloquejat .capitol-icona { filter:grayscale(0.3) brightness(1.2); font-size:56px; }
+.capitol-card.ruta-secreta:not(.bloquejat) {
+  border-color:var(--secret)!important;
+  border-style: solid!important;
+  box-shadow:0 0 16px rgba(255,215,0,0.35);
+  animation:secretGlow 2s ease-in-out infinite;
+}
+@keyframes secretGlow { 0%,100%{box-shadow:0 0 16px rgba(255,215,0,0.35)} 50%{box-shadow:0 0 24px rgba(255,215,0,0.5)} }
+
 .btn {
   background: linear-gradient(135deg, var(--accent), var(--accent2));
   color: white; border:none; padding:14px 28px; border-radius:12px;
   font-size:16px; font-weight:700; cursor:pointer; width:100%;
   transition: transform 0.2s ease;
+  margin-top: 10px;
 }
 .btn:active { transform:scale(0.98); }
 .btn-sec { background:var(--card); border:2px solid var(--accent); }
@@ -120,8 +189,9 @@ header h1 {
 .emoji-item:active { transform:scale(0.95); }
 .emoji-large { font-size:32px; }
 .emoji-name { font-size:11px; color:var(--text-sec); margin-top:4px; }
-.capitol-card.ruta-secreta { border:2px dashed var(--secret); background: linear-gradient(135deg, #151515 0%, #1f1f0a 100%); box-shadow:0 0 8px rgba(255,215,0,0.15); }
-.capitol-card.ruta-secreta.bloquejat { opacity:0.85; filter:none; cursor:not-allowed; }
-.capitol-card.ruta-secreta.bloquejat .capitol-icona { filter:grayscale(0.3) brightness(1.2); font-size:56px; }
-.capitol-card.ruta-secreta:not(.bloquejat) { border-color:var(--secret); box-shadow:0 0 16px rgba(255,215,0,0.35); animation:secretGlow 2s ease-in-out infinite; }
-@keyframes secretGlow { 0%,100%{box-shadow:0 0 16px rgba(255,215,0,0.35)} 50%{box-shadow:0 0 24px rgba(255,215,0,0.5)} }
+
+/* Llegendes - Contingut 150 paraules */
+#missio-escenari div { line-height:1.7; }
+#missio-escenari details { margin-top:15px; }
+#missio-escenari ul { margin-top:10px; padding-left:20px; }
+#missio-escenari li { margin:8px 0; }
