@@ -1,0 +1,68 @@
+{
+  "id": "llegenda_02_temps_flors",
+  "capitol_id": "capitol_02_temps_flors",
+  "icona": "🌸",
+  "desbloquejada": false,
+  "condicio": "completar_capitol_02_temps_flors_2_veces",
+  "titol": "Temps de Flors - De 1 saló el 1954 a 146 espais i 400.000 persones",
+  "titol_es": "Temps de Flors - De 1 salón en 1954 a 146 espacios y 400.000 personas",
+  "subtitol": "La idea de Maria Cobarsí que va salvar el Barri Vell",
+  "paraules_per_pagina": "150-200",
+
+  "pagines": [
+    {
+      "id": 1,
+      "tipus": "portada",
+      "titol": "TEMPS DE FLORS",
+      "subtitol": "1954 - 1 saló amb rams. 2024 - 146 muntatges. 400.000 visitants en 9 dies.",
+      "text": "Benvingut a Temps de Flors. Cada mes de maig, durant 9 dies, Girona deixa de ser una ciutat i es converteix en un jardí gegant. 146 muntatges florals omplen patis secrets, esglésies, museus i escales que la resta de l'any estan tancats. Mig milió de fotos es fan cada dia a les Escales de la Catedral. Però no sempre va ser així. El 1955 el Barri Vell era sòrdid, fosc i impresentable, ningú volia pujar-hi. Va caler una dona amb una idea molt simple: posar flors on hi havia misèria. Aquesta és la història real de com unes flors van salvar una ciutat de 2000 anys.",
+      "text_es": "Bienvenido a Temps de Flors. Cada mes de mayo, durante 9 días, Girona deja de ser una ciudad y se convierte en un jardín gigante. 146 montajes florales llenan patios secretos, iglesias, museos y escaleras que el resto del año están cerrados. Medio millón de fotos se hacen cada día en las Escales de la Catedral. Pero no siempre fue así. En 1955 el Barri Vell era sórdido, oscuro e impresentable, nadie quería subir. Hizo falta una mujer con una idea muy simple: poner flores donde había miseria. Esta es la historia real de cómo unas flores salvaron una ciudad de 2000 años."
+    },
+    {
+      "id": 2,
+      "tipus": "historia",
+      "titol": "1954 - Maria Cobarsí i el Saló de Descans del Teatre",
+      "text": "La creadora real es deia Maria Cobarsí Corretger. Va néixer a Vilobí d'Onyar el 17 d'abril de 1923 i va morir a Girona el 11 d'agost de 2013. El 1954 era delegada de la Sección Femenina de la Falange a Girona. Amb un grup d'amigues que estimaven les flors, va decidir organitzar una cosa que mai s'havia fet: una exposició de rams i testos. La van anomenar Concurso Exposición Provincial de Flores. On la van fer? Al Saló de Descans del Teatre Municipal de Girona, a la Plaça del Vi. Només una sala, amb l'ajuda de l'Ajuntament i la Diputació. Van venir professionals i gent normal a qui agradaven les flors. Ningú s'imaginava que 70 anys després aquella idea d'un saló es convertiria en el festival internacional més important de Girona. La bona resposta d'aquell 1954 els va empènyer a continuar.",
+      "text_es": "La creadora real se llamaba Maria Cobarsí Corretger. Nació en Vilobí d'Onyar el 17 de abril de 1923 y murió en Girona el 11 de agosto de 2013. En 1954 era delegada de la Sección Femenina de la Falange en Girona. Con un grupo de amigas que amaban las flores, decidió organizar algo que nunca se había hecho: una exposición de ramos y tiestos. La llamaron Concurso Exposición Provincial de Flores. ¿Dónde la hicieron? En el Salón de Descanso del Teatro Municipal de Girona, en la Plaça del Vi. Solo una sala, con la ayuda del Ayuntamiento y la Diputación. Vinieron profesionales y gente normal a la que le gustaban las flores. Nadie imaginaba que 70 años después aquella idea de un salón se convertiría en el festival internacional más importante de Girona. La buena respuesta de aquel 1954 les empujó a continuar.",
+      "dada_curiosa": "📜 1954 - Nom original: Concurso Exposición Provincial de Flores - Lloc: Saló de Descans Teatre Municipal",
+      "llocs_a_visitar": [{ "nom": "Teatre Municipal - Saló de Descans 1954 (origen real)", "ubicacio": "Plaça del Vi, 1, Girona" }]
+    },
+    {
+      "id": 3,
+      "tipus": "historia",
+      "titol": "1956 a 1990 - De 1 sala a salvar el Barri Vell",
+      "text": "No va ser fins dos anys més tard, el 1956, que es va tornar a celebrar. Aquesta vegada no al Teatre, sinó a la sala de pergamins de la Biblioteca Provincial, que estava als baixos de l'Hospici, el que avui és la Casa de Cultura a la Plaça de l'Hospital. Durant 40 anys va ser una exposició petita, local, per a gent de Girona. Però als anys 90 l'Ajuntament va tenir una idea brillant: convertir aquella mostra aïllada en un esdeveniment que abastés tota la ciutat. Van engalanar monuments i van convèncer els propietaris de patis particulars del Barri Vell, que estaven tancats i en ruïnes, perquè els obrissin durant una setmana al maig. El Barri Vell el 1955 era sòrdid i impresentable, ningú hi vivia. Gràcies a les flors, la gent va tornar a pujar, va descobrir palaus amagats i es va enamorar del Barri Vell. Les flors van recuperar Girona. El 2013 la revista 【entity-National Geographic¦canonical_name=National Geographic】 va triar Girona com una de les destinacions del món per viatjar a la primavera, només per Temps de Flors. El 2015 ja venien 200.000 visitants. El 2024 ja són 400.000 en 9 dies.",
+      "text_es": "No fue hasta dos años más tarde, en 1956, que se volvió a celebrar. Esta vez no en el Teatro, sino en la sala de pergaminos de la Biblioteca Provincial, que estaba en los bajos del Hospicio, lo que hoy es la Casa de Cultura en la Plaça de l'Hospital. Durante 40 años fue una exposición pequeña, local, para gente de Girona. Pero en los años 90 el Ayuntamiento tuvo una idea brillante: convertir aquella muestra aislada en un evento que abarcara toda la ciudad. Engalanaron monumentos y convencieron a los propietarios de patios particulares del Barri Vell, que estaban cerrados y en ruinas, para que los abrieran durante una semana en mayo. El Barri Vell en 1955 era sórdido e impresentable, nadie vivía allí. Gracias a las flores, la gente volvió a subir, descubrió palacios escondidos y se enamoró del Barri Vell. Las flores recuperaron Girona. En 2013 la revista 【entity-National Geographic¦canonical_name=National Geographic】 eligió Girona como uno de los destinos del mundo para viajar en primavera, solo por Temps de Flors. En 2015 ya venían 200.000 visitantes. En 2024 ya son 400.000 en 9 días.",
+      "dada_curiosa": "🌍 2013 - 【entity-National Geographic¦canonical_name=National Geographic】: Girona destinació mundial primavera",
+      "llocs_a_visitar": [{ "nom": "Casa de Cultura - Biblioteca 1956 (segona edició)", "ubicacio": "Plaça de l'Hospital, 6, Girona" }]
+    },
+    {
+      "id": 4,
+      "tipus": "misteri",
+      "titol": "L'Espai 114 Secret - La Rosa Mare de 1492 (Llegenda del Joc)",
+      "text": "Oficialment el 2024 hi ha 146 muntatges. Al mapa oficial surten 146 punts. Però al nostre joc RPG hi ha una llegenda que diu que hi ha un Espai 114 que no surt als mapes, un jardí prohibit darrere l'absis de la Catedral, tancat amb una reixa rovellada que ningú obre. Dins creix una sola flor: la Rosa Mare, una rosa daurada gegant que no necessita aigua i que fa olor de mel i de pedra vella. Diu la llegenda del joc que aquesta rosa va ser plantada la nit del 9 de juliol de 1492 per una família jueva del Call que havia d'escapar l'endemà per l'expulsió dels Reis Catòlics. Van amagar 3 llavors daurades i una Torà de 800 anys en un túnel sota la Força Vella. Una d'aquestes llavors va germinar i va esdevenir la Rosa Mare. I diu la llegenda que Maria Cobarsí, el 1954, va somiar amb aquesta rosa daurada abans de muntar el primer Saló de Flors. Per això va posar flors a Girona: perquè havia vist en somnis la Rosa Mare que esperava des de 1492. A la 3a vegada que completis el Capítol 2, trobaràs les claus d'aquest jardí prohibit.",
+      "text_es": "Oficialmente en 2024 hay 146 montajes. En el mapa oficial salen 146 puntos. Pero en nuestro juego RPG hay una leyenda que dice que hay un Espacio 114 que no sale en los mapas, un jardín prohibido detrás del ábside de la Catedral, cerrado con una reja oxidada que nadie abre. Dentro crece una sola flor: la Rosa Mare, una rosa dorada gigante que no necesita agua y que huele a miel y a piedra vieja. Dice la leyenda del juego que esta rosa fue plantada la noche del 9 de julio de 1492 por una familia judía del Call que tenía que escapar al día siguiente por la expulsión de los Reyes Católicos. Escondieron 3 semillas doradas y una Torá de 800 años en un túnel bajo la Força Vella. Una de estas semillas germinó y se convirtió en la Rosa Mare. Y dice la leyenda que Maria Cobarsí, en 1954, soñó con esta rosa dorada antes de montar el primer Salón de Flores. Por eso puso flores en Girona: porque había visto en sueños la Rosa Mare que esperaba desde 1492. A la 3a vez que completes el Capítulo 2, encontrarás las llaves de este jardín prohibido.",
+      "llocs_a_visitar": [{ "nom": "Jardí Prohibit - Espai 114 Secret (llegenda joc - Rosa Mare)", "ubicacio": "Jardins de la Catedral, darrere absis, Girona" }]
+    },
+    {
+      "id": 5,
+      "tipus": "cultura",
+      "titol": "Cultura Viva Avui - Què passa durant Temps de Flors",
+      "text": "Avui Temps de Flors no és una exposició, és una invasió pacífica de bellesa. Del 10 al 18 de maig, el Barri Vell tanca cotxes i s'obre a peu. 146 espais el 2024: els Banys Àrabs amb catifes de flors a l'aigua, els Jardins dels Alemanys amb vistes a la muralla coberta de flors, l'Església de Sant Lluc amb sostres de flors penjades, el Museu d'Història dels Jueus amb el pati ple de roses blanques, i les Escales de la Catedral, que és l'epicentre: cada esglaó és un muntatge diferent i la gent fa cua d'una hora per pujar. Els patis del Call Jueu, que la resta de l'any estan tancats amb clau i només els veuen els veïns, s'obren i pots entrar a cases del segle XII amb pous i escales de pedra. Hi ha concerts, tallers per nens que aprenen a fer rams i concursos de balcons. 400.000 persones venen de tot el món en 9 dies. Per a Girona, Temps de Flors és més important que Sant Narcís. És la setmana que Girona s'ensenya al món. I tot va començar amb un saló i uns rams el 1954.",
+      "text_es": "Hoy Temps de Flors no es una exposición, es una invasión pacífica de belleza. Del 10 al 18 de mayo, el Barri Vell cierra coches y se abre a pie. 146 espacios en 2024: los Baños Árabes con alfombras de flores en el agua, los Jardines de los Alemanes con vistas a la muralla cubierta de flores, la Iglesia de Sant Lluc con techos de flores colgadas, el Museo de Historia de los Judíos con el patio lleno de rosas blancas, y las Escales de la Catedral, que es el epicentro: cada escalón es un montaje diferente y la gente hace cola de una hora para subir. Los patios del Call Jueu, que el resto del año están cerrados con llave y solo los ven los vecinos, se abren y puedes entrar a casas del siglo XII con pozos y escaleras de piedra. Hay conciertos, talleres para niños que aprenden a hacer ramos y concursos de balcones. 400.000 personas vienen de todo el mundo en 9 días. Para Girona, Temps de Flors es más importante que Sant Narcís. Es la semana que Girona se enseña al mundo. Y todo empezó con un salón y unos ramos en 1954.",
+      "llocs_a_visitar": [{ "nom": "Banys Àrabs - Muntatge estrella Temps de Flors", "ubicacio": "Carrer Ferran el Catòlic, 8, Girona" }]
+    },
+    {
+      "id": 6,
+      "tipus": "recomanacions_visita",
+      "titol": "🗺️ On Anar Ara Mateix? Ruta Real Temps de Flors 45 min",
+      "text": "Ruta real que pots fer ara mateix, fora de Temps de Flors també, perquè aquests llocs existeixen tot l'any. 3 llocs a 5 min caminant entre ells. Ruta total 45 min amb fotos. Porta mòbil carregat perquè faràs 100 fotos.",
+      "text_es": "Ruta real que puedes hacer ahora mismo, fuera de Temps de Flors también, porque estos lugares existen todo el año. 3 lugares a 5 min andando entre ellos. Ruta total 45 min con fotos. Lleva móvil cargado porque harás 100 fotos.",
+      "llocs_a_visitar": [
+        { "nom": "1. Escales de la Catedral - Epicentre Temps de Flors", "ubicacio": "Plaça de la Catedral, Girona - 90 escales" },
+        { "nom": "2. Jardins dels Alemanys - Mirador muralla amb flors", "ubicacio": "Passeig de la Muralla, Girona - Entrada per Plaça Catedral" },
+        { "nom": "3. Banys Àrabs - Catifes de flors a l'aigua", "ubicacio": "Carrer Ferran el Catòlic 8, Girona" }
+      ]
+    }
+  ]
+}
