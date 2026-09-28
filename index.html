@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>RPG Món de Girona</title>
-<meta name="description" content="RPG Girona - Força Vella, Temps de Flors, Call, Sant Narcís">
+<meta name="description" content="RPG Girona - Força Vella 2000 anys, Temps de Flors 1954, Call 888-1492, Sant Narcís 1285">
 <meta name="theme-color" content="#FF6A00">
 <link rel="manifest" href="./manifest.json">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,12 +29,18 @@
   <div id="tab-missio" class="tab-content">
     <div id="missio-card">
       <h3 id="missio-titol">Selecciona missió a Girona</h3>
-      <div id="rutes-secretes" style="display:none;">
-        <h3>🔒 Rutes Secretes de Girona</h3>
-        <div class="capitol-card ruta-secreta" id="ruta-forca"><div class="capitol-icona">🔒</div><h4>Força Secreta</h4><p>Falten 3 ítems</p></div>
-        <div class="capitol-card ruta-secreta" id="ruta-muralla"><div class="capitol-icona">🔒</div><h4>Muralla Viva</h4><p>Falten 3 ítems</p></div>
-        <div class="capitol-card ruta-secreta" id="ruta-call"><div class="capitol-icona">🔒</div><h4>Call Secret</h4><p>Falten 3 ítems</p></div>
-        <div class="capitol-card ruta-secreta" id="ruta-fires"><div class="capitol-icona">🔒</div><h4>Fires de Nit</h4><p>Falten 3 ítems</p></div>
+      <div id="npc-box" style="display:none;">
+        <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
+          <span id="npc-emoji" style="font-size:42px; line-height:1;"></span>
+          <div style="flex:1;">
+            <strong id="npc-nom" style="font-size:16px; display:block; margin-bottom:4px;"></strong>
+            <p id="npc-dialog" style="margin:0; line-height:1.4;"></p>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px; margin-top:15px; padding-top:12px; border-top:1px solid #333; opacity:0.8;">
+          <span id="jugador-emoji" style="font-size:32px;"></span>
+          <span id="jugador-nom" style="font-size:14px; color:#aaa;"></span>
+        </div>
       </div>
       <div id="missio-escenari"></div>
       <div id="missio-opcions"></div>
@@ -44,9 +50,9 @@
   <div id="tab-gremi" class="tab-content">
     <div class="sub-tabs">
       <button class="sub-tab-btn active" onclick="mostrarGremi('personatges', event)">Personatges</button>
+      <button class="sub-tab-btn" onclick="mostrarGremi('llegendes', event)">📜 Llegendes</button>
       <button class="sub-tab-btn" onclick="mostrarGremi('biblioteca', event)">📚 Biblioteca</button>
       <button class="sub-tab-btn" onclick="mostrarGremi('objectes', event)">Objectes</button>
-      <button class="sub-tab-btn" onclick="mostrarGremi('llegendes', event)">Llegendes</button>
     </div>
     <div class="sub-tabs" id="biblioteca-subtabs" style="display:none;">
       <button class="sub-tab-btn active" onclick="mostrarBibliotecaTab('diccionari', event)">📖 Diccionari</button>
@@ -66,22 +72,22 @@
   <div class="nav-item" onclick="canviarTab('botiga', event)"><span class="nav-icon">🛒</span><span id="tab-botiga-txt">Botiga</span></div>
 </nav>
 <div id="modal" class="modal hidden"><div class="modal-content"><p id="modalText"></p><div class="modal-botons"><button onclick="tancarModal()">Cancel·lar</button><button onclick="confirmarAccio()">Acceptar</button></div></div></div>
-<div id="tutorialModal" class="modal hidden"><div class="modal-content"><div id="tutorialSlide"></div><div style="display:flex;justify-content:space-between;margin-top:20px;"><button class="btn btn-sec" onclick="tancarTutorial()">Saltar</button><button class="btn" id="btnNextTutorial" onclick="seguentTutorial()">Següent</button></div></div></div>
-<script>function vibrar(){if(navigator.vibrate)navigator.vibrate(20);} if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('./sw.js')});}</script>
+<div id="intro" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; justify-content:center; align-items:center; flex-direction:column; color:white; text-align:center; padding:20px;"><div style="font-size:80px;">🏛️</div><h2>RPG Món de Girona</h2><p>2000 anys d'història real</p><small>Toca per començar</small></div>
 <script src="./main.js"></script>
 <script>
 const TUTORIAL_SLIDES=[
-{titol:"Benvingut al Món de Girona",text:"2000 anys d'història, 4 barris!",emoji:"🏛️"},
-{titol:"Força Vella i Temps de Flors",text:"113 espais de flors al Barri Vell",emoji:"🌸"},
-{titol:"El Call i Sant Narcís",text:"Càbala jueva i mosques que salven Girona",emoji:"🦁"},
-{titol:"Rutes secretes",text:"3x100% per desbloquejar Força, Muralla, Call i Fires",emoji:"🗝️"}
+{titol:"Benvingut al Món de Girona",text:"2000 anys d'història real - 4 barris, 4 llegendes, 4 rutes secretes",emoji:"🏛️"},
+{titol:"Força Vella 77aC",text:"Oppidum romà 6 Ha, 1352m muralla - 2x 100% desbloqueja Llegenda",emoji:"🏛️"},
+{titol:"Temps de Flors 1954 i Call 888",text:"Maria Cobarsí, 146 muntatges, Call 800 persones, micvé 1435 trobat 2014",emoji:"🌸"},
+{titol:"Sant Narcís 1285",text:"20.000 soldats morts per mosques - 3x 100% desbloqueja Ruta Secreta",emoji:"🪰"}
 ];
 let slideActual=0;
 function iniciarTutorial(){if(localStorage.getItem('girona_v1'))return;mostrarSlide(0);document.getElementById('tutorialModal').classList.remove('hidden');}
 function mostrarSlide(n){slideActual=n;const s=TUTORIAL_SLIDES[n];document.getElementById('tutorialSlide').innerHTML=`<div style="font-size:64px">${s.emoji}</div><h3>${s.titol}</h3><p>${s.text}</p>`;document.getElementById('btnNextTutorial').textContent=n===3?'Començar':'Següent';}
 function seguentTutorial(){if(slideActual<3)mostrarSlide(slideActual+1);else tancarTutorial();}
 function tancarTutorial(){document.getElementById('tutorialModal').classList.add('hidden');localStorage.setItem('girona_v1','true');}
-document.addEventListener('DOMContentLoaded',()=>setTimeout(iniciarTutorial,500));
+document.addEventListener('DOMContentLoaded',()=>setTimeout(()=>{const m=document.getElementById('tutorialModal'); if(m) { m.classList.remove('hidden'); mostrarSlide(0);} },500));
 </script>
+<div id="tutorialModal" class="modal hidden"><div class="modal-content"><div id="tutorialSlide"></div><div style="display:flex;justify-content:space-between;margin-top:20px;"><button class="btn btn-sec" onclick="tancarTutorial()">Saltar</button><button class="btn" id="btnNextTutorial" onclick="seguentTutorial()">Següent</button></div></div></div>
 </body>
 </html>
