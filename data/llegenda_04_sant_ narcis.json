@@ -1,0 +1,69 @@
+{
+  "id": "llegenda_04_sant_narcis",
+  "capitol_id": "capitol_04_sant_narcis",
+  "icona": "🪰",
+  "desbloquejada": false,
+  "condicio": "completar_capitol_04_sant_narcis_2_veces",
+  "titol": "Sant Narcís - 1285, 20.000 soldats i 4.000 cavalls morts per mosques",
+  "titol_es": "Sant Narcís - 1285, 20.000 soldados y 4.000 caballos muertos por moscas",
+  "subtitol": "El sant que va salvar Girona amb mosques",
+  "paraules_per_pagina": "150-200",
+
+  "pagines": [
+    {
+      "id": 1,
+      "tipus": "portada",
+      "titol": "SANT NARCÍS I LES MOSQUES",
+      "subtitol": "1285 - El miracle que va salvar Girona de França",
+      "text": "Benvingut a la llegenda més estranya i més estimada de Girona. Per què Girona estima les mosques? Per què hi ha un carrer que es diu Carrer de les Mosques? Per què a les Fires de Sant Narcís la gent es disfressa de mosca? Tot ve de l'any 1285. Girona estava assetjada per l'exèrcit més poderós del món: el del rei de França Felip III l'Ardit. Havien entrat a la ciutat, havien robat, insultat i oprimit els gironins, havien assaltat esglésies fent riota dels objectes de culte. I llavors van fer l'error més gran: van profanar la tomba d'un sant. Del cos incorrupte del sant van sortir milers de mosques gegants, blaves, verdes, vermelles, amb ratlles a les ales. I aquestes mosques només picaven francesos. Van matar 20.000 soldats i 4.000 cavalls. França va fugir corrents. Girona es va salvar gràcies a les mosques. I des de llavors Sant Narcís és el patró de Girona i les mosques són sagrades.",
+      "text_es": "Bienvenido a la leyenda más extraña y más querida de Girona. ¿Por qué Girona ama las moscas? ¿Por qué hay una calle que se llama Carrer de les Mosques? ¿Por qué en las Fires de Sant Narcís la gente se disfraza de mosca? Todo viene del año 1285. Girona estaba asediada por el ejército más poderoso del mundo: el del rey de Francia Felipe III el Atrevido. Habían entrado en la ciudad, habían robado, insultado y oprimido a los gironins, habían asaltado iglesias burlándose de los objetos de culto. Y entonces cometieron el error más grande: profanaron la tumba de un santo. Del cuerpo incorrupto del santo salieron miles de moscas gigantes, azules, verdes, rojas, con rayas en las alas. Y estas moscas solo picaban franceses. Mataron a 20.000 soldados y 4.000 caballos. Francia huyó corriendo. Girona se salvó gracias a las moscas. Y desde entonces Sant Narcís es el patrón de Girona y las moscas son sagradas."
+    },
+    {
+      "id": 2,
+      "tipus": "historia",
+      "titol": "Juny-Setembre 1285 - Felip l'Ardit assetja Girona",
+      "text": "Corria l'any 1285. A Europa hi havia guerra. El rei de França Felip III l'Ardit, anomenat l'Ardit perquè era molt valent, volia prendre la Corona d'Aragó al rei Pere el Gran. Va organitzar una croada contra Catalunya amb el suport del Papa. Al juny de 1285 el seu exèrcit, un dels més grans de l'època, va arribar a Girona i la va assetjar. Girona era una ciutat emmurallada de 6 hectàrees, la Força Vella que ja coneixes del Capítol 1. Els francesos van ocupar la col·legiata de Sant Feliu, que en aquell moment estava fora de les muralles, extramurs, on es venerava el cos de Sant Narcís. Van utilitzar l'església com a caserna, com a quadra per als cavalls i com a magatzem. I llavors van profanar el sarcòfag de Sant Narcís. Segons les cròniques, la soldadesca de Felip III va trencar el sepulcre a cops de mall i li va tallar un braç al sant per robar els anells. El cos de Sant Narcís estava incorrupte des de feia 800 anys. I en aquell moment va passar el miracle.",
+      "text_es": "Corría el año 1285. En Europa había guerra. El rey de Francia Felipe III el Atrevido, llamado el Atrevido porque era muy valiente, quería tomar la Corona de Aragón al rey Pedro el Grande. Organizó una cruzada contra Cataluña con el apoyo del Papa. En junio de 1285 su ejército, uno de los más grandes de la época, llegó a Girona y la asedió. Girona era una ciudad amurallada de 6 hectáreas, la Força Vella que ya conoces del Capítulo 1. Los franceses ocuparon la colegiata de Sant Feliu, que en aquel momento estaba fuera de las murallas, extramuros, donde se veneraba el cuerpo de Sant Narcís. Utilizaron la iglesia como cuartel, como cuadra para los caballos y como almacén. Y entonces profanaron el sarcófago de Sant Narcís. Según las crónicas, la soldadesca de Felipe III rompió el sepulcro a golpes de maza y le cortó un brazo al santo para robar los anillos. El cuerpo de Sant Narcís estaba incorrupto desde hacía 800 años. Y en aquel momento pasó el milagro.",
+      "dada_curiosa": "⚔️ Juny 1285 - Setge de Girona - Felip III l'Ardit - 20.000 soldats francesos",
+      "llocs_a_visitar": [{ "nom": "Església de Sant Feliu - Tomba de Sant Narcís 1285", "ubicacio": "Pujada de Sant Feliu, Girona - Col·legiata" }]
+    },
+    {
+      "id": 3,
+      "tipus": "misteri",
+      "titol": "El Miracle - 20.000 soldats i 4.000 cavalls morts",
+      "text": "Diu la llegenda que del cos de Sant Narcís van començar a sortir mosques. No eren mosques normals. Eren mosques gegants, grosses com una gla, després descrites com a mosques insòlites de colors diversos: blaves, negres, morades, blanques, vermelles, amb ratlles a sota les ales. Milers i milers de mosques. Es van llançar sobre els francesos i els van inflar de picades, sense tocar per a res cap català. Només picaven francesos i les seves gents i els seus cavalls. Les mosques eren verinoses i encomanaven una malaltia mortal. Els soldats francesos, espantats, van marxar. Les cròniques diuen que les mosques van matar 4.000 cavalls i 20.000 soldats, altres versions diuen 2.000 soldats. En qualsevol cas, l'exèrcit francès va haver de retirar-se sense aconseguir altra cosa que la mort. Girona es va salvar. El setge de 1285 va acabar amb victòria gironina gràcies a les mosques. Al voltant del sant van néixer dues llegendes més: una diu que durant la fugida el sant va saltar per una finestra i va deixar una empremta a la pedra en sentit invers, que encara es pot veure. I l'altra és el miracle de les mosques. Des del segle XII ja existia la Confraria de Sant Narcís, però arran del setge de 1285 es va revifar i Sant Narcís es va convertir en el patró de la ciutat.",
+      "text_es": "Dice la leyenda que del cuerpo de Sant Narcís empezaron a salir moscas. No eran moscas normales. Eran moscas gigantes, grandes como una bellota, después descritas como moscas insólitas de colores diversos: azules, negras, moradas, blancas, rojas, con rayas debajo de las alas. Miles y miles de moscas. Se lanzaron sobre los franceses y los inflaron de picaduras, sin tocar para nada a ningún catalán. Solo picaban franceses y a sus gentes y a sus caballos. Las moscas eran venenosas y contagiaban una enfermedad mortal. Los soldados franceses, espantados, se fueron. Las crónicas dicen que las moscas mataron 4.000 caballos y 20.000 soldados, otras versiones dicen 2.000 soldados. En cualquier caso, el ejército francés tuvo que retirarse sin conseguir otra cosa que la muerte. Girona se salvó. El asedio de 1285 acabó con victoria gironina gracias a las moscas. Alrededor del santo nacieron dos leyendas más: una dice que durante la huida el santo saltó por una ventana y dejó una huella en la piedra en sentido inverso, que aún se puede ver. Y la otra es el milagro de las moscas. Desde el siglo XII ya existía la Cofradía de Sant Narcís, pero a raíz del asedio de 1285 se revivió y Sant Narcís se convirtió en el patrón de la ciudad.",
+      "dada_curiosa": "🪰 Miracle: 20.000 soldats + 4.000 cavalls morts - Mosques blaves, verdes, vermelles",
+      "llocs_a_visitar": [{ "nom": "Carrer de les Mosques - Carrer dedicat al miracle", "ubicacio": "Carrer de les Mosques, Girona - Barri Vell" }]
+    },
+    {
+      "id": 4,
+      "tipus": "misteri",
+      "titol": "La Mosca Reina Daurada - La que mana a totes (Llegenda del Joc)",
+      "text": "La llegenda del nostre joc RPG diu que entre aquelles milers de mosques de 1285 n'hi havia una de diferent: la Mosca Reina. Era daurada, gran com un puny, amb ales transparents que feien soroll de campana quan volava. No picava, manava. Era la que dirigia les altres mosques. Quan l'exèrcit francès va fugir, la Mosca Reina no va marxar. Es va amagar a la Catedral de Girona, al campanar, darrere l'absis, en un niu fet de pedres romanes de 200kg i de pètals de la Rosa Mare de 1492. I diu la llegenda del joc que cada any, la nit del 29 d'octubre, vigília de Sant Narcís, la Mosca Reina surt a volar per Girona. Si la veus volar, et dona sort per tot l'any. Si la toques, et concedeix un desig. Però ningú l'ha vista mai, perquè només vola quan Girona està en perill. La nostra Ruta Secreta 04 et farà volar com la Mosca Reina durant els focs artificials de Sant Narcís, veient Girona des de dalt, com la veu ella. I trobaràs la tercera llavor daurada de 1492 amagada al campanar, que és la que dóna poder a les mosques.",
+      "text_es": "La leyenda de nuestro juego RPG dice que entre aquellos miles de moscas de 1285 había una diferente: la Mosca Reina. Era dorada, grande como un puño, con alas transparentes que hacían ruido de campana cuando volaba. No picaba, mandaba. Era la que dirigía a las otras moscas. Cuando el ejército francés huyó, la Mosca Reina no se fue. Se escondió en la Catedral de Girona, en el campanario, detrás del ábside, en un nido hecho de piedras romanas de 200kg y de pétalos de la Rosa Mare de 1492. Y dice la leyenda del juego que cada año, la noche del 29 de octubre, víspera de Sant Narcís, la Mosca Reina sale a volar por Girona. Si la ves volar, te da suerte para todo el año. Si la tocas, te concede un deseo. Pero nadie la ha visto nunca, porque solo vuela cuando Girona está en peligro. Nuestra Ruta Secreta 04 te hará volar como la Mosca Reina durante los fuegos artificiales de Sant Narcís, viendo Girona desde arriba, como la ve ella. Y encontrarás la tercera semilla dorada de 1492 escondida en el campanario, que es la que da poder a las moscas.",
+      "llocs_a_visitar": [{ "nom": "Catedral de Girona - Campanar Mosca Reina (llegenda joc)", "ubicacio": "Plaça de la Catedral, Girona - Campanar" }]
+    },
+    {
+      "id": 5,
+      "tipus": "cultura",
+      "titol": "Cultura Viva Avui - Fires de Sant Narcís, la Festa Major",
+      "text": "Avui Sant Narcís és la Festa Major de Girona. Se celebra el 29 d'octubre, però les Fires duren una setmana. És la festa més gran de Girona, més gran que Temps de Flors. Hi ha atraccions al Parc de la Devesa, que és un dels parcs urbans més grans d'Europa, amb plataners de 50 metres. Hi ha gegants i capgrossos que ballen pel Barri Vell, entre ells el gegant de Sant Narcís i la geganta amb mosques. Hi ha concerts cada nit, correfoc amb diables, i l'acte més esperat: el Vol de la Mosca amb focs artificials. Una mosca gegant de cartró vola sobre la gent i els nens la persegueixen. La cançó de Fires és 'Girona m'enamora' del grup The Companys. I hi ha la tradició de comprar mosques de xocolata i de cartró a les parades. 200.000 persones venen a les Fires cada any. I tot va començar amb un miracle de mosques l'any 1285. Si vas a Girona per Sant Narcís, has de pujar a la Catedral de nit i mirar la ciutat des de dalt, com la veu la Mosca Reina.",
+      "text_es": "Hoy Sant Narcís es la Fiesta Mayor de Girona. Se celebra el 29 de octubre, pero las Ferias duran una semana. Es la fiesta más grande de Girona, más grande que Temps de Flors. Hay atracciones en el Parc de la Devesa, que es uno de los parques urbanos más grandes de Europa, con plataneros de 50 metros. Hay gigantes y cabezudos que bailan por el Barri Vell, entre ellos el gigante de Sant Narcís y la giganta con moscas. Hay conciertos cada noche, correfoc con diablos, y el acto más esperado: el Vol de la Mosca con fuegos artificiales. Una mosca gigante de cartón vuela sobre la gente y los niños la persiguen. La canción de Ferias es 'Girona m'enamora' del grupo The Companys. Y hay la tradición de comprar moscas de chocolate y de cartón en los puestos. 200.000 personas vienen a las Ferias cada año. Y todo empezó con un milagro de moscas en el año 1285. Si vas a Girona por Sant Narcís, tienes que subir a la Catedral de noche y mirar la ciudad desde arriba, como la ve la Mosca Reina.",
+      "dada_curiosa": "🎉 29 octubre - Fires Sant Narcís - Festa Major - 200.000 persones - Vol de la Mosca",
+      "llocs_a_visitar": [{ "nom": "Parc de la Devesa - Fires Sant Narcís i gegants", "ubicacio": "Passeig de la Devesa, Girona" }]
+    },
+    {
+      "id": 6,
+      "tipus": "recomanacions_visita",
+      "titol": "🗺️ On Anar Ara Mateix? Ruta Mosques 45 min",
+      "text": "Ruta real de Sant Narcís que pots fer ara mateix, fora de Fires també. 3 llocs a 5 min caminant. Ruta total 45 min. Ideal per fer de nit, quan les mosques surten.",
+      "text_es": "Ruta real de Sant Narcís que puedes hacer ahora mismo, fuera de Ferias también. 3 lugares a 5 min andando. Ruta total 45 min. Ideal para hacer de noche, cuando las moscas salen.",
+      "llocs_a_visitar": [
+        { "nom": "1. Església de Sant Feliu - Tomba Sant Narcís i miracle 1285", "ubicacio": "Pujada de Sant Feliu, Girona" },
+        { "nom": "2. Carrer de les Mosques - Carrer dedicat al miracle", "ubicacio": "Carrer de les Mosques, Girona" },
+        { "nom": "3. Catedral de nit - Vistes Vol Mosca Reina", "ubicacio": "Plaça de la Catedral, Girona - Mirador" }
+      ]
+    }
+  ]
+}
