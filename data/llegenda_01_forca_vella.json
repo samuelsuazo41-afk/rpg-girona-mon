@@ -1,0 +1,110 @@
+{
+  "id": "llegenda_01_forca_vella_HMN",
+  "versio": "HMN_expandida_10_pagines",
+  "icona": "🏛️",
+  "condicio": "completar_capitol_01_forca_vella_2_veces",
+  "titol": "La Força Vella - 2000 anys reals sota els teus peus",
+  "titol_es": "La Força Vella - 2000 años reales bajo tus pies",
+  "dades_reals_font": "Wikipedia, MAC Girona, Pla Director Muralla Girona",
+
+  "pagines": [
+    {
+      "id": 1,
+      "numero": "U",
+      "tipus": "portada",
+      "titol": "LA FORÇA VELLA - L'OPPIDUM DE POMPEU",
+      "text": "No era una ciutat. Era un oppidum. Una plaça forta triangular de 6 hectàrees i 1352m de muralla que el general Gneu Pompeu Magne va ordenar construir l'any 77 aC. Estàs a dins.",
+      "text_es": "No era una ciudad. Era un oppidum. Una plaza fuerte triangular de 6 hectáreas y 1352m de muralla que el general Gneo Pompeyo Magno ordenó construir en el año 77 aC. Estás dentro.",
+      "vocabulari": { "paraula": "oppidum", "def": "Plaça forta emmurallada romana, no ciutat civil" }
+    },
+    {
+      "id": 2,
+      "numero": "Dos",
+      "tipus": "historia_real",
+      "titol": "77 aC - Guerres Sertorianes",
+      "text": "Roma estava en guerra civil. Sertori s'havia rebel·lat a Hispània. Pompeu ve a tallar les comunicacions per la Via Heràclea (futura Via Augusta). Per això funda Gerunda ex novo, des de zero, sobre un turó controlant el riu Onyar i el Ter. Ho sabem pels Vasos Apol·linars trobats a Vicarello, Itàlia: hi surt Gerunda com a mansio oficial entre Gades (Cadis) i Roma.",
+      "text_es": "Roma estaba en guerra civil. Sertorio se había rebelado en Hispania. Pompeyo viene a cortar las comunicaciones por la Vía Heraclea. Por eso funda Gerunda ex novo, desde cero, sobre una colina controlando el río Onyar. Lo sabemos por los Vasos Apolinares de Vicarello, Italia: sale Gerunda como mansión oficial entre Gades (Cádiz) y Roma.",
+      "llocs_a_visitar": [{ "nom": "Passeig Arqueològic - Muralla romana", "ubicacio": "Passeig Arqueològic, Girona" }],
+      "vocabulari": { "paraula": "Via Augusta", "def": "Carretera romana de 1500km de Cadis a Roma" }
+    },
+    {
+      "id": 3,
+      "numero": "Tres",
+      "tipus": "arquitectura",
+      "titol": "Forma Triangular - 6 Ha",
+      "text": "La Força Vella no és quadrada com les ciutats romanes normals. És triangular perquè ressegueix l'orografia del turó. 5,63 hectàrees exactes, segons el Pla Director de la Muralla. El seu eix principal era el cardo maximus, que avui és el Carrer de la Força. No s'ha trobat mai el decumanus maximus.",
+      "text_es": "La Força Vella no es cuadrada como las ciudades romanas normales. Es triangular porque sigue la orografía de la colina. 5,63 hectáreas exactas. Su eje principal era el cardo maximus, que hoy es la Calle de la Força. No se ha encontrado nunca el decumanus maximus.",
+      "dada_real": "Superfície: 5,63 Ha - Perímetre: 1352m - Forma: triangular imperfecte",
+      "vocabulari": { "paraula": "cardo maximus", "def": "Carrer principal nord-sud romà. A Girona = Carrer de la Força" }
+    },
+    {
+      "id": 4,
+      "numero": "Quatre",
+      "tipus": "pedres",
+      "titol": "Les 444 Pedres - Marca de picapedrer",
+      "text": "Les pedres de baix de tot del Passeig són romanes del segle I aC. Tenen marques de picapedrers (signes per cobrar). Les de dalt són carolíngies (segle IX) i medievals. Cada pedra romana pesa 200kg i va venir del riu Ter. Compta-les: n'hi ha 444 a la base.",
+      "text_es": "Las piedras de abajo del Passeig son romanas del siglo I aC. Tienen marcas de canteros. Las de arriba son carolingias (siglo IX) y medievales. Cada piedra romana pesa 200kg y vino del río Ter. Cuéntalas: hay 444 en la base.",
+      "llocs_a_visitar": [{ "nom": "Passeig Arqueològic - Base romana", "ubicacio": "Passeig Arqueològic, Girona" }]
+    },
+    {
+      "id": 5,
+      "numero": "Cinc",
+      "tipus": "misteri",
+      "titol": "El Túnel Secret de 1492 i el Pou de 20m",
+      "text": "La llegenda diu que sota la Força Vella hi ha túnels que connecten la Catedral (antic fòrum romà) amb el Call Jueu. Van ser usats el 9 de juliol de 1492 per amagar 3 llavors i una Torà de 800 anys. Encara avui, si poses l'orella a la muralla dreta de la Catedral, sents aigua: és un pou romà de 20 metres que mai s'ha buidat.",
+      "text_es": "La leyenda dice que bajo la Força Vella hay túneles que conectan la Catedral (antiguo foro romano) con el Call Jueu. Fueron usados el 9 de julio de 1492 para esconder 3 semillas y una Torá de 800 años. Aún hoy, si pones la oreja en la muralla derecha de la Catedral, oyes agua: es un pozo romano de 20 metros que nunca se ha vaciado.",
+      "llocs_a_visitar": [{ "nom": "Catedral de Girona - Fòrum romà", "ubicacio": "Plaça de la Catedral, Girona" }],
+      "vocabulari": { "paraula": "fòrum", "def": "Plaça central romana on hi havia el mercat i la religió. Avui = Catedral" }
+    },
+    {
+      "id": 6,
+      "numero": "Sis",
+      "tipus": "etimologia",
+      "titol": "D'on ve Gerunda? - Misteri obert",
+      "text": "Encara avui no sabem d'on ve el nom Gerunda. Els historiadors del MAC Girona diuen que l'etimologia és desconeguda. Potser íbera, potser romana. És un misteri obert des de fa 2100 anys.",
+      "text_es": "Aún hoy no sabemos de dónde viene el nombre Gerunda. Los historiadores del MAC Girona dicen que la etimología es desconocida. Quizás íbera, quizás romana. Es un misterio abierto desde hace 2100 años.",
+      "dada_real": "Gerunda apareix als Vasos de Vicarello (segle I dC) com a parada oficial"
+    },
+    {
+      "id": 7,
+      "numero": "Set",
+      "tipus": "cultura",
+      "titol": "Cultura Viva - Per què es diu Força?",
+      "text": "No es diu Força Vella per forta. Es diu Força perquè dóna força. Des de 1931 és Patrimoni Nacional. Per Sant Narcís els castellers fan pilar a dalt. Per Temps de Flors les flors pengen. Els nens aprenen a anar en bici aquí. És lloc de petons.",
+      "text_es": "No se llama Força Vella por fuerte. Se llama Força porque da fuerza. Desde 1931 es Patrimonio Nacional. Por Sant Narcís los castellers hacen pilar arriba. Por Temps de Flors las flores cuelgan.",
+      "llocs_a_visitar": [{ "nom": "La Lleona de Girona", "ubicacio": "Plaça de Sant Feliu, Girona" }]
+    },
+    {
+      "id": 8,
+      "numero": "Vuit",
+      "tipus": "pregunta",
+      "titol": "Minijoc - Què has après?",
+      "preguntes": [
+        { "q": "Qui va fundar Gerunda l'any 77 aC?", "opcions": ["Gneu Pompeu Magne", "Juli Cèsar", "August"], "correcta": 0 },
+        { "q": "Quina forma té la Força Vella?", "opcions": ["Triangular 6 Ha", "Quadrada", "Rodona"], "correcta": 0 },
+        { "q": "On és el cardo maximus avui?", "opcions": ["Carrer de la Força", "Rambla", "Catedral"], "correcta": 0 }
+      ],
+      "recompensa": "100 monedes"
+    },
+    {
+      "id": 9,
+      "numero": "Nou",
+      "tipus": "recomanacions_visita",
+      "titol": "🗺️ Ruta 45 min - On Anar Ara",
+      "text": "3 llocs a 5 min caminant.",
+      "llocs_a_visitar": [
+        { "nom": "1. Passeig Arqueològic - Toca les 444 pedres romanes", "ubicacio": "Passeig Arqueològic, Girona" },
+        { "nom": "2. Catedral - Busca el fòrum romà i posa orella al pou", "ubicacio": "Plaça Catedral, Girona" },
+        { "nom": "3. La Lleona - Ritual del petó", "ubicacio": "Plaça Sant Feliu, Girona" }
+      ]
+    },
+    {
+      "id": 10,
+      "numero": "Deu",
+      "tipus": "connexio_joc",
+      "titol": "I Ara Què? - Túnel Secret",
+      "text": "Has après història real amb paraules en llatí: oppidum, cardo maximus, fòrum, Via Augusta. A la 3a vegada que completis el Capítol 1 entraràs al TÚNEL SECRET de 2000 anys i trobaràs les 3 llavors de 1492 que van crear Temps de Flors.",
+      "text_es": "Has aprendido historia real con palabras en latín: oppidum, cardo maximus, forum, Via Augusta. A la 3a vez que completes el Capítulo 1 entrarás al TÚNEL SECRETO de 2000 años y encontrarás las 3 semillas de 1492 que crearon Temps de Flors."
+    }
+  ]
+}
