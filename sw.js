@@ -1,5 +1,5 @@
 // sw.js - RPG Món de Girona - Versió HMN 12 entrades - Offline PWA
-const CACHE_NAME = 'rpg-girona-mon-v4-hmn';
+const CACHE_NAME = 'rpg-girona-mon-v5-hmn';
 const urlsToCache = [
   './',
   './index.html',
